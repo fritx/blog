@@ -43,4 +43,6 @@ See what, here's a sample of the folders, and nothing else:
 
 *Current style is heavily learnt from [Purelog](https://github.com/conis/Purelog)*
 
-This may change in the future
+*Favicon is copied from [Underscore](https://github.com/jashkenas/underscore)*
+
+These may change in the future
