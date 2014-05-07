@@ -8,9 +8,9 @@ See live demo: [here](http://fritx.github.io/blog)
 
 ### Easy: Writing in Markdown
 
-Or you can use other one
+Or you can use other renderer instead
 
-What you should do is to modify one function
+All you need to do is rewrite at most two functions
 
 ### Flexible: Special Page Mastering
 
@@ -20,11 +20,11 @@ Everything is under one folder
 
 ### Lightweight: You Can't Imagine
 
-> 1 html, 1 css and 4 js, totally 120K
+> 1 html, 1 css and 2 js, totally *5K* (excluding jquery & marked)
 
 See what, here's a sample of the folders, and nothing else:
 
-- blog
+- blog/
   - pages/ (your own things, free to handle)
     - posts/
       - my-js-book/
