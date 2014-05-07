@@ -44,6 +44,7 @@
             ) + old;
           });
         });
+
         $el.find('[href]').each(function () {
           var $el = $(this);
           $el.attr('href', function (x, old) {
@@ -55,7 +56,9 @@
               new RegExp('^' + pageBase + '|[^\/]*$', 'g'), ''
             ) + old;
             if (!new RegExp(pageExtension + '$').test(old)) {
-              $el.attr('target', '_blank');
+              if (!/(^\.|\/\.?|\.html?)$/.test(old)) {
+                $el.attr('target', '_blank');
+              }
               return replaced;
             }
             return '?' + replaced;

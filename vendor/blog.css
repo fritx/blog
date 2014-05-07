@@ -70,6 +70,9 @@ blockquote {
 .sidebar a {
   color: #fff;
 }
+.sidebar h1 a {
+  text-decoration: none;
+}
 
 .main-inner {
   padding: 2% 5% 10%;

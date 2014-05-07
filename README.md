@@ -2,7 +2,7 @@
 
 > Be a silent, static blog
 
-[Demo](http://fritx.github.io/blog)
+See live demo: [here](http://fritx.github.io/blog)
 
 ## Features
 
