@@ -30,6 +30,7 @@
     url = pageBase + url;
     $.get(url, function (data) {
       render(data, options, function (err, html) {
+        if (err && callback) return callback(err);
         var $el = $(sel);
         $el.hide().html(html);
 
@@ -66,7 +67,7 @@
         });
 
         $el.show();
-        if (callback) callback(err);
+        if (callback) callback();
       });
     });
   }

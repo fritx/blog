@@ -10,7 +10,7 @@ See live demo: [here](http://fritx.github.io/blog)
 
 Or you can use other renderer instead
 
-All you need to do is rewrite at most two functions
+All you need to do is rewrite at most **2** functions
 
 ### Flexible: Special Page Mastering
 
@@ -20,7 +20,7 @@ Everything is under one folder
 
 ### Lightweight: You Can't Imagine
 
-> 1 html, 1 css and 2 js, totally *5K* (excluding jquery & marked)
+> 1 html, 1 css and 2 js, totally **5K** (excluding jquery & marked)
 
 See what, here's a sample of the folders, and nothing else:
 
