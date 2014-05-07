@@ -25,7 +25,7 @@ Everything is under one folder
 See what, here's a sample of the folders, and nothing else:
 
 - blog/
-  - pages/ (your own things, free to handle)
+  - p/ (your own things, free to handle)
     - posts/
       - my-js-book/
         - index.md

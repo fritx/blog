@@ -4,7 +4,7 @@
 
 (function () {
 
-  var pageBase = 'pages/';
+  var pageBase = 'p/';
   var pageExtension = '.md';
   var mainUrl = location.search.slice(1);
 
