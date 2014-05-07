@@ -4,10 +4,6 @@
 
 (function () {
 
-  $.ajaxSetup({
-    cache: false
-  });
-
   var pageBase = 'pages/';
   var pageExtension = '.md';
   var mainUrl = location.search.slice(1);
