@@ -1,5 +1,9 @@
 # blog
 
+> Be a silent, static blog
+
+[Demo](http://fritx.github.io/blog)
+
 ## Features
 
 ### Easy: Writing in Markdown
