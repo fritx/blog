@@ -41,13 +41,13 @@ See what, here's a sample of the folders, and nothing else:
 
 ## Screenshots
 
-<img src="pages/projects/silent/Screenshot from 2014-05-08 01:43:18.png" width="140">
+<img src="Screenshot from 2014-05-08 01:43:18.png" width="140">
 &nbsp;&nbsp;&nbsp;&nbsp;
-<img src="pages/projects/silent/Screenshot from 2014-05-08 01:56:27.png" width="270">
+<img src="Screenshot from 2014-05-08 01:56:27.png" width="270">
 
-<img src="pages/projects/silent/Screenshot from 2014-05-08 01:48:37.png" width="360">
+<img src="Screenshot from 2014-05-08 01:48:37.png" width="360">
 
-<img src="pages/projects/silent/Screenshot from 2014-05-08 01:50:42.png" width="360">
+<img src="Screenshot from 2014-05-08 01:50:42.png" width="360">
 
 ## Note
 
