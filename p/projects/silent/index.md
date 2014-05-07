@@ -51,7 +51,9 @@ See what, here's a sample of the folders, and nothing else:
 
 ## Note
 
-*Current style is heavily learnt from [Purelog](https://github.com/conis/Purelog)*
+~~*Current style is heavily learnt from [Purelog](https://github.com/conis/Purelog)*~~
+
+*Current style is heavily learnt from [hyde](https://github.com/poole/hyde)*
 
 *Favicon is copied from [Underscore](https://github.com/jashkenas/underscore)*
 
