@@ -89,7 +89,10 @@ blockquote {
 }
 
 .main-inner {
-  padding: 2% 5% 10%;
+  padding: 2% 5% 6%;
+}
+.main-page {
+  padding-bottom: 3%;
 }
 
 @media (min-width: 640px) {
@@ -108,7 +111,8 @@ blockquote {
   }
 
   .main-inner {
-    padding: 2% 10% 10%;
+    padding-left: 10%;
+    padding-right: 10%;
   }
 }
 
