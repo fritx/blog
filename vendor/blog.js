@@ -5,7 +5,7 @@
 (function () {
 
   var pageBase = 'p/';
-  var pageExtension = '.md';
+  var pageExt = 'md';
   var mainUrl = location.search.slice(1);
 
 
@@ -53,16 +53,16 @@
               $el.attr('target', '_blank');
               return old;
             }
-            var replaced = url.replace(
+            var prefixed = url.replace(
               new RegExp('^' + pageBase + '|[^\/]*$', 'g'), ''
             ) + old;
-            if (!new RegExp(pageExtension + '$').test(old)) {
+            if (!new RegExp('\\.' + pageExt + '$').test(old)) {
               if (!/(^\.|\/\.?|\.html?)$/.test(old)) {
                 $el.attr('target', '_blank');
               }
-              return replaced;
+              return prefixed;
             }
-            return '?' + replaced;
+            return '?' + prefixed;
           });
         });
 
@@ -73,8 +73,8 @@
   }
 
   function start() {
-    load('#sidebar-inner', 'sidebar.md');
-    load('#main-inner', mainUrl || 'projects/index.md');
+    load('#sidebar-page', 'sidebar.md');
+    load('#main-page', mainUrl || 'projects/index.md');
   }
 
   function isAbsolute(url) {
