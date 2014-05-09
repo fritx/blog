@@ -41,7 +41,7 @@
               return old;
             }
             return url.replace(
-              new RegExp('[^\/]*$', 'g'), ''
+              new RegExp('[^\\/]*$', 'g'), ''
             ) + old;
           });
         });
@@ -54,7 +54,7 @@
               return old;
             }
             var prefixed = url.replace(
-              new RegExp('^' + pageBase + '|[^\/]*$', 'g'), ''
+              new RegExp('^' + pageBase + '|[^\\/]*$', 'g'), ''
             ) + old;
             if (!new RegExp('\\.' + pageExt + '$').test(old)) {
               if (!/(^\.|\/\.?|\.html?)$/.test(old)) {
