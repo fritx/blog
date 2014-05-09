@@ -107,7 +107,7 @@
 
   function start() {
     load('#sidebar-page', 'sidebar');
-    load('#main-page', mainPage || 'projects/index', true);
+    load('#main-page', mainPage || 'diary/index', true);
   }
 
   function isAbsolute(url) {
