@@ -103,9 +103,6 @@ blockquote {
 }
 
 @media (min-width: 640px) {
-  img {
-    max-width: 60%;
-  }
   pre {
     font-size: 80%;
   }
