@@ -7,7 +7,7 @@
   var pageBase = 'p/';
   var pageExt = 'md';
   var mainPage = location.search.slice(1)
-    .replace(/\*/g, '/');
+    .replace(/\*/g, '/') || 'diary/index';
   var mainTitle = '';
 
 
@@ -109,7 +109,7 @@
 
   function start() {
     load('#sidebar-page', 'sidebar');
-    load('#main-page', mainPage || 'diary/index', true);
+    load('#main-page', mainPage, true);
   }
 
   function isAbsolute(url) {
