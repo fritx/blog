@@ -6,8 +6,7 @@
 
   var pageBase = 'p/';
   var pageExt = 'md';
-  var mainPage = location.search.slice(1)
-    .replace(/\*/g, '/') || 'diary/index';
+  var mainPage = location.search.slice(1) || 'diary/index';
   var mainTitle = '';
   var isLocal = /127\.0\.0\.1|localhost/.test(location.hostname);
 
@@ -70,8 +69,7 @@
                 }
                 return prefixed;
               }
-              return '?' + prefixed.replace(regExt, '')
-                .replace(/\//g, '*');
+              return '?' + prefixed.replace(regExt, '');
             });
           });
 
@@ -83,7 +81,7 @@
 
             if (!isLocal) {
               /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
-              window.disqus_shortname = 'fritx'; // required: replace example with your forum shortname
+              window.disqus_shortname = 'fritxblog'; // required: replace example with your forum shortname
               window.disqus_title = mainTitle;
               window.disqus_identifier = mainPage;
               window.disqus_url = location.href.replace(/#.*$/, '');
