@@ -6,7 +6,8 @@
 
   var pageBase = 'p/';
   var pageExt = 'md';
-  var mainPage = location.search.slice(1);
+  var mainPage = location.search.slice(1)
+    .replace(/\*/g, '/');
   var mainTitle = '';
 
 
@@ -68,7 +69,8 @@
                 }
                 return prefixed;
               }
-              return '?' + prefixed.replace(regExt, '');
+              return '?' + prefixed.replace(regExt, '')
+                .replace(/\//g, '*');
             });
           });
 
