@@ -6,7 +6,8 @@
 
   var pageBase = 'p/';
   var pageExt = 'md';
-  var mainPage = location.search.slice(1) || 'diary/index';
+  var mainPage = location.search.slice(1)
+    .replace(/&.*/, '') || 'diary/index';
   var mainTitle = '';
   var isLocal = /127\.0\.0\.1|localhost/.test(location.hostname);
 
