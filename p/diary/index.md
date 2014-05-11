@@ -1,6 +1,6 @@
 # Things that happened in my life
 
-## [母亲节](mothers-day/2014-05-11.md)
+## [母亲节](mothers-day/2014.md)
 
 > 21年了（还没算上肚子里的时候） 你辛苦了！永远爱你。 ^.^
 
