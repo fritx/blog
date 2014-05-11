@@ -1,6 +1,6 @@
 # Fritx's Blog
 
-> Life is short, I use JS.
+> Life is short, I use JS
 
 Check it out: <http://fritx.github.io/blog>
 
