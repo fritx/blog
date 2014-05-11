@@ -81,7 +81,7 @@
 
             if (!isLocal) {
               /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
-              window.disqus_shortname = 'fritxblog'; // required: replace example with your forum shortname
+              window.disqus_shortname = 'fritx-blog'; // required: replace example with your forum shortname
               window.disqus_title = mainTitle;
               window.disqus_identifier = mainPage;
               window.disqus_url = location.href.replace(/#.*$/, '');

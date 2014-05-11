@@ -1,4 +1,4 @@
-# Things that happened in my life
+# Things happening in my life
 
 ## [母亲节](mothers-day/2014.md)
 
