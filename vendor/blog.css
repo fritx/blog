@@ -96,6 +96,12 @@ blockquote {
   padding-bottom: 3%;
 }
 
+.img-holder {
+  position: absolute;
+  top: -9999px;
+  left: -9999px;
+}
+
 @media (min-width: 640px) {
   img {
     max-width: 60%;
