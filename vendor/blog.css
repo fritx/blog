@@ -2,7 +2,7 @@ html, body {
   margin: 0;
   padding: 0;
   line-height: 1.5;
-  font-size: 18px;
+  font-size: 106%;
   font-family: "微软雅黑", sans-serif;
 }
 
@@ -46,6 +46,7 @@ table {
 table th, table td {
   border: 1px solid #ddd;
   padding: 6px 13px;
+  min-width: 4em;
 }
 table tr {
   border-top: 1px solid #ccc;
