@@ -1,4 +1,4 @@
-# Projects that I work in
+# Projects That I Work In
 
 ## [silent](silent/index.md)
 
