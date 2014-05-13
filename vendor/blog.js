@@ -40,7 +40,7 @@
         render(data, options, function (err, html) {
           if (err && callback) return callback(err);
           var $el = $(sel);
-          $el.hide().html(html);
+          $el.hide().html(html).attr('data-loaded', true);
 
           $el.find('[src]').each(function () {
             var $el = $(this);
@@ -105,7 +105,7 @@
   }
 
   function onNotFound() {
-    location.href = '.';
+    if (!$('#main-page').attr('data-loaded')) location.href = '.';
   }
 
   function start() {
