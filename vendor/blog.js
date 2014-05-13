@@ -9,7 +9,7 @@
   var mainPage = location.search.slice(1)
     .replace(/&.*/, '') || 'diary/index';
   var mainTitle = '';
-  var isLocal = /127\.0\.0\.1|localhost/.test(location.hostname);
+  var onlineUrl = 'http://fritx.github.io/blog/' + location.search;
 
 
   function config() {
@@ -80,22 +80,20 @@
               return mainTitle + ' - ' + old;
             });
 
-            if (!isLocal) {
-              /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
-              window.disqus_shortname = 'fritx-blog'; // required: replace example with your forum shortname
-              window.disqus_title = mainTitle;
-              window.disqus_identifier = mainPage;
-              window.disqus_url = location.href.replace(/#.*$/, '');
+            /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+            window.disqus_shortname = 'fritx-blog'; // required: replace example with your forum shortname
+            window.disqus_title = mainTitle;
+            window.disqus_identifier = mainPage;
+            window.disqus_url = onlineUrl;
 
-              /* * * DON'T EDIT BELOW THIS LINE * * */
-              (function () {
-                var dsq = document.createElement('script');
-                dsq.type = 'text/javascript';
-                dsq.async = true;
-                dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-                document.getElementsByTagName('body')[0].appendChild(dsq);
-              })();
-            }
+            /* * * DON'T EDIT BELOW THIS LINE * * */
+            (function () {
+              var dsq = document.createElement('script');
+              dsq.type = 'text/javascript';
+              dsq.async = true;
+              dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+              document.getElementsByTagName('body')[0].appendChild(dsq);
+            })();
           }
 
           $el.show();
