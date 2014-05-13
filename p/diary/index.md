@@ -1,5 +1,9 @@
 # Things Happen In My Life
 
+## [我的简历](my-resume.md)
+
+> 坚定。技术上坚定WEB前端/Nodejs后端等一切与JS相关的方向。
+
 ## [母亲节](mothers-day/2014.md)
 
 > 21年了（还没算上肚子里的时候） 您辛苦了！永远爱你。 ^.^
