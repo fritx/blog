@@ -1,8 +1,10 @@
 # 我的简历
 
+*2014-05-13*
+
 ## 基本信息
 
-<table class="resume-table">
+<table>
   <tbody>
     <tr>
       <td>姓名</td><td>林亮</td>
