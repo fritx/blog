@@ -9,7 +9,8 @@
   var mainPage = location.search.slice(1)
     .replace(/&.*/, '') || 'diary/index';
   var mainTitle = '';
-  var onlineUrl = 'http://fritx.github.io/blog/' + location.search;
+  var onlineUrl = 'http://fritx.github.io/blog/' +
+    location.search.replace(/&.*/, '');
 
 
   function config() {
