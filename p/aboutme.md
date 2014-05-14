@@ -8,8 +8,8 @@
 
 ## Major
 
-- Node.js/JavaScript Programming
-- Website Design (CSS/HTML)
+- Node.js / JavaScript Programming
+- Website Design (CSS / HTML)
 
 ## College Studying In
 
