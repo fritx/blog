@@ -9,8 +9,10 @@
   var mainPage = location.search.slice(1)
     .replace(/&.*/, '') || 'diary/index';
   var mainTitle = '';
+
   var onlineUrl = 'http://fritx.github.io/blog/' +
     location.search.replace(/&.*/, '');
+  var disqusShortname = 'fritx-blog';
 
 
   function config() {
@@ -40,7 +42,7 @@
         render(data, options, function (err, html) {
           if (err && callback) return callback(err);
           var $el = $(sel);
-          $el.hide().html(html).attr('data-loaded', true);
+          $el.attr('data-loaded', true).hide().html(html);
 
           $el.find('[src]').each(function () {
             var $el = $(this);
@@ -81,16 +83,15 @@
               return mainTitle + ' - ' + old;
             });
 
-            /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
-            window.disqus_shortname = 'fritx-blog'; // required: replace example with your forum shortname
+            // CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE
+            window.disqus_shortname = disqusShortname;
             window.disqus_title = mainTitle;
             window.disqus_identifier = mainPage;
             window.disqus_url = onlineUrl;
 
-            /* * * DON'T EDIT BELOW THIS LINE * * */
+            // DON'T EDIT BELOW THIS LINE
             (function () {
               var dsq = document.createElement('script');
-              dsq.type = 'text/javascript';
               dsq.async = true;
               dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
               document.getElementsByTagName('body')[0].appendChild(dsq);

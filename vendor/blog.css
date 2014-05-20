@@ -3,7 +3,7 @@ html, body {
   padding: 0;
   line-height: 1.5;
   font-size: 106%;
-  font-family: "微软雅黑", sans-serif;
+  font-family: "Microsoft YaHei", sans-serif;
 }
 
 img {
@@ -65,17 +65,7 @@ blockquote {
 /* TODO: be responsive, use grid instead of absolute */
 .sidebar {
   color: #fff;
-
-  /* Gray */
-  background-color: #2a2a2a;
-  /* Orange */
-  /*background-color: #d28445;*/
-  /* Green */
-  /*background-color: #90a959;*/
-  /* Cyan */
-  /*background-color: #75b5aa;*/
-  /* Blue */
-  /*background-color: #6a9fb5;*/
+  background-color: #336699;
 }
 .sidebar-inner {
   padding: 2% 5%;
@@ -87,7 +77,7 @@ blockquote {
   text-decoration: none;
 }
 .sidebar blockquote {
-  color: #999;
+  color: #bbb;
 }
 
 .main-inner {
