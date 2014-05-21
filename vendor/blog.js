@@ -7,11 +7,12 @@
   var pageBase = 'p/';
   var pageExt = 'md';
   var mainPage = location.search.slice(1)
-    .replace(/&.*/, '') || 'diary/index';
+    .replace(new RegExp('&.*'), '') || 'diary/index';
   var mainTitle = '';
 
+  // Optional disqus - see: https://disqus.com/
   var onlineUrl = 'http://fritx.github.io/blog/' +
-    location.search.replace(/&.*/, '');
+    location.search.replace(new RegExp('&.*'), '');
   var disqusShortname = 'fritx-blog';
 
 
@@ -74,6 +75,13 @@
                 return prefixed;
               }
               return '?' + prefixed.replace(regExt, '');
+            });
+          });
+
+          $el.find('p').each(function () {
+            var $el = $(this);
+            $el.html(function (x, old) {
+              return old.replace(/\n+/g, '');
             });
           });
 
