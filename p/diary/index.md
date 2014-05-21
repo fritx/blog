@@ -1,5 +1,9 @@
 # Things Happen In My Life
 
+## [脚踏实地](step-by-step/index.md)
+
+> 脚踏实地，就先从脚踏稳了地面，一步一步走路开始吧。
+
 ## [我的简历](my-resume.md)
 
 > 坚定。技术上坚定WEB前端/Nodejs后端等一切与JS相关的方向。
