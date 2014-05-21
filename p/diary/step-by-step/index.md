@@ -53,9 +53,9 @@
 
 我应该落地了，消停一下，把东西再过一遍，做足了准备，再出手。记住教训，回归成长。
 
-脚踏实地，就先从脚踏稳了地面，一步一步走路开始吧。
-
 > 没有调查，就没有发言权。
+
+脚踏实地，就先从脚踏稳了地面，一步一步走路开始吧。
 
 [1]: http://jacsonlee.github.io/Blog/?Diary/Wyu%20Dev%20Conf
 [2]: https://github.com/WuyiUniversity/forum/issues/8
