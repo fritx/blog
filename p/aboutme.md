@@ -2,7 +2,7 @@
 
 ## Fritz Lin
 
-<img alt="avatar" src="avatar.jpg" width="240">
+<img src="avatar.jpg" width="240">
 
 > Life is short, I use JS
 
