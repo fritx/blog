@@ -1,4 +1,6 @@
 *.out
 *.log
+*~
 .idea
+.sublime-*
 node_modules
