@@ -8,7 +8,7 @@
   var pageExt = 'md';
   var mainPage = resolve(
     location.search.slice(1)
-      .replace(new RegExp('&.*'), '') || 'diary/index'
+      .replace(new RegExp('&.*'), '') || 'diary'
   );
   var mainTitle = '';
 

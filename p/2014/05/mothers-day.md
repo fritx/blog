@@ -31,8 +31,8 @@
 <img src="lift.png" width="120">
 <img src="sun.png" width="120">
 
-<img src="1.jpg" width="240">
+<img src="mom-1.jpg" width="240">
 &nbsp;&nbsp;
-<img src="3.jpg" width="240">
+<img src="mom-3.jpg" width="240">
 
-<img src="4.jpg" width="500">
+<img src="mom-4.jpg" width="500">

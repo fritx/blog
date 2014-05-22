@@ -1,13 +1,13 @@
 # Projects That I Work In
 
-## [silent](silent/index.md)
+## [silent](projects/silent.md)
 
 > Be a silent, static blog
 
-## [great](great.md)
+## [great](projects/great.md)
 
 > Another task runner with js
 
-## [kid.js](kid.js.md)
+## [kid.js](projects/kid.js.md)
 
 > Another Browser-side Module Loader.

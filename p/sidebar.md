@@ -2,6 +2,6 @@
 
 > Life is short, I use JS
 
-- [Diary](diary/index.md)
-- [Projects](projects/index.md)
+- [Diary](diary.md)
+- [Projects](projects.md)
 - [About Me](aboutme.md)

@@ -67,5 +67,5 @@
 [8]: https://github.com/gulpjs/gulp/issues/468
 [9]: http://cnodejs.org/topic/537b6e29c3ee0b582000adc4
 [10]: https://github.com/fritx
-[11]: ../../projects/index.md
-[12]: ../../diary/my-resume.md
+[11]: ../../projects.md
+[12]: my-resume.md
