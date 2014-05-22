@@ -99,7 +99,6 @@
             // CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE
             window.disqus_shortname = disqusShortname;
             window.disqus_title = mainTitle;
-            window.disqus_identifier = mainPage;
             window.disqus_url = onlineUrl;
 
             // DON'T EDIT BELOW THIS LINE
