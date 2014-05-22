@@ -57,7 +57,7 @@
 
 脚踏实地，就先从脚踏稳了地面，一步一步走路开始吧。
 
-[1]: http://jacsonlee.github.io/Blog/?Diary/Wyu%20Dev%20Conf
+[1]: http://jacsonlee.github.io/Blog/?Diary/wyu-dev-conf
 [2]: https://github.com/WuyiUniversity/forum/issues/8
 [3]: http://pan.baidu.com/s/1hqeK4ra#dir/path=%2FDEV_Conf_2014
 [4]: https://github.com/fritx/silent
