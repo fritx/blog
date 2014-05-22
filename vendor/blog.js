@@ -6,13 +6,14 @@
 
   var pageBase = 'p/';
   var pageExt = 'md';
-  var mainPage = location.search.slice(1)
-    .replace(new RegExp('&.*'), '') || 'diary/index';
+  var mainPage = resolve(
+    location.search.slice(1)
+      .replace(new RegExp('&.*'), '') || 'diary/index'
+  );
   var mainTitle = '';
 
-  // Optional disqus - see: https://disqus.com/
-  var onlineUrl = 'http://fritx.github.io/blog/' +
-    location.search.replace(new RegExp('&.*'), '');
+// Optional disqus - see: https://disqus.com/
+  var onlineUrl = 'http://fritx.github.io/blog/?' + mainPage;
   var disqusShortname = 'fritx-blog';
 
 
@@ -51,9 +52,11 @@
               if (isAbsolute(old)) {
                 return old;
               }
-              return url.replace(
-                new RegExp('[^\\/]*$', 'g'), ''
-              ) + old;
+              return resolve(
+                url.replace(
+                  new RegExp('[^\\/]*$', 'g'), ''
+                ) + old
+              );
             });
           });
 
@@ -64,9 +67,11 @@
                 $el.attr('target', '_blank');
                 return old;
               }
-              var prefixed = url.replace(
-                new RegExp('^' + pageBase + '|[^\\/]*$', 'g'), ''
-              ) + old;
+              var prefixed = resolve(
+                url.replace(
+                  new RegExp('^' + pageBase + '|[^\\/]*$', 'g'), ''
+                ) + old
+              );
               var regExt = new RegExp('\\.' + pageExt + '$');
               if (!regExt.test(old)) {
                 if (!/(^\.|\/\.?|\.html?)$/.test(old)) {
@@ -124,6 +129,22 @@
 
   function isAbsolute(url) {
     return !url.indexOf('//') || !!~url.indexOf('://');
+  }
+
+  function resolve(path) {
+    var segs = path.split('/');
+    var buf = [];
+    for (var i = 0; i < segs.length; i++) {
+      var seg = segs[i];
+      if (seg === '.') continue;
+      var last = buf[buf.length - 1];
+      if (seg === '..' && last && last !== '..') {
+        buf.pop();
+        continue;
+      }
+      buf.push(seg);
+    }
+    return buf.join('/');
   }
 
 
