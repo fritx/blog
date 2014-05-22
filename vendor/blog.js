@@ -6,13 +6,15 @@
 
   var pageBase = 'p/';
   var pageExt = 'md';
+  var defaultPage = 'diary';
+
   var mainPage = resolve(
     location.search.slice(1)
-      .replace(new RegExp('&.*'), '') || 'diary'
+      .replace(new RegExp('&.*'), '') || defaultPage
   );
   var mainTitle = '';
 
-// Optional disqus - see: https://disqus.com/
+  // Optional disqus - see: https://disqus.com/
   var onlineUrl = 'http://fritx.github.io/blog/?' + mainPage;
   var disqusShortname = 'fritx-blog';
 
@@ -119,6 +121,7 @@
   }
 
   function onNotFound() {
+    if (mainPage === defaultPage) return;
     if (!$('#main-page').attr('data-loaded')) location.href = '.';
   }
 
