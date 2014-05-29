@@ -4,49 +4,29 @@
 
 (function () {
 
-  var pageBase = 'p/';
-  var pageExt = 'md';
-  var defaultPage = 'diary';
-
-  var mainPage = resolve(
-    location.search.slice(1)
-      .replace(new RegExp('&.*'), '') || defaultPage
-  );
-  var mainTitle = '';
-
-  // Optional disqus - see: https://disqus.com/
-  var onlineUrl = 'http://fritx.github.io/blog/?' + mainPage;
-  var disqusShortname = 'fritx-blog';
+  var pageBase;
+  var pageExt;
+  var defaultPage;
+  var mainPage;
+  var mainTitle;
+  var entryUrl;
+  var onlineUrl;
+  var shortName;
 
 
-  function config() {
-    marked.setOptions({
-      renderer: new marked.Renderer(),
-      gfm: true,
-      tables: true,
-      breaks: false,
-      pedantic: false,
-      sanitize: false,
-      smartLists: true,
-      smartypants: false
-    });
-  }
-
-  function render(data, options, callback) {
-    marked(data, options, callback);
-  }
-
-  function load(sel, page, isMain, options, callback) {
+  function load(sel, page, isMain, callback) {
     isMain = isMain || false;
-    var url = pageBase + page + '.' + pageExt;
+    var url = pageBase + page + pageExt;
+    var dir = url.replace(
+      new RegExp('[^\\/]*$', 'g'), ''
+    );
     $.ajax({
       url: url,
       error: onNotFound,
       success: function (data) {
-        render(data, options, function (err, html) {
-          if (err && callback) return callback(err);
+        render(data, function (err, html) {
           var $el = $(sel);
-          $el.attr('data-loaded', true).hide().html(html);
+          $el.hide().html(html);
 
           $el.find('[src]').each(function () {
             var $el = $(this);
@@ -54,11 +34,7 @@
               if (isAbsolute(old)) {
                 return old;
               }
-              return resolve(
-                url.replace(
-                  new RegExp('[^\\/]*$', 'g'), ''
-                ) + old
-              );
+              return resolve(dir + old);
             });
           });
 
@@ -70,18 +46,23 @@
                 return old;
               }
               var prefixed = resolve(
-                url.replace(
-                  new RegExp('^' + pageBase + '|[^\\/]*$', 'g'), ''
+                dir.replace(
+                  new RegExp('^' + slashes(pageBase)), ''
                 ) + old
               );
-              var regExt = new RegExp('\\.' + pageExt + '$');
-              if (!regExt.test(old)) {
-                if (!/(^\.|\/\.?|\.html?)$/.test(old)) {
+              var hashRegex = new RegExp('#.*');
+              var hash = (function (match) {
+                return match && match[0] || '';
+              })(old.match(hashRegex));
+              var dehashed = prefixed.replace(hashRegex, '');
+              var extRegex = new RegExp(slashes(pageExt) + '$');
+              if (!extRegex.test(dehashed)) {
+                if (!/(^\.|\/\.?|\.html?)$/.test(dehashed)) {
                   $el.attr('target', '_blank');
                 }
                 return prefixed;
               }
-              return '?' + prefixed.replace(regExt, '');
+              return '?' + dehashed.replace(extRegex, '') + hash;
             });
           });
 
@@ -97,23 +78,10 @@
             $('title').text(function (x, old) {
               return mainTitle + ' - ' + old;
             });
-
-            // CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE
-            window.disqus_shortname = disqusShortname;
-            window.disqus_title = mainTitle;
-            window.disqus_identifier = mainPage;
-            window.disqus_url = onlineUrl;
-
-            // DON'T EDIT BELOW THIS LINE
-            (function () {
-              var dsq = document.createElement('script');
-              dsq.async = true;
-              dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-              document.getElementsByTagName('body')[0].appendChild(dsq);
-            })();
+            comments();
           }
 
-          $el.show();
+          $el.show().attr('data-loaded', true);
           if (callback) callback();
         });
       }
@@ -125,9 +93,8 @@
     if (!$('#main-page').attr('data-loaded')) location.href = '.';
   }
 
-  function start() {
-    load('#sidebar-page', 'sidebar');
-    load('#main-page', mainPage, true);
+  function slashes(str) {
+    return str.replace(/([.?*+^$!:\[\]\\(){}|-])/g, '\\$1');
   }
 
   function isAbsolute(url) {
@@ -147,11 +114,67 @@
       }
       buf.push(seg);
     }
-    return buf.join('/');
+    return buf.join('/') || '.';
   }
 
+  function disqus(name, title, id, url) {
+    window.disqus_shortname = name;
+    window.disqus_title = title;
+    window.disqus_identifier = id;
+    window.disqus_url = url;
+
+    var dsq = document.createElement('script');
+    dsq.async = true;
+    dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+    document.getElementsByTagName('body')[0].appendChild(dsq);
+  }
 
   config();
   start();
+
+
+  function render(data, callback) {
+
+    //// Optional template renderer
+    marked(data, callback);
+  }
+
+  function comments() {
+
+    //// Optional comment system
+    disqus(shortName, mainTitle, mainPage, onlineUrl);
+  }
+
+  function start() {
+    mainPage = resolve(
+      location.search.slice(1)
+        .replace(new RegExp('&.*'), '') || defaultPage
+    );
+    onlineUrl = entryUrl + '/?' + mainPage;
+
+    load('#sidebar-page', 'sidebar');
+    load('#main-page', mainPage, true);
+  }
+
+  function config() {
+    marked.setOptions({
+      renderer: new marked.Renderer(),
+      gfm: true,
+      tables: true,
+      breaks: false,
+      pedantic: false,
+      sanitize: false,
+      smartLists: true,
+      smartypants: false
+    });
+
+    //// For comment systems
+    entryUrl = 'http://fritx.github.io/blog';
+    shortName = 'fritx-blog';
+
+    pageExt = '.md';
+    pageBase = 'p/';
+    defaultPage = 'diary';
+  }
 
 })();
