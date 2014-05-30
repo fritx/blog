@@ -74,7 +74,8 @@
           });
 
           if (isMain) {
-            mainTitle = $el.find('h1:first').text();
+            mainTitle = $el.find('h1, h2, h3, h4, h5, h6')
+              .first().text();
             $('title').text(function (x, old) {
               return mainTitle + ' - ' + old;
             });
