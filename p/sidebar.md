@@ -3,6 +3,6 @@
 > Life is short, I use JS
 
 - [Diary](diary.md)
-- [Tech](tech.md)
+- [Techniques](tech.md)
 - [Projects](projects.md)
 - [About Me](aboutme.md)

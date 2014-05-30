@@ -1,5 +1,9 @@
 # Things Happen In My Life
 
+## [专注还是发散？](2014/05/focus-or-radiate.md)
+
+> 我的注意力像脱缰的野马般不听使唤，四处发散
+
 ## [脚踏实地](2014/05/step-by-step.md)
 
 > 脚踏实地，就先从脚踏稳了地面，一步一步走路开始吧。
