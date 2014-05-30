@@ -13,7 +13,7 @@ img {
 
 /* learnt from github */
 pre, code {
-  font-family: Consolas, "Liberation Mono", Courier, monospace, serif;
+  font-family: Consolas, "Liberation Mono", Courier, monospace, sans-serif;
   background-color: #f8f8f8;
   border: 1px solid #ddd;
   border-radius: 3px;
@@ -62,7 +62,6 @@ blockquote {
   color: #777;
 }
 
-/* TODO: be responsive, use grid instead of absolute */
 .sidebar {
   color: #fff;
   background-color: #336699;
