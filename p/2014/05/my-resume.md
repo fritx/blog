@@ -13,7 +13,7 @@
       </td>
     </tr>
     <tr>
-      <td>手机</td><td>13428281979</td>
+      <td>手机</td><td>134\*\*\*\*1979</td>
     </tr>
     <tr>
       <td>电子邮箱</td><td>uxfritz@163.com</td>
@@ -52,7 +52,7 @@
 
 ## 作品展示
 
-1. 江门社保局内部系统前端源码 [phrief/jmsis-public](https://github.com/phrief/jmsis-public)
+1. 江门社保局内部系统前端源码 [phrief/jmsis](https://github.com/phrief/jmsis-public)
 1. 校友群后端源码/截图 [node-fun/siyuan](https://github.com/node-fun/siyuan)
 1. 邑大唱吧源码/截图 [fritx/wyu-sing](https://github.com/fritx/wyu-sing)
 1. 闺蜜网前端源码/截图 [fritx/mshop](https://github.com/fritx/mshop)
