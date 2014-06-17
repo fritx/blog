@@ -45,11 +45,7 @@
                 $el.attr('target', '_blank');
                 return old;
               }
-              var prefixed = resolve(
-                dir.replace(
-                  new RegExp('^' + slashes(pageBase)), ''
-                ) + old
-              );
+              var prefixed = resolve(dir + old);
               var hashRegex = new RegExp('#.*');
               var hash = (function (match) {
                 return match && match[0] || '';
@@ -57,12 +53,15 @@
               var dehashed = prefixed.replace(hashRegex, '');
               var extRegex = new RegExp(slashes(pageExt) + '$');
               if (!extRegex.test(dehashed)) {
-                if (!/(^\.|\/\.?|\.html?)$/.test(dehashed)) {
+                if (new RegExp('^\\.\\/').test(old)) {
+                  // ./ heading for new tag
                   $el.attr('target', '_blank');
                 }
                 return prefixed;
               }
-              return '?' + dehashed.replace(extRegex, '') + hash;
+              return '?' + dehashed.replace(
+                  new RegExp('^' + slashes(pageBase)), ''
+                ).replace(extRegex, '') + hash;
             });
           });
 
