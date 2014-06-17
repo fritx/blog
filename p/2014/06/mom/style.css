@@ -1,0 +1,51 @@
+/**
+ * toolbar
+ * git@github.com:maxogden/toolbar.git
+ * @author Max Ogden / max@maxogden.com
+ */
+/* modified by h5-Lium / http://weibo.com/hellolium */
+
+/* Hard reset
+-------------------------------------------------- */
+html, body, div, nav, ul, li, img {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  border: none;
+}
+
+.hidden {
+	display: none;
+}
+
+[class*="bar-"] {
+  position: fixed;
+  right: 0;
+  left: 0;
+  z-index: 10;
+  height: 44px;
+  padding: 5px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+
+body, #container, #screen {
+	overflow: hidden;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+}
+
+#stats {
+	position: absolute;
+	top: 0;
+}
+
+/* crosshair */
+#crosshair {
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	margin: -16px 0 0 -16px;
+	width: 32px;
+	height: 32px;
+}
