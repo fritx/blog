@@ -123,7 +123,7 @@
 （2014.07-至今）
 </span>
 </div>
-<div class="dl1">继greatme后，工作室与江门邮政联手微信电商，正在线运营（http://www.jmyzds.com/store）。web前端人员仅一名。前端代码开源：https://github.com/fritx/emshop</div>
+<div class="dl1">继greatme后，工作室与江门邮政联手微信电商，正在线运营 ( http://www.jmyzds.com/store ) 。web前端人员仅一名。前端代码开源：https://github.com/fritx/emshop</div>
 </div>
 </li>
 <li>
@@ -133,7 +133,7 @@
 （2014.03-至今）
 </span>
 </div>
-<div class="dl1">校内学生创业项目，面向女生的卫生巾专卖，基于微信平台推广，正在线运营（http://greatme.org）。现已获广东省金奖。web前端人员仅一名。前端代码开源：https://github.com/fritx/mshop</div>
+<div class="dl1">校内学生创业项目，面向女生的卫生巾专卖，基于微信平台推广，正在线运营 ( http://greatme.org ) 。现已获广东省金奖。web前端人员仅一名。前端代码开源：https://github.com/fritx/mshop</div>
 </div>
 </li>
 <li>
