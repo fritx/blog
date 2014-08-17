@@ -1,0 +1,126 @@
+@charset "utf-8";
+/*********************************************
+* CSS Document for lagou.com 拉勾招聘 
+* Start Time 2013-06-14
+* Author : Vee
+* Contect : vee@3wcoffee.com
+**********************************************
+* background:#0d9572;             绿 背景色
+* background:#0d9572;             绿 按钮
+* background:#00694e;             绿 按钮 current
+* color:#019875;                  绿字体
+* background:#fafafa;             灰 背景色
+* border:1px dashed #cfd0d2；     灰 边框
+* height:30px;                    list page btn
+* height:46px;                    login and register btn
+* height:60px;                    detail page btn .btn_big
+**********************************************/
+#lagou *{outline: none; }
+#lagou {margin:0;padding:0; font:14px/22px "微软雅黑","宋体",Arial; color:#333;word-wrap:break-word;}
+#lagou .clearfix:after{content: "";height: 0;clear: both;visibility: hidden;}
+#lagou .clearfix{display: inline-block;}  /* for IE/Mac */
+#lagou .dn{ display:none;}#lagou .db{display:block;}#lagou .fl{float:left!important;}#lagou .fr{float:right!important;}#lagou .clear{ clear:both;} 
+#lagou a{color:#555; text-decoration:none;cursor:pointer;-moz-transition: background-color 0.2s ease-out,color 0.1s ease-out; -webkit-transition: background-color 0.2s ease-out,color 0.1s ease-out;-ms-transition: background-color 0.2s ease-out,color 0.1s ease-out;transition: background-color 0.2s ease-out,color 0.1s ease-out;}
+#lagou a:hover{color:#019875;}
+#lagou dl,#lagou dd{margin:0;}#lagou em{ font-style:normal;}ul.reset{margin:0;padding:0;list-style:none;}
+#lagou h2{font-size:18px;margin:10px 0;}
+#lagou .c9{color:#999;}#lagou .c7{color:#777;}#lagou .c5{color:#555;}#lagou .c3{color:#333;}
+#lagou .f24{ font-size:24px;}#lagou .f20{ font-size:20px;}#lagou .f18{ font-size:18px;}#lagou .f16{ font-size:16px;}#lagou .f14{ font-size:14px;}
+#lagou .mb10{margin-bottom:10px;}#lagou .mb20{margin-bottom:20px;}#lagou .mb0{ margin-bottom:0 !important;}#lagou .mb50{margin-bottom:50px;}#lagou .mt20{ margin-top:20px;}
+#lagou ::selection{background: #019875; color: white; /* Safari */}
+#lagou ::-moz-selection{background: #019875; color: white; /* Firefox */ }
+/*end globel style*/
+
+.m_portrait {float:left; width:122px; height:122px;}
+.m_portrait div{ background:url(profile_cover.png) no-repeat; width:122px; height:122px; position:absolute; z-index:5;}
+.m_portrait img{width:120px; height:120px; position:absolute; z-index:4;}
+
+.profile_box{clear:both;background: #fafafa;border:2px solid #fafafa;word-wrap:break-word; padding:18px; margin-bottom: 20px; position: relative;}
+.profile_box td{vertical-align: top;}
+.profile_box span.error{margin:3px 0 0 0;}
+.profile_box h2{font-size: 18px;font-weight: 600;margin:0 0 10px 0; background: url('profile_square.png') 0 3px no-repeat; padding-left: 20px;}
+.profile_box h2 span{color:#777;}
+.profile_box .c_add{right: 7px;top:7px;}
+.profile_box .pAdd{min-height:76px;cursor:pointer;background: url('profile_add.png') 20px 0 no-repeat; padding:0px 0 0 140px;}
+.profile_box .pAdd:hover{background-position: 20px -76px;}
+.profile_box .pAdd span{display:block;font-size:16px;color: #0d9572; text-decoration: underline; margin-top: 5px;}
+.profile_box td{padding:8px 0 8px 20px;}
+#basicInfo{min-height:116px;}
+#basicInfo .basicEdit{overflow: hidden;padding:0;}
+#basicInfo .basicShow{font-size:16px;padding:0 130px 0 20px; line-height: 28px; position: relative;}
+#basicInfo .basicShow span.nofill{color:#e46a4a;}
+#basicInfo .basicShow .m_portrait{position: absolute;right: 0; top: -35px;}
+#expectJob .expectShow{font-size:16px;padding:0 40px 0 20px; position: relative;}
+#expectJob .c_edit{right: 7px;top: 7px;}
+#expectJob{*z-index:30;}
+#workExperience{*z-index:29;}
+#projectExperience{*z-index:28;}
+#educationalBackground{*z-index:27;}
+#expectJob .expectEdit input{margin:0;font:18px/32px "微软雅黑","宋体",Arial}
+#expectJob .expectEdit input[type="text"]:focus{border:2px solid #c8e6de}
+#expectJob .expectEdit input[type="text"]{width:263px}
+#workExperience .experienceShow,#educationalBackground .educationalShow{font-size:16px;}
+#workExperience .experienceShow ul.wlist,#educationalBackground .educationalShow ul.elist{list-style:none;margin:0;padding:0 0 0 10px;}
+#workExperience .experienceShow .wlist li,#educationalBackground .educationalShow .elist li{float:left;width:290px;min-height:80px;margin:13px 10px;position:relative;}
+#educationalBackground .educationalShow li div{background:#fff;width:276px;padding:0 7px;overflow:hidden}
+#workExperience .experienceShow li img{position:absolute;float:left;border:2px solid #f1f1f1;*left:0;*top:28px;}
+#workExperience .experienceShow li h3{width:220px;font-size:18px;font-weight:500;margin:5px 0 5px 70px;}
+#educationalBackground .educationalShow li h3{float:left;width:100%;font-size:18px;font-weight:500;margin:5px 0;}
+#workExperience .experienceShow li h4{font-size:14px;font-weight:normal;color:#555;margin:0 0 0 70px;}
+#educationalBackground .educationalShow li h4{/* float:left; */font-size:14px;font-weight:normal;color:#555;margin:0;}
+.sm_del{width:19px;height:19px;background:url('profile_op.png') right 0 no-repeat;position:absolute;right:0;top:0}
+.sm_del:hover{background-position:right -19px}
+.sm_edit{width:19px;height:19px;background:url('profile_op.png') left 0 no-repeat;position:absolute;right:26px;top:0}
+.sm_edit:hover{background-position:left -19px}
+.experienceForm,.educationalForm{padding-top:10px}
+.experienceForm td,.educationalForm td,.workForm td{padding:0 0 17px 0 !important}
+.experienceForm input,.educationalForm input{margin:0}
+.experienceForm input[type="text"]:focus,.educationalForm input[type="text"]:focus{border:2px solid #c8e6de}
+.experienceForm input[type="text"],.educationalForm input[type="text"],.projectForm input[type="text"]{width:264px}
+.educationalForm input[type="text"]{margin-right:7px}
+.experienceForm .redstar,.educationalForm .redstar,.projectForm .redstar{margin:15px 0 0 0;}
+.experienceForm .profile_select_139{margin-right:9px;*margin-right:7px;}
+.educationalForm .profile_select_139{margin-right:9px;*margin-right:6px;}
+.borderBtm{border-bottom:1px solid #e5e5e5;margin-bottom:10px}
+.projectForm{padding-top:10px;left: -20px;width: 640px;position: relative;}
+.projectForm td{padding:0 0 17px 0 !important}
+.projectForm input{margin:0}.projectForm input[type="text"]:focus{border:2px solid #c8e6de}
+.projectForm .profile_select_139{margin-right:9px;*margin-right:7px;}
+.workForm input[type="text"]{width:570px;margin:0}
+.descriptionForm textarea,.workForm textarea{width:570px;height:100px;margin:0}
+.projectForm textarea{width:580px;height:100px;margin:0}
+.projectForm textarea:focus,.descriptionForm textarea:focus,.workForm textarea:focus{border:2px solid #c8e6de}
+.projectForm .word_count,.descriptionForm .word_count,.workForm .word_count{float:right;margin:-5px 22px -5px 0}
+#projectExperience .projectShow,#worksShow .workShow{padding:0 20px}
+#projectExperience .projectShow ul,#worksShow .workShow ul{width:100%;list-style:none;margin:0;padding:0;*margin-top:10px;}
+#projectExperience .projectShow .plist > li,#worksShow .workShow li{padding:10px 0;border-bottom:1px solid #e5e5e5;*overflow:hidden;*margin-top:15px;}
+#projectExperience .projectShow .plist > li.noborder,#worksShow .workShow li.noborder{border-bottom:none;}
+#projectExperience .projectShow .plist > li .projectList,#worksShow .workShow li .workList{position:relative;}
+/**add nancy**/
+#worksShow .workShow li .workList p{width:550px;}
+#projectExperience .projectList .f16,#worksShow .workList .f16{*margin-top:-22px}
+/*add nancy */
+.fixed_width{width:550px;}
+/*end nancy */
+#worksShow .workList .f16{width:560px;word-wrap:break-word; overflow:hidden;}
+#worksShow .workList .f16 span{white-space:nowrap;}
+#projectExperience .projectList .dl1{color:#777;}
+#projectExperience .projectShow dl{clear:both;width:100%;min-height:22px;}
+#projectExperience .projectShow dt{position:absolute;*left:0}
+#projectExperience .projectShow dd{color:#777;float:left;margin-left:65px}
+#projectExperience .projectEdit{padding:0 0 0 20px;}
+#worksShow .workEdit{padding:0 0 0 20px;}
+#worksShow .workShow li a{color: #019875; text-decoration: underline;}
+#worksShow .workShow p{margin:5px 0 0 0;}
+#selfDescription .descriptionShow{color:#777;padding: 0 20px; position: relative;}
+
+/*preview.html*/
+#previewWrapper{width:726px;border:12px solid #a3a3a3;margin:0 auto}
+#previewWrapper .preview_header{height:26px;background:#019875;padding:9px 20px;color:#fff;overflow:hidden}
+#previewWrapper .preview_header h1{margin:0;font-size:18px;font-weight:600;line-height:26px;float:left}
+#previewWrapper .preview_header a{float:right;background:#006b52;color:#fff;padding:2px 12px}
+#previewWrapper .preview_content{padding:32px 20px 2px 20px}
+#previewWrapper .preview_content .expectShow{padding:0 10px 0 20px}
+#previewWrapper .projectList .f16,#previewWrapper .workList .f16{*margin-top:0}
+#downloadOnlineResume a{margin:20px 10px 0 0px;background-color:#91cebe;}
+#downloadOnlineResume a:hover{background-color:#019875;}
