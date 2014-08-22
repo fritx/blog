@@ -17,6 +17,7 @@
     width: 100%;
   }
   #previewWrapper {
+    margin-left: 0;
     width: 720px;
     max-width: 100%;
     overflow-x: hidden;
