@@ -1,5 +1,9 @@
 # My Talks About Techniques
 
+## [gulp-eol bug修复之总结](2014/09/gulp-eol-bug.md)
+
+> 凡事都应以小见大，这样才能进步成长。我列出了7点，不多
+
 ## [我的拉勾网简历](2014/08/lagou-resume.md)
 
 > 像素主义、完美主义、强迫症。热衷编程，工作狂。爱好步行、跑步
