@@ -148,7 +148,7 @@
   function start() {
     mainPage = resolve(
       location.search.slice(1)
-        .replace(new RegExp('&.*'), '') || defaultPage
+        .replace(/&.*|\/$/g, '') || defaultPage
     );
     onlineUrl = entryUrl + '/?' + mainPage;
 
