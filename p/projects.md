@@ -2,7 +2,7 @@
 
 ### [emshop - 江门邮政微商城](projects/emshop/)
 
-> An online shop adapted to mobile
+> Another online shop(mall) highly adapted to mobiles
 
 ### [silent - 静态博客模板工具](projects/silent/)
 

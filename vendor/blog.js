@@ -73,17 +73,17 @@
               })(old.match(hashRegex));
               var dehashed = prefixed.replace(hashRegex, '');
 
-              var extRegex = new RegExp(slashes(pageExt) + '$|\/$');
-              if (!extRegex.test(dehashed)) {
-                if (new RegExp('^\\.\\/').test(old)) {
-                  // ./ heading for new tag
-                  $el.attr('target', '_blank');
-                }
-                return prefixed;
+              var extRegex = new RegExp(slashes(pageExt) + '$');
+              if (extRegex.test(dehashed) || /\/$/.test(dehashed)) {
+                return '?' + dehashed.replace(
+                    new RegExp('^' + slashes(pageBase)), ''
+                  ).replace(extRegex, '') + hash;
               }
-              return '?' + dehashed.replace(
-                  new RegExp('^' + slashes(pageBase)), ''
-                ).replace(extRegex, '') + hash;
+              if (new RegExp('^\\.\\/').test(old)) {
+                // ./ heading for new tag
+                $el.attr('target', '_blank');
+              }
+              return prefixed;
             });
           });
 
