@@ -2,7 +2,7 @@
 
 ## [Free Your HTML/BODY Tags](2014/10/free-your-html-body-tags.md)
 
-> Today my leader asked me why the topbar on mobile...
+> Today my leader asked me why the topbar on mobile
 
 ## [gulp-eol bug修复之总结](2014/09/gulp-eol-bug.md)
 

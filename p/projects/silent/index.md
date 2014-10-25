@@ -1,18 +1,16 @@
-# silent
+# [silent](https://github.com/fritx/silent)
 
 > Be a silent, static blog
 
-See live demo: [here](http://fritx.github.io/silent)
-
-Source code: [silent](https://github.com/fritx/silent)
+See live demo: <http://fritx.github.io/silent>
 
 ## Features
 
 ### Easy: Writing in Markdown
 
-Or you can use other renderer instead
+Or you can use any other renderer instead
 
-All you need to do is rewrite at most **2** functions
+All you need to do is rewriting at most **2** functions
 
 ### Flexible: Special Page Mastering
 
@@ -47,9 +45,9 @@ See what, here's a sample of the folders, and nothing else:
 
 > Fast and easy
 
-1. Install from npm: `npm install -g silent`
+1. Install from npm: `$ npm install -g silent`
 
-1. Generate a sample blog: `silent [path/to/blog]`
+1. Generate a sample blog: `$ silent [path/to/blog]`
 
 1. Start mastering your pages around the `p/` folder
 
@@ -63,9 +61,20 @@ See what, here's a sample of the folders, and nothing else:
 
 <img src="Screenshot_from_2014-05-08_01-50-42.png" width="360">
 
-## Note
+## People Using Silent
 
-~~*Current style is heavily learnt from [Purelog](https://github.com/conis/Purelog)*~~
+> Thank you!
+
+- [huang's Blog](http://huangruichang.github.io)
+- [Jason's Blog](http://jacsonlee.github.io/Blog)
+- [Jayden's Blog](http://iamjayden.github.io)
+- [Fritx's Blog](http://fritx.github.io/blog)
+
+## Changelog
+
+See [CHANGELOG.md](https://github.com/fritx/silent/blob/master/CHANGELOG.md)
+
+## Note
 
 *Current style is heavily learnt from [hyde](https://github.com/mdo/hyde) and Github*
 
