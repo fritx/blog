@@ -14,15 +14,36 @@
   var shortName;
 
 
-  function load(sel, page, isMain, callback) {
+  function load(sel, stack, isMain, callback) {
+    if (typeof stack === 'string') {
+      if (/\/$/.test(stack)) {
+        stack = [
+          stack + 'index',
+          stack.replace(/\/$/, '')
+        ];
+      } else {
+        stack = [stack];
+      }
+    }
+
+    var page = stack.shift();
     isMain = isMain || false;
+    if (isMain) {
+      onlineUrl = entryUrl + '/?' + page;
+    }
+
     var url = pageBase + page + pageExt;
     var dir = url.replace(
       new RegExp('[^\\/]*$', 'g'), ''
     );
     $.ajax({
       url: url,
-      error: onNotFound,
+      error: function(err) {
+        if (stack.length) {
+          return load(sel, stack, isMain, callback);
+        }
+        onNotFound(err);
+      },
       success: function (data) {
         render(data, function (err, html) {
           var $el = $(sel);
@@ -51,7 +72,8 @@
                 return match && match[0] || '';
               })(old.match(hashRegex));
               var dehashed = prefixed.replace(hashRegex, '');
-              var extRegex = new RegExp(slashes(pageExt) + '$');
+
+              var extRegex = new RegExp(slashes(pageExt) + '$|\/$');
               if (!extRegex.test(dehashed)) {
                 if (new RegExp('^\\.\\/').test(old)) {
                   // ./ heading for new tag
@@ -148,9 +170,8 @@
   function start() {
     mainPage = resolve(
       location.search.slice(1)
-        .replace(/&.*|\/$/g, '') || defaultPage
+        .replace(/&.*$/g, '') || defaultPage
     );
-    onlineUrl = entryUrl + '/?' + mainPage;
 
     load('#sidebar-page', 'sidebar');
     load('#main-page', mainPage, true);
