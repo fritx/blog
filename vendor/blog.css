@@ -4,6 +4,7 @@ html, body {
   line-height: 1.5;
   font-size: 106%;
   font-family: "Microsoft YaHei", sans-serif;
+  word-break: break-word;
 }
 
 img {
