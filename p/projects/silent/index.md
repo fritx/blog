@@ -1,8 +1,10 @@
-# [silent](https://github.com/fritx/silent)
+# silent - 静态博客模板工具
 
 > Be a silent, static blog
 
 See live demo: <http://fritx.github.io/silent>
+
+**Source Code: <https://github.com/fritx/silent>**
 
 ## Features
 

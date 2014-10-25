@@ -1,6 +1,8 @@
-# [jmsis](https://github.com/phrief/jmsis)
+# jmsis - 江门社保管控系统
 
 > Front-end static files(html, css, js, etc) come with the JMSIS Project
+
+**Source code: <https://github.com/phrief/jmsis>**
 
 ## Screenshots
 
