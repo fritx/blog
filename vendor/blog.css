@@ -5,6 +5,7 @@ html, body {
   font-size: 106%;
   font-family: "Microsoft YaHei", sans-serif;
   word-break: break-word;
+  background-color: #fff;
 }
 
 img {
@@ -102,6 +103,14 @@ blockquote {
   z-index: 9999;
 }
 
+.duck {
+  display: none;
+  position: fixed;
+  right: 8px;
+  top: 200px;
+  z-index: 9999;
+}
+
 @media (min-width: 640px) {
   pre {
     font-size: 80%;
@@ -139,5 +148,9 @@ blockquote {
   .main {
     margin-left: 25%;
     width: 75%;
+  }
+
+  .duck {
+    display: block;
   }
 }
