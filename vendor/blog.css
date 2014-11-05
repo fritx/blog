@@ -95,6 +95,13 @@ blockquote {
   left: -9999px;
 }
 
+.fork-me {
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: 9999;
+}
+
 @media (min-width: 640px) {
   pre {
     font-size: 80%;
@@ -110,6 +117,10 @@ blockquote {
   .main-inner {
     padding-left: 10%;
     padding-right: 10%;
+  }
+
+  .fork-me {
+    position: fixed;
   }
 }
 
