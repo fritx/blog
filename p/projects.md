@@ -18,7 +18,7 @@
 
 ### [wyu-sing - 邑大微信唱吧](projects/wyu-sing/)
 
-> An online shop adapted to mobile
+> The school singing place for students in WYU, suggested by @Jayin
 
 ### [jmsis - 江门社保管控系统](projects/jmsis/)
 
