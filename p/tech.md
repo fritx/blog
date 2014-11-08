@@ -1,5 +1,9 @@
 # My Talks About Techniques
 
+## [自我鉴定](2014/11/self-indentification.md)
+
+> 学校要求填写的，毕业就业推荐表中，简单的自我鉴定
+
 ## [Free Your HTML/BODY Tags](2014/10/free-your-html-body-tags.md)
 
 > Today my leader asked me why the topbar on mobile
