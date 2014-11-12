@@ -9,51 +9,57 @@
 ## 2014
 ---
 
+- Topic: How to capture a girl's heart?
+
+  1. remember everythin about her
+  1. say some sweet words to her
+  1. hint what you ve said to her before, referencing
+
 - Topic: My First Love
 
   - i have several first loves
-
   - (happy) each of my love refreshed my mind, and my understanding of my love
-
   - so i think i have several first loves.. just chatting or playing together, never dating
-
   - never say out love.. so i m shy but responsable (happy)
 
 - To momo(青墨):
 
-  - - oh momo is a pig
+  - i m your hamburger<br>
+    ( (happy)/ i'm full/ Don't need food anymore )<br>
+    i m not to eat, but to taste<br>
+    i m not gonna full your stomach, but your heart
 
-    - > (sweat)/ I haven't sleep yesterday
+  - everytime you call me liangliang, flowers in my world blossom
 
-    - ;-) i know. cuz u met me in ur dream
+  - oh my god, i would rather cut ten years of my life, to hear one more of your voice<br>
+    ( (voice) )<br>
+    okay i dont know what you say/ and ten years of my life gone (bad)
 
-  - - > Liangliang，you can't leave me with winner/ Hes bad boy
+  - oh momo is a pig<br>
+    ( (sweat)/ I haven't sleep yesterday )<br>
+    ;-) i know. cuz u met me in ur dream
 
-    - (dizzy)/ I never leave u, u r in my dream/ Wait for me
+  - ( Liangliang，you can't leave me with winner/ Hes bad boy )<br>
+    (dizzy)/ I never leave u, u r in my dream/ Wait for me
 
-  - - where is your cat?
-
-    - > In your dream/ Bed/ She lost me
-
-    - what? you were in my bed, while i am in your dream?
+  - where is your cat?<br>
+    ( In your dream/ Bed/ She lost me )<br>
+    what? you were in my bed, while i am in your dream?
 
 - To rainbow:
 
-  - - after a shower of my heart, it is rainbow, you, that shows up
-
-    - i want to clumb onto the top, but its so wet that i cant
+  - after a shower of my heart, it is rainbow, you, that shows up<br>
+    i want to clumb onto the top, but its so wet that i cant
 
 - To sun(太阳):
   
-  - - oh because of u, sun, the forest gets lighted
-
-    - and thats my name (laugh out)
+  - oh because of u, sun, the forest gets lighted<br>
+    and thats my name (laugh out)
 
 - To kelly:
 
-  - - good luck i m gotta sleep (sad)
-
-    - thanks its good if u appear
+  - good luck i m gotta sleep (sad)<br>
+    thanks its good if u appear
 
 ## 2013
 ---
@@ -84,10 +90,8 @@
 ## 2009
 ---
 
-- - I like it!
-
-  - > who is it? It mean a boy or a girl
-
-  - Re: haha it is a special one
+- I like it!<br>
+  ( who is it? It mean a boy or a girl )<br>
+  Re: haha it is a special one
 
 - 你是我的第一个、上一个，也是最后一个。
