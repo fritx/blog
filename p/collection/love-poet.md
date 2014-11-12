@@ -25,7 +25,7 @@
 - To momo(青墨):
 
   - i m your hamburger<br>
-    ( (happy)/ i'm full/ Don't need food anymore )<br>
+    ( (happy)/ I'm full/ Don't need food anymore )<br>
     i m not to eat, but to taste<br>
     i m not gonna full your stomach, but your heart
 
@@ -64,7 +64,8 @@
 ## 2013
 ---
 
-*Todo..*
+- 不会啊 我觉得你原本很好啊 当然你可以尝试新鲜的 (得意)<br>
+  说实话 要是没有禁欲的话我都想说我爱你了
 
 ## 2010
 ---
