@@ -35,7 +35,7 @@
     var page = stack.shift();
     isMain = isMain || false;
     if (isMain) {
-      onlineUrl = entryUrl + '/?' + page;
+      onlineUrl = entryUrl + '?' + page;
     }
 
     var url = pageBase + page + pageExt;
@@ -110,15 +110,26 @@
           }
 
           $el.show().addAttr('data-loaded');
+          onMainRendered();
           if (callback) callback();
         });
       }
     });
   }
 
+  function onMainRendered() {
+    shares();
+  }
+
   function onNotFound() {
-    if (mainPage === defaultPage) return;
-    if (!$('#main-page').attr('data-loaded')) location.href = '.';
+    if (mainPage === defaultPage) {
+      throw new Error('Even `defaultPage` broken.');
+    }
+    if ($('#main-page').attr('data-loaded')) {
+      onMainRendered();
+    } else {
+      location.href = '.';
+    }
   }
 
   function slashes(str) {
@@ -173,6 +184,25 @@
     disqus(shortName, mainTitle, mainPage, onlineUrl);
   }
 
+  function shares() {
+    var wxData = function() {
+      return {
+        // 这里需要特别说明的是，建议不要用新浪微博的图片地址，要么你试试，哈哈
+        'img': entryUrl + $('#img-holder').attr('src'),
+        'link': location.href,
+        'desc': $('#main-page').find('h1').text(),
+        'title': $('#sidebar-page').find('h1').text()
+      };
+    };
+    wechat('friend', wxData, wxCallback);     // 朋友
+    wechat('timeline', wxData, wxCallback);   // 朋友圈
+    wechat('weibo', wxData, wxCallback);      // 微博
+
+    function wxCallback(res) {
+      console.log(JSON.stringify(res))
+    }
+  }
+
   function start() {
     mainPage = resolve(
       location.search.slice(1)
@@ -196,7 +226,7 @@
     });
 
     //// For comment systems
-    entryUrl = 'http://fritx.github.io/blog';
+    entryUrl = 'http://fritx.github.io/blog/';
     shortName = 'fritx-blog';
 
     pageExt = '.md';
@@ -227,5 +257,4 @@
     return arr[idx] || null
   }
 
-})()
-
+})();

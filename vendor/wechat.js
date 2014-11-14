@@ -36,6 +36,10 @@
   Wechat.prototype._data = function(data) {
     var tmp = {};
 
+    if (typeof data === 'function') {
+      data = data();
+    }
+
     for(var p in data) {
       if(!data.hasOwnProperty(p)) return;
       tmp[p] = (typeof data[p] === 'function') ? data[p]() : data[p];
@@ -72,47 +76,55 @@
         return WeixinJSBridge.invoke(direct, {}, callback);
       // 图片预览/查看大图
       } else if(name === 'imagePreview') {
-        return WeixinJSBridge.invoke(direct, data, callback);
+        var _data = this._data(data)
+        return WeixinJSBridge.invoke(direct, _data, callback);
       }
 
       return WeixinJSBridge.call(direct, callback);
     }
 
-    // 分享到微博的接口不同
-    if(name === 'weibo') {
-      data.content = data.desc;
-      data.url = data.link;
-
-    // 朋友圈的 title 是不显示的，直接拼接
-    } else if(name === 'timeline') {
-      data.title = data.title + ' - ' + data.desc;
-
-      // Android 下有时候会需要 desc (*-.-)
-      data.desc = data.title;
-    } else if(name === 'email') {
-      data.content = data.desc + ' ' + data.link;
-      return WeixinJSBridge.invoke('sendEmail', data, callback);
+     else if(name === 'email') {
+      var _data = this._data(data);
+      _data.content = _data.desc + ' ' + _data.link;
+      return WeixinJSBridge.invoke('sendEmail', _data, callback);
     }
 
     var that = this;
 
     // 当 WeixinJSBridge 存在则直接绑定事件
     WeixinJSBridge.on(this.map.events[name], function() {
-      WeixinJSBridge.invoke(that.map.actions[name], data, callback);
+
+      var _data = that._data(data);
+
+      // 分享到微博的接口不同
+      if(name === 'weibo') {
+        _data.content = _data.desc;
+        _data.url = _data.link;
+
+      // 朋友圈的 title 是不显示的，直接拼接
+      } else if(name === 'timeline') {
+        _data.title = _data.title + ' - ' + _data.desc;
+
+        // Android 下有时候会需要 desc (*-.-)
+        _data.desc = _data.title;
+      }
+
+      WeixinJSBridge.invoke(that.map.actions[name], _data, callback);
     });
   };
 
   // 添加监听
   Wechat.prototype.on = function(name, data, callback) {
     if(!name) return;
-    if(typeof data === 'function') {
+    //if(typeof data === 'function') {
+    if (arguments.length < 3) {
       callback = data;
       data = null;
     }
 
     this._make({
       name: name,
-      data: data ? this._data(data) : {},
+      data: data ? data : {},
       callback: callback || noop
     });
 
