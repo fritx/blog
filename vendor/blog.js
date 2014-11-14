@@ -2,7 +2,13 @@
  * Created by fritx on 5/7/14.
  */
 
-(function () {
+;(function(){
+  $.fn.addAttr = function(key){
+    return $(this).attr(key, '')
+  }
+})();
+
+;(function () {
 
   var pageBase;
   var pageExt;
@@ -103,7 +109,7 @@
             comments();
           }
 
-          $el.show().attr('data-loaded', true);
+          $el.show().addAttr('data-loaded');
           if (callback) callback();
         });
       }
