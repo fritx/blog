@@ -24,6 +24,16 @@
 
 - To momo(青墨):
 
+  - If I have to use one word to describe you, in my heart, it is "everything".<br>
+    If I have to tell you what the rule was, that was "she is momo".
+
+  - ( You come and I must leave )<br>
+    No.. If the bed not big enough, I could hold you tight so that size not a problem<br>
+    ( (mad)/ (curse)/ (slap) )<br>
+    Even plus a cat is okay<br>
+    ( You/ Are/ A/ Bad/ Guy )<br>
+    I am only bad to my dear (happy)
+
   - i m your hamburger<br>
     ( (happy)/ I'm full/ Don't need food anymore )<br>
     i m not to eat, but to taste<br>

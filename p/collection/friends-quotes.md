@@ -4,6 +4,16 @@
 
 *小伙伴语录 + 翻译练习*
 
+> 谁能解开这相思的愁<br>
+谁又能把红尘看透<br>
+人世间的情来去匆匆<br>
+谁又能不让爱随波逐流
+
+Who solves the sorrow of missing<br>
+Who sees through the read dust<br>
+Loves always come and go<br>
+Who keeps his love away from the stream
+
 > 当孩子不麻烦你的时候，可能已经长大成人远离你了；当父母不麻烦你的时候，可能已不在人世了；当爱人不麻烦你的时候，可能已去麻烦别人；当朋友不麻烦你的时候，可能已经有隔阂了！人其实就是生活在相互麻烦之中，在麻烦之中解决事情，在事情之中化解麻烦，在麻烦与被麻烦之中加深感情，体现价值，这就是生活。所以说要珍惜身边麻烦你的人！！！也感谢我曾经麻烦过的你！深表谢意。
 
 Once children never bother you, probably they had grown up; for parents, probably they had gone; for lover, probably she had got another one; for friends, probably a gap had been formed.. Actually, people live in bothering each other. It is with bothering and being bothered that our relationship grows, our price shows. It is life. So, let's treasure those who had ever bothered you! And also, thank you, people ever bothered by me! Much.

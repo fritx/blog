@@ -1,5 +1,9 @@
 # Personal Daily Collection
 
+## [占中分析](collection/hk-capital.md)
+
+> 老爸的指点迷津
+
 ## [Love Poet](collection/love-poet.md)
 
 > 关于“爱情”，我过往的一些感触、创作，及成长历程
