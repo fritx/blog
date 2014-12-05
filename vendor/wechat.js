@@ -33,7 +33,9 @@
   };
 
   // 有些 data 是延时获取的，这时候应该支持传入 callback
-  Wechat.prototype._data = function(data) {
+  Wechat.prototype._data = function(obj) {
+    var name = obj.name;
+    var data = obj.data;
     var tmp = {};
 
     if (typeof data === 'function') {
@@ -52,6 +54,21 @@
     delete tmp.app;
     delete tmp.img;
 
+    // 分享到微博的接口不同
+    if(name === 'weibo') {
+      tmp.content = tmp.desc;
+      tmp.url = tmp.link;
+
+    // 朋友圈的 title 是不显示的，直接拼接
+    } else if(name === 'timeline') {
+      tmp.title = tmp.title + ' - ' + data.desc;
+
+      // Android 下有时候会需要 desc (*-.-)
+      tmp.desc = tmp.title;
+    } else if(name === 'email') {
+      tmp.content = tmp.desc + ' ' + tmp.link;
+    }
+
     return tmp;
   };
 
@@ -62,7 +79,6 @@
 
     var name = obj.name
       , direct = this.map.direct[name]
-      , data = obj.data
       , callback = obj.callback;
 
     // 直接获取的情况
@@ -76,40 +92,20 @@
         return WeixinJSBridge.invoke(direct, {}, callback);
       // 图片预览/查看大图
       } else if(name === 'imagePreview') {
-        var _data = this._data(data)
-        return WeixinJSBridge.invoke(direct, _data, callback);
+        return WeixinJSBridge.invoke(direct, this._data(obj), callback);
       }
-
       return WeixinJSBridge.call(direct, callback);
     }
 
-     else if(name === 'email') {
-      var _data = this._data(data);
-      _data.content = _data.desc + ' ' + _data.link;
-      return WeixinJSBridge.invoke('sendEmail', _data, callback);
+    if(name === 'email') {
+      return WeixinJSBridge.invoke('sendEmail', this._data(obj), callback);
     }
 
     var that = this;
 
     // 当 WeixinJSBridge 存在则直接绑定事件
     WeixinJSBridge.on(this.map.events[name], function() {
-
-      var _data = that._data(data);
-
-      // 分享到微博的接口不同
-      if(name === 'weibo') {
-        _data.content = _data.desc;
-        _data.url = _data.link;
-
-      // 朋友圈的 title 是不显示的，直接拼接
-      } else if(name === 'timeline') {
-        _data.title = _data.title + ' - ' + _data.desc;
-
-        // Android 下有时候会需要 desc (*-.-)
-        _data.desc = _data.title;
-      }
-
-      WeixinJSBridge.invoke(that.map.actions[name], _data, callback);
+      WeixinJSBridge.invoke(that.map.actions[name], that._data(obj), callback);
     });
   };
 
