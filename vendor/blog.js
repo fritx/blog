@@ -194,7 +194,7 @@
         'title': $('#sidebar-page').find('h1').text()
       };
     };
-    wechat('friend', wxData, wxCallback);     // 朋友
+    wechat('friend', wxData, wxCallback);     // 好友
     wechat('timeline', wxData, wxCallback);   // 朋友圈
     wechat('weibo', wxData, wxCallback);      // 微博
 
@@ -204,10 +204,13 @@
   }
 
   function start() {
-    mainPage = resolve(
-      location.search.slice(1)
-        .replace(/&.*$/g, '') || defaultPage
-    );
+    var seg = location.search.slice(1)
+      .replace(/&.*$/g, '')
+
+    // fucking wechat pending
+    // like /?from=singlemessage&isappinstalled=0
+    if (/=/.test(seg)) seg = null
+    mainPage = resolve(seg || defaultPage);
 
     load('#sidebar-page', 'sidebar');
     load('#main-page', mainPage, true);
