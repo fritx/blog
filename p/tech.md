@@ -1,5 +1,9 @@
 # My Talks About Techniques
 
+## [Test on JavaScript](2014/12/test-on-javascript.md)
+
+> @fritx; Powered by the Silent Blog
+
 ## [自我鉴定](2014/11/self-indentification.md)
 
 > 学校要求填写的，毕业就业推荐表中，简单的自我鉴定
