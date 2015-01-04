@@ -1,25 +1,25 @@
 # Casual Tweets
 
-### [深圳码农周末 第一辑](2014/08/weekend-01.md)
+## [深圳码农周末 第一辑](2014/08/weekend-01.md)
 
 > 剑伯、昌爷还有我，周日欢乐海岸
 
-### [闲谈脸萌](2014/06/myotee-talk.md)
+## [闲谈脸萌](2014/06/myotee-talk.md)
 
 > “设计大于技术”的应用，如果是这样，我会为他们祈祷。
 
-### [落后的呆瓜](2014/06/keep-up-with-friends.md)
+## [落后的呆瓜](2014/06/keep-up-with-friends.md)
 
 > 像是回到了那个遥远的起点，我们三个还是平等的，平等的……
 
-### [清理Q群](2014/06/clean-qq-groups.md)
+## [清理Q群](2014/06/clean-qq-groups.md)
 
 > 我坚信生活就像代码，越简单维护起来就越轻松。
 
-### [洪比的教诲](2014/05/taught-by-hong.md)
+## [洪比的教诲](2014/05/taught-by-hong.md)
 
 > 在我眼里洪比就是先知，表面的邋遢和不恭遮蔽不了内在的眼界与肚量
 
-### [silent走出校门](2014/05/out-of-campus.md)
+## [silent走出校门](2014/05/out-of-campus.md)
 
 > 自silent发布后，得到了一些同学的支持，他们成了用户
