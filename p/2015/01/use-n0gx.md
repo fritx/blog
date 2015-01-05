@@ -69,13 +69,13 @@ $ n0gx ./n0gx.conf
 ```
 $ which n0gx
 > /root/local/bin/n0gx
-$ pm2 start /root/local/bin/n0gx ./n0gx.conf
+$ pm2 start /root/local/bin/n0gx -- ./n0gx.conf
 ```
 
 [Unitech/PM2#917](https://github.com/Unitech/PM2/issues/917#issuecomment-68645387)我已经提了，相信不久后就可以直接：
 
 ```
-$ pm2 start n0gx ./n0gx.conf
+$ pm2 start n0gx -- ./n0gx.conf
 ```
 
 ## 结语
