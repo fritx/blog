@@ -1,5 +1,9 @@
 # My Talks About Techniques
 
+## [使用n0gx进行内部转发](2015/01/use-n0gx.md)
+
+> nginx配置看着蛋疼，我一直想用node实现一个，于是有n0gx
+
 ## [自我鉴定](2014/11/self-indentification.md)
 
 > 学校要求填写的，毕业就业推荐表中，简单的自我鉴定
