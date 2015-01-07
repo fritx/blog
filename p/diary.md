@@ -1,5 +1,9 @@
 # Things Happen In My Life
 
+## [自我鉴定](2014/11/self-indentification.md)
+
+> 学校要求填写的，毕业就业推荐表中，简单的自我鉴定
+
 ## [父亲节谈我的父亲](2014/06/my-father.md)
 
 > 爸爸满意，当然，我自己也满意，这更加重要。
