@@ -1,6 +1,10 @@
 # My Talks About Techniques
 
-## [Why I Don't Write Semicolons?](2015/01/why-no-semicolon.md)
+## [Why I built fs-auth and how it works](2015/01/fs-auth.md)
+
+> But I'd never figured out a way that is flat and straightforward
+
+## [Why I Don't Write Semicolons](2015/01/why-no-semicolon.md)
 
 > I've been asked for several times why I don't write down a semicolon
 
