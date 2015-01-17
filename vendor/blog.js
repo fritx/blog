@@ -6,6 +6,9 @@
   $.fn.addAttr = function(key){
     return $(this).attr(key, '')
   }
+  $.fn.hasAttr = function(key){
+    return $(this).attr(key) != null
+  }
 })();
 
 ;(function () {
@@ -100,17 +103,8 @@
             });
           });
 
-          if (isMain) {
-            mainTitle = $el.find('h1, h2, h3, h4, h5, h6')
-              .first().text();
-            $('title').text(function (x, old) {
-              return mainTitle + ' - ' + old;
-            });
-            comments();
-          }
-
           $el.show().addAttr('data-loaded');
-          onMainRendered();
+          if (isMain) onMainRendered();
           if (callback) callback();
         });
       }
@@ -118,14 +112,17 @@
   }
 
   function onMainRendered() {
+    mainTitle = $('#main-page')
+      .find('h1, h2, h3, h4, h5, h6')
+      .first().text();
+    document.title = mainTitle;
+    $('#disqus_thread').empty();
+    comments();
     shares();
   }
 
   function onNotFound() {
-    if (mainPage === defaultPage) {
-      throw new Error('Even `defaultPage` broken.');
-    }
-    if ($('#main-page').attr('data-loaded')) {
+    if ($('#main-page').hasAttr('data-loaded')) {
       onMainRendered();
     } else {
       location.href = '.';
@@ -185,30 +182,8 @@
   }
 
   function shares() {
-    var wxData = {
-      title: $('#sidebar-page').find('h1').text(), // 分享标题
-      desc: $('#main-page').find('h1').text(), // 分享描述
-      link: location.href, // 分享链接
-      imgUrl: entryUrl + $('#img-holder').attr('src'), // 分享图标
-      //type: '', // 分享类型,music、video或link，不填默认为link
-      //dataUrl: '', // 如果type是music或video，则要提供数据链接，默认为空
-      success: function (){ 
-        // 用户确认分享后执行的回调函数
-      },
-      cancel: function (){ 
-        // 用户取消分享后执行的回调函数
-      }
-    }
-    wx.ready(function(){
-      wx.onMenuShareAppMessage(wxData)
-      wx.onMenuShareQQ(wxData)
-      wx.onMenuShareWeibo(wxData)
-      // hack for timeline
-      wx.onMenuShareTimeline($.extend({}, wxData, {
-        title: document.title
-      }))
-      wx.showOptionMenu()
-    })
+
+    //// Optional share system
   }
 
   function start() {
@@ -243,18 +218,6 @@
     pageExt = '.md';
     pageBase = 'p/';
     defaultPage = 'tech';
-
-    wx.ready(function(){
-      wx.hideOptionMenu()
-    })
-    wx.config({
-      debug: false, // 开启调试模式,调用的所有api的返回值会在客户端alert出来，若要查看传入的参数，可以在pc端打开，参数信息会通过log打出，仅在pc端时才会打印。
-      //appId: '', // 必填，公众号的唯一标识
-      timestamp: new Date().getTime(), // 必填，生成签名的时间戳
-      //nonceStr: '', // 必填，生成签名的随机串
-      //signature: '',// 必填，签名，见附录1
-      jsApiList: [] // 必填，需要使用的JS接口列表，所有JS接口列表见附录2
-    })
   }
 
 })();
@@ -262,6 +225,7 @@
 
 ;(function(){
 
+  $('body > .duck').remove()
   var names = [
     '2010072611150872',
     '2010072611151106',
