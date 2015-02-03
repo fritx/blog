@@ -11,6 +11,14 @@
   <!-- favicon -->
   <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
 
+  <!-- url fixing -->
+  <script>
+  if (location.pathname.slice(-1) !== '/') {
+    location.href = location.origin + location.pathname +
+      '/' + location.search + location.hash;
+  }
+  </script>
+
   <!-- import vendor styles -->
   <link rel="stylesheet" href="vendor/blog.css">
 </head>
