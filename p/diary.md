@@ -1,5 +1,9 @@
 # Things Happen In My Life
 
+## [追念（BGM篇）](2015/03/memory-bgm.md)
+
+> 那些年玩过的游戏，听过的BGM……
+
 ## [写给英爷的一封信](2015/03/to-jayin.md)
 
 > 如果问我大学里有哪些遗憾，那么“邑大唱吧”项目将是一个
