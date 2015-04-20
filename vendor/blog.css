@@ -3,14 +3,22 @@ html, body {
   padding: 0;
   line-height: 1.5;
   font-size: 106%;
-  font-family: "Microsoft YaHei", sans-serif;
-  word-break: break-word;
+  /*font-family: "Microsoft YaHei", sans-serif;*/
+  font-family: "Helvetica neue",Helvetica,Tahoma,"lantinghei sc","Microsoft Yahei", sans-serif;
+  /*word-break: break-word;*/
+  word-break: break-all;
   background-color: #fff;
 }
 
 img {
   max-width: 100%;
-  height: auto;
+  /*height: auto;*/
+}
+ul, ol {
+  padding-left: 30px;
+}
+a {
+  color: rgb(0, 0, 238);
 }
 
 /* learnt from github */
@@ -89,6 +97,9 @@ blockquote {
 .main-page {
   padding-bottom: 3%;
 }
+.main-page img {
+  box-shadow: 0 0 6px rgba(0,0,0, .6);
+}
 
 .img-holder {
   position: absolute;
@@ -112,6 +123,9 @@ blockquote {
 }
 
 @media (min-width: 640px) {
+  ul, ol {
+    padding-left: 40px;
+  }
   pre {
     font-size: 80%;
   }
@@ -152,11 +166,5 @@ blockquote {
 
   .duck {
     display: block;
-  }
-}
-
-@media (max-width: 640px) {
-  ul, ol {
-    padding-left: 30px;
   }
 }

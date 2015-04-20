@@ -67,19 +67,8 @@ See what, here's a sample of the folders, and nothing else:
 
 > Thank you!
 
-- [huang's Blog](http://huangruichang.github.io)
-- [Jason's Blog](http://jacsonlee.github.io/Blog)
+- [Derek's Blog](http://derekgame2013.github.io/blog/)
+- [Huang's Blog](http://huangruichang.github.io)
+- [Jason's Blog](http://jacsonlee.github.io/Blog/)
 - [Jayden's Blog](http://iamjayden.github.io)
-- [Fritx's Blog](http://fritx.github.io/blog)
-
-## Changelog
-
-See [CHANGELOG.md](https://github.com/fritx/silent/blob/master/CHANGELOG.md)
-
-## Note
-
-*Current style is heavily learnt from [hyde](https://github.com/mdo/hyde) and Github*
-
-*Favicon is copied from [Underscore](https://github.com/jashkenas/underscore)*
-
-These may change in the future
+- [Fritx' Blog](http://fritx.github.io/blog/)

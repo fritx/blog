@@ -2,9 +2,7 @@
 
 *2014-08-17*
 
-<div id="lagou">
 <link rel="stylesheet" type="text/css" href="lagou.css">
-
 <style>
   .m_portrait img {
     -webkit-border-radius: 122px;
@@ -18,8 +16,8 @@
   }
   #previewWrapper {
     margin-left: 0;
-    width: 720px;
-    max-width: 100%;
+    width: auto;
+    max-width: 720px;
     overflow-x: hidden;
   }
   #educationalBackground .educationalShow li div {
@@ -81,7 +79,7 @@
   }
 </style>
 
-
+<div id="lagou">
 <div id="previewWrapper">
 <div class="preview_header">
 <h1 title="林亮的简历">林亮的简历</h1>
