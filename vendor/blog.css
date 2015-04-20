@@ -98,6 +98,10 @@ blockquote {
   padding-bottom: 3%;
 }
 .main-page img {
+  -webkit-box-shadow: 0 0 6px rgba(0,0,0, .6);
+  -moz-box-shadow: 0 0 6px rgba(0,0,0, .6);
+  -ms-box-shadow: 0 0 6px rgba(0,0,0, .6);
+  -o-box-shadow: 0 0 6px rgba(0,0,0, .6);
   box-shadow: 0 0 6px rgba(0,0,0, .6);
 }
 

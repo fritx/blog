@@ -1,5 +1,9 @@
 # My Talks About Techniques
 
+## [响应式设计之路](2015/04/respdesign/)
+
+> 我从小学开始接触web设计，初一开始参赛，至今已有10年web开发经历
+
 ## [Why I built fs-auth and how it works](2015/01/fs-auth.md)
 
 > But I'd never figured out a way that is flat and straightforward
