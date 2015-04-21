@@ -11,6 +11,11 @@ html, body {
   overflow: hidden;
   position: relative;
 }
+body {
+  font-family: "Helvetica neue",Helvetica,Tahoma,"lantinghei sc","Microsoft Yahei", sans-serif;
+  /*word-break: break-word;*/
+  word-break: break-all;
+}
 img {
   max-width: 100%;
 }
@@ -54,4 +59,11 @@ section>div {
   padding: 1px; /* hack */
   /*box-sizing: content-box;*/
   width: 100%;
+}
+section>div img {
+  -webkit-box-shadow: 0 0 6px rgba(0,0,0, .6);
+  -moz-box-shadow: 0 0 6px rgba(0,0,0, .6);
+  -ms-box-shadow: 0 0 6px rgba(0,0,0, .6);
+  -o-box-shadow: 0 0 6px rgba(0,0,0, .6);
+  box-shadow: 0 0 6px rgba(0,0,0, .6);
 }

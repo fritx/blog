@@ -2,11 +2,13 @@
 
 *2015-04-20*
 
-我从小学开始接触web设计，初一开始参赛，至今已有10年web开发经历，自认为对web有一定见解。
+10年web开发经历，对web有一定见解。
+
+![711](711.jpg)
 
 ## 响应式由来，概述，现状
 
-![screens](screens.png)
+<img height="360" src="screens.png">
 
 > 响应式网页设（RWD）是[Ethan Marcotte在去年5月份提出的一个概念](http://alistapart.com/article/responsive-web-design)，简而言之，就是一个网站能够兼容多个终端——而不是为每个终端做一个特定的版本。这个概念可以说是是为移动互联网而生的！
 
@@ -29,7 +31,7 @@
 - 小屏 >> 中屏 >> 大屏（移动优先）
 - 小屏 << 中屏 >> 大屏
 
-### 响应分级
+### 响应式分级
 
 - 基础响应式：内容完整呈现
 - 进阶响应式：+基本美感协调
@@ -44,13 +46,8 @@
 - 列数增减
 - 板块排布
 - 部件改编
-- 渐进协调
 
 ### 高宽伴随/设限，边距/留白，字体大小
-
-<img height="360" src="1min-songlist-xs.png">
-&nbsp;&nbsp;&nbsp;&nbsp;
-<img height="360" src="1min-songlist-md.png">
 
 <img height="290" src="1min-song-xs.png">
 &nbsp;&nbsp;&nbsp;&nbsp;
@@ -74,25 +71,19 @@
 
 （演示：[深圳商擎顾问](http://fritx.github.io/sites/bec/)，源码：[fritx/sites](https://github.com/fritx/sites)）
 
-### 部件改编
+### 部件改编（1）
 
 <img height="250" src="blog-post-xs.png">
 &nbsp;&nbsp;&nbsp;&nbsp;
 <img height="250" src="blog-post-md.png">
+
+### 部件改编（2）
 
 <img height="250" src="bec-boss-xs.png">
 &nbsp;&nbsp;&nbsp;&nbsp;
 <img height="250" src="bec-boss-sm.png">
 
 <img height="250" src="bec-boss-sm1.png">
-
-### 渐进协调
-
-<img height="250" src="bec-boss-sm1.png">
-
-<img height="250" src="bec-boss-md.png">
-
-<img height="280" src="bec-boss-lg.png">
 
 ## 谢谢！
 
