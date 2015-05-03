@@ -77,11 +77,11 @@ article {
 
 但对于特别长的评论，就显得有些奇怪。
 
-<img width="240" src="verticalmid-10.png">
+<img width="160" src="verticalmid-10.png">
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<img width="240" src="verticalmid-11.png">
+<img width="160" src="verticalmid-11.png">
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<img width="240" src="verticalmid-12.png">
+<img width="160" src="verticalmid-12.png">
 
 于是，我决定取消垂直居中，强行实现原本top:17px的效果。
 
@@ -110,11 +110,11 @@ article {
 }
 ```
 
-<img width="240" src="verticaltop-10.png">
+<img width="160" src="verticaltop-10.png">
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<img width="240" src="verticaltop-11.png">
+<img width="160" src="verticaltop-11.png">
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<img width="240" src="verticaltop-12.png">
+<img width="160" src="verticaltop-12.png">
 
 ## 解决audio宽度溢出hack
 
