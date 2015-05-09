@@ -1,5 +1,9 @@
 # Things Happen In My Life
 
+## [silent项目一周年](2015/05/silent-one-year-old/)
+
+> silent不是我在github的第一个项目，但绝对是生命力最持久，收获眼球最多的一个。
+
 ## [写给英爷的一封信](2015/03/to-jayin.md)
 
 > 如果问我大学里有哪些遗憾，那么“邑大唱吧”项目将是一个

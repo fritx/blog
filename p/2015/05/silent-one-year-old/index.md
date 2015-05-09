@@ -1,0 +1,87 @@
+# silent项目一周年
+
+*2015-05-09*
+
+> silent不是我在github的第一个项目，但绝对是生命力最持久，收获眼球最多的一个。
+
+<style>
+  .-silent {
+    height: 70px;
+    line-height: 70px;
+    background-color: #2a2a2a;
+    color: #fff;
+    text-align: center;
+    font-size: 36px;
+    letter-spacing: 4px;
+  }
+  .-silent span {
+    color: orange;
+  }
+</style>
+<div class="-silent">
+  si<span>1</span>ent
+</div>
+<img src="silent.png" style="position:absolute;left:-9999px;top:-9999px">
+
+（Designed by: @huangruichang）
+
+silent是什么？silent是一个轻量级的静态博客框架，拥有自己的一套载入机制和“哲学”。
+
+可以说，silent伴我走过了大学里几乎是最后的一段时光，充满艰辛和回味的一年，始终和我一同成长着。从最初的宿舍楼范围内的苦力推销，到如今，我十分欣慰地看到，silent思想被越来越多的人接纳和传扬。
+
+那么，就让我们回顾一下silent的历程吧：
+
+去年5月8日，我发布了[silent][1]的第一个版本，还有我自己的博客（[fritx.github.io/blog][3]）
+
+5月9日，@IamJayden同学使用silent搭建了博客（[IamJayden.github.io/Blog][4]）
+
+5月14日，@jacsonLee同学使用silent搭建了博客（[jacsonLee.github.io/Blog][5]）
+
+5月19日，@huangruichang同学使用silent搭建了博客（[huangruichang.github.io][6]）
+
+5月24日，路人@7c00使用silent搭建了博客（[7c00.github.io/b14][9]），并一度对silent进行了客观评价（值得思考）
+
+9月11日，@Derekgame2013同学使用silent搭建了博客（[Derekgame2013.github.io/blog][7]）
+
+10月14日，@Jayin同学发布了silent的分支[silentor][2]，搭建了博客（[Jayin.github.io][8]），助力了silent思想的传承和发展。
+
+非常感谢你们！
+
+<style>
+.-avatar{
+  width:38px;
+  -webkit-border-radius:48px;
+  -moz-border-radius:48px;
+  -ms-border-radius:48px;
+  -o-border-radius:48px;
+  border-radius:48px;
+  }
+</style>
+<img class="-avatar" src="jayden.png">
+&nbsp;&nbsp;
+<img class="-avatar" src="jacson.jpg">
+&nbsp;&nbsp;
+<img class="-avatar" src="chang.jpg">
+&nbsp;&nbsp;
+<img class="-avatar" src="todd.gif">
+&nbsp;&nbsp;
+<img class="-avatar" src="derek.jpg">
+&nbsp;&nbsp;
+<img class="-avatar" src="jayin.jpg">
+
+其实silent这个词（静默），跟我本人有着很大的对比。我有着一个高调的、热衷于装逼的性格。我时常为了点技术的事跟人争得不可开交，我还时常急于把尚不明确的点子与人分享，每写出一点代码，我就会大肆宣扬，巴不得所有人都看见。
+
+但正是这种狂傲不羁的性格，驱使着我在代码分享的道路上不断前行。到现在，[我在github][10]已经发布了58份代码，收获57颗星，29次fork。装逼无罪，如果你足够热爱，那么请你尽情释放，做张扬的自己。
+
+然而眼下，有那么一些事情正等着我去做，我知道，有些机会我必须把握。如果一些事情对你来说非常重要，那么也请你低调地把它做好！我是林亮，我为silent代言。
+
+[1]: https://github.com/fritx/silent
+[2]: https://github.com/Meizhuo/silentor
+[3]: http://fritx.github.io/blog/
+[4]: http://IamJayden.github.io
+[5]: http://jacsonLee.github.io/Blog/
+[6]: http://huangruichang.github.io
+[7]: http://Derekgame2013.github.io/blog/
+[8]: http://jayin.github.io
+[9]: http://7c00.github.io/b14/
+[10]: https://github.com/fritx
