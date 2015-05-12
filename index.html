@@ -14,7 +14,7 @@
   <!-- url fixing -->
   <script>
   if (location.pathname.slice(-1) !== '/') {
-    location.href = location.origin + location.pathname +
+    location.href = location.origin + location.pathname.replace(/\/index\.html?$/, '') +
       '/' + location.search + location.hash;
   }
   </script>
