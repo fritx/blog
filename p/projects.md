@@ -1,5 +1,9 @@
 # Projects That I Work In
 
+## [wxchangba - 微信唱吧](projects/wxchangba/README.md)
+
+> 基于node.js和微信jssdk的校园轻应用[微信唱吧]
+
 ## [emshop - 江门邮政微商城](projects/emshop/)
 
 > Another online shop(mall) highly adapted to mobiles

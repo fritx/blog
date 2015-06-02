@@ -1,9 +1,5 @@
 # My Talks About Techniques
 
-## [跟我一起来升级#在线云频道#（1）](2015/05/channel-dev-together-01/)
-
-> \#在线云频道\#，是继承自\#微信话题墙\#创意的又一尝试
-
 ## [Why I built fs-auth and how it works](2015/01/fs-auth.md)
 
 > But I'd never figured out a way that is flat and straightforward
