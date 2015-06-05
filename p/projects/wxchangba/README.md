@@ -25,7 +25,7 @@
 - 执行构建任务
 - 以特定环境运行, 如dev/test/production, 默认dev
 
-```
+```shell
 $ npm install --global gulp bower
 $ git clone git@github.com:fritx/wxchangba.git
 $ cd wxchangba

@@ -34,7 +34,7 @@ n0gx的工作方式：
 
 n0gx更多的是作为命令行工具使用，npm全局安装：
 
-```
+```shell
 $ npm i -g n0gx
 ```
 
@@ -60,13 +60,13 @@ $ npm i -g n0gx
 
 启动n0gx：
 
-```
+```shell
 $ n0gx ./n0gx.conf
 ```
 
 如果你使用pm2管理node进程：
 
-```
+```shell
 $ which n0gx
 > /root/local/bin/n0gx
 $ pm2 start /root/local/bin/n0gx -- ./n0gx.conf
@@ -74,7 +74,7 @@ $ pm2 start /root/local/bin/n0gx -- ./n0gx.conf
 
 [Unitech/PM2#917](https://github.com/Unitech/PM2/issues/917#issuecomment-68645387)我已经提了，相信不久后就可以直接：
 
-```
+```shell
 $ pm2 start n0gx -- ./n0gx.conf
 ```
 

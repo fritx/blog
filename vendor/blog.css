@@ -25,14 +25,15 @@ a {
 /* learnt from github */
 pre, code {
   font-family: Consolas, "Liberation Mono", Courier, monospace, sans-serif;
-  background-color: #f8f8f8;
-  border: 1px solid #ddd;
+  background-color: #f7f7f7;
   border-radius: 3px;
 }
 pre {
   padding: 6px 10px;
+  margin: 0;
   overflow: auto;
   word-break: normal;
+  word-wrap: normal;
   font-size: 60%;
   line-height: 160%;
 }
@@ -40,7 +41,7 @@ code {
   padding: 2px 5px;
   margin: 0 2px;
 }
-pre > code {
+pre code {
   border: none;
   background-color: inherit;
   padding: 0;

@@ -106,6 +106,10 @@
             });
           });
 
+          $el.find('pre code').each(function(i, el){
+            hljs.highlightBlock(el)
+          })
+
           $el.show().addAttr('data-loaded');
           if (isMain) onMainRendered();
           if (callback) callback();
