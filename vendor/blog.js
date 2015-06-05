@@ -31,7 +31,10 @@
           stack.replace(/\/$/, '')
         ];
       } else {
-        stack = [stack];
+        stack = [
+          stack,
+          stack + '/index'
+        ];
       }
     }
 
