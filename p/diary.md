@@ -1,5 +1,9 @@
 # Things Happen In My Life
 
+## [亮爷的毕业致谢](2015/06/graduation-thanks.md)
+
+> 在我的毕业论文即将完成之际，我想要好好地感谢，感谢那些陪伴过我、支持过我的人。
+
 ## [silent项目一周年](2015/05/silent-one-year-old/)
 
 > silent不是我在github的第一个项目，但绝对是生命力最持久，收获眼球最多的一个。
