@@ -1,11 +1,11 @@
 # 微信唱吧 `wxchangba`
 
-**Github仓库: <https://github.com/fritx/wxchangba>**
+基于node.js和微信jssdk的校园轻应用, 入口: <http://changba.wx.fritx.me>
 
 - 历史仓库: (邑大唱吧) <https://github.com/fritx/wyu-sing>
 - 0.1.x版本: (一分钟歌声) <https://github.com/fritx/wxchangba/tree/0.1.x>
+- 当前版本: (微信唱吧) <https://github.com/fritx/wxchangba>
 - 新版本架构基于: (在线云频道) <https://github.com/fritx/channel>
-- 微信唱吧入口: <http://changba.wx.fritx.me>
 
 ## 技术采用
 
@@ -22,7 +22,7 @@
 - 进入目录, 安装npm/bower依赖
 - 复制demo文件
 - 自定义config文件
-- 执行构建任务
+- 执行gulp构建
 - 以特定环境运行, 如dev/test/production, 默认dev
 
 ```shell
@@ -42,23 +42,23 @@ $ NODE_ENV=dev node .
 
 ### 手机屏幕
 
-<img width="150" src="pic/songlist-phone-0.png">&nbsp;&nbsp;&nbsp;
-<img width="150" src="pic/songlist-phone-1.png">&nbsp;&nbsp;&nbsp;
-<img width="150" src="pic/song-phone-0.png">&nbsp;&nbsp;&nbsp;
-<img width="150" src="pic/song-phone-1.png">
+<img width="150" src="pic/xs-songlist-0.png">&nbsp;&nbsp;&nbsp;
+<img width="150" src="pic/xs-songlist-1.png">&nbsp;&nbsp;&nbsp;
+<img width="150" src="pic/xs-song-0.png">&nbsp;&nbsp;&nbsp;
+<img width="150" src="pic/xs-song-1.png">
 
 ### 平板屏幕
 
-<img width="200" src="pic/songlist-tablet-0.png">&nbsp;&nbsp;&nbsp;
-<img width="200" src="pic/songlist-tablet-1.png">&nbsp;&nbsp;&nbsp;
-<img width="200" src="pic/song-tablet-0.png">
+<img width="200" src="pic/md-songlist-0.png">&nbsp;&nbsp;&nbsp;
+<img width="200" src="pic/md-songlist-1.png">&nbsp;&nbsp;&nbsp;
+<img width="200" src="pic/md-song-0.png">
 
 ### 歌单播放 / 微信内网页录音
 
-<img width="150" src="pic/playlist-0.png">&nbsp;&nbsp;&nbsp;
-<img width="150" src="pic/playlist-1.png">&nbsp;&nbsp;&nbsp;
-<img width="150" src="pic/wx-record-0.png">&nbsp;&nbsp;&nbsp;
-<img width="150" src="pic/wx-record-1.png">
+<img width="150" src="pic/xs-playlist-0.png">&nbsp;&nbsp;&nbsp;
+<img width="150" src="pic/xs-playlist-1.png">&nbsp;&nbsp;&nbsp;
+<img width="150" src="pic/xs-wxrecord-0.png">&nbsp;&nbsp;&nbsp;
+<img width="150" src="pic/xs-wxrecord-1.png">
 
 ### 管理平台
 

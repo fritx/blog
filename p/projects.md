@@ -2,7 +2,7 @@
 
 ## [wxchangba - 微信唱吧](projects/wxchangba/README.md)
 
-> 基于node.js和微信jssdk的校园轻应用[微信唱吧]
+> 基于node.js和微信jssdk的校园轻应用
 
 ## [emshop - 江门邮政微商城](projects/emshop/)
 
