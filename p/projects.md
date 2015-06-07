@@ -4,6 +4,10 @@
 
 > 基于node.js和微信jssdk的校园轻应用
 
+## [markppt - Markdown转Slides](projects/markppt/README.md)
+
+> 一篇markdown，一份ppt。
+
 ## [emshop - 江门邮政微商城](projects/emshop/)
 
 > Another online shop(mall) highly adapted to mobiles
