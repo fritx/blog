@@ -8,7 +8,7 @@
 
 > Another online shop(mall) highly adapted to mobiles
 
-## [silent - 静态博客模板工具](projects/silent/)
+## [silent - 静态博客模板工具](projects/silent/README.md)
 
 > Be a silent, static blog
 
