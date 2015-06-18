@@ -224,7 +224,7 @@
 
     pageExt = '.md';
     pageBase = 'p/';
-    defaultPage = 'tech';
+    defaultPage = 'diary';
   }
 
 })();
