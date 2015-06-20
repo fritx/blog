@@ -10,7 +10,7 @@
 
 ## [使用n0gx进行内部转发](2015/01/use-n0gx.md)
 
-> nginx配置看着蛋疼，我一直想用node实现一个，于是有n0gx
+> nginx配置看着蛋疼，我一直想用node实现一个，于是有了n0gx
 
 ## [Free Your HTML/BODY Tags](2014/10/free-your-html-body-tags.md)
 

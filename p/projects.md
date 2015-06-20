@@ -6,7 +6,7 @@
 
 ## [markppt - Markdown转Slides](projects/markppt/README.md)
 
-> 一篇markdown，一份ppt。
+> 一篇markdown，一份ppt
 
 ## [emshop - 江门邮政微商城](projects/emshop/)
 

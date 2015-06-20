@@ -4,24 +4,7 @@
 
 > silent不是我在github的第一个项目，但绝对是生命力最持久，收获眼球最多的一个。
 
-<style>
-  .-silent {
-    height: 70px;
-    line-height: 70px;
-    background-color: #2a2a2a;
-    color: #fff;
-    text-align: center;
-    font-size: 36px;
-    letter-spacing: 4px;
-  }
-  .-silent span {
-    color: orange;
-  }
-</style>
-<div class="-silent">
-  si<span>1</span>ent
-</div>
-<img src="silent.png" style="position:absolute;left:-9999px;top:-9999px">
+![si1ent](../../../projects/silent/pic/si1ent.png)
 
 （Designed by: **@huangruichang**）
 
@@ -30,6 +13,8 @@ silent是什么？**silent是一款极简的轻量级静态博客框架**，拥�
 silent开启了我的极简主义之路，从此一发不可收拾，我的大脑无法再接收复杂的东西。
 
 可以说，silent伴我走过了大学里几乎是最后的一段时光，充满艰辛和回味的一年，始终和我一同成长着。从最初的宿舍楼范围内的苦力推销，到如今我欣慰地看到，silent思想被越来越多的人接纳和传扬。
+
+<img src="../../../projects/silent/pic/Screenshot_from_2014-05-08_01-50-42.png" width="360">
 
 那么，就让我们回顾一下silent的历程吧：
 

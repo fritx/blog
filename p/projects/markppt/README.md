@@ -16,7 +16,7 @@
 点击查看演示
 
 - [My Talk](examples/mytalk/talk.md.html)
-- [gulp-eol bug之总结](examples/gulpeol/gulp-eol-bug.md.html)
+- [gulp-eol bug修复之总结](examples/gulpeol/gulp-eol-bug.md.html)
 
 ```shell
 $ npm i -g markppt   # 从npm安装

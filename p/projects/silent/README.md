@@ -5,6 +5,7 @@
 > Be a silent, static blog
 
 Live Demo: <http://fritx.github.io/silent><br>
+Source Code: <https://github.com/fritx/silent><br>
 Also, a branch by @Jayin: [Meizhuo/silentor](https://github.com/Meizhuo/silentor)
 
 ## Silent One-Year Old
