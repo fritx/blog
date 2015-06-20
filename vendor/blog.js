@@ -78,6 +78,10 @@
                 $el.attr('target', '_blank');
                 return old;
               }
+              if (/^\?/.test(old)) {
+                // supports in-site ?-search
+                return old;
+              }
               var prefixed = resolve(dir + old);
               var hashRegex = new RegExp('#.*');
               var hash = (function (match) {
