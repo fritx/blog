@@ -6,15 +6,28 @@
 
 > Life is short, I use JS
 
-## Major
+## Skills
 
 - Node.js / JavaScript Programming
 - Website Design (CSS / HTML)
 
-## College Studying In
+## Graduating From
 
-CS College in WYU, China
+- Major of Software Engineering
+- College of Computer-Science, WYU, China
 
 ## On Github
 
-[@fritx](https://github.com/fritx)
+[@fritx](https://github.com/fritx) (Followers: 30+, Stars: 90+, Forks: 60+)
+
+## Friends
+
+- [Jayin Blog](http://Jayin.github.io)
+- [Jason's Blog](http://JacsonLee.github.io/Blog/)
+- [huang's Blog](http://huangruichang.github.io)
+- [简智峣的博客](http://ankerjam.sinaapp.com)
+- [NovemberEleven](http://skyhacker2.github.io/blog/)
+
+## Blog Powered By
+
+An Entire Static Blog Framework: [silent](https://github.com/fritx/silent)
