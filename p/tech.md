@@ -1,5 +1,9 @@
 # My Talks About Techniques
 
+## [编码风格与人性](2015/08/coding-style.md)
+
+> 每个程序员都有自己的想法，我们应该尊重他们。
+
 ## [Why I built fs-auth and how it works](2015/01/fs-auth.md)
 
 > But I'd never figured out a way that is flat and straightforward
