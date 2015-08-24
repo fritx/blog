@@ -1,5 +1,9 @@
 # My Talks About Techniques
 
+## [node.js技术交流会](2015/08/nodejs-talk/index.html)
+
+> 创新 开源 激进 全栈
+
 ## [编码风格与人性](2015/08/coding-style.md)
 
 > 每个程序员都有自己的想法，我们应该尊重他们。
