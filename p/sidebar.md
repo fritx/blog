@@ -5,5 +5,6 @@
 - [Tweets](tweets.md)
 - [Diary](diary.md)
 - [Techniques](tech.md)
+- [Liang Weekly](weekly/)
 - [Projects](projects.md)
 - [About Me](aboutme.md)
