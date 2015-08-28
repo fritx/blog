@@ -22,31 +22,24 @@ a {
   color: rgb(0, 0, 238);
 }
 
-/* learnt from github */
-pre, code {
-  font-family: Consolas, "Liberation Mono", Courier, monospace, sans-serif;
-  background-color: #f7f7f7;
-  border-radius: 3px;
-}
 pre {
-  padding: 6px 10px;
-  margin: 0;
-  overflow: auto;
-  word-break: normal;
-  word-wrap: normal;
-  font-size: 60%;
-  line-height: 160%;
+  word-break: break-all;
 }
 code {
-  padding: 2px 5px;
+  background: #232323;
+  color: #e6e1dc;
+  -webkit-border-radius: 6px; /* 同scroller圆角 */
+  border-radius: 6px;
+  padding: 4px 6px;
   margin: 0 2px;
 }
-pre code {
-  border: none;
-  background-color: inherit;
-  padding: 0;
-  margin: 0;
+pre code, pre code.hljs {
+  display: block;
+  overflow-x: auto;
+  padding: 0.6em 1em;
 }
+
+/* learnt from github */
 table {
   font-size: 80%;
   width: 100%;
@@ -131,9 +124,6 @@ blockquote {
 @media (min-width: 640px) {
   ul, ol {
     padding-left: 40px;
-  }
-  pre {
-    font-size: 80%;
   }
   table {
     font-size: 100%;
