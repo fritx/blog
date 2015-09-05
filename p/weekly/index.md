@@ -1,6 +1,12 @@
 # 亮爷Weekly
 
-### [亮爷Weekly 0828期 首发](150828.md)
+### [亮爷Weekly 0904](150904.md)
+
+> 如何正确地下载electron  
+node实现进程管理工具 如何在win上静默地spawn  
+electron之script标签与jquery加载
+
+### [亮爷Weekly 0828 首发](150828.md)
 
 > electron打包之坑 node_modules查找顺序反转  
 node-sqlite3编译于electron(iojs)之解决历程  
