@@ -22,6 +22,9 @@ a {
   color: rgb(0, 0, 238);
 }
 
+/* 隐藏局部滚动条 样式兼容问题 */
+pre code::-webkit-scrollbar, table::-webkit-scrollbar{display:none;}
+
 pre {
   word-break: break-all;
 }
@@ -93,11 +96,11 @@ blockquote {
   padding-bottom: 3%;
 }
 .main-page img {
-  -webkit-box-shadow: 0 0 6px rgba(0,0,0, .6);
+  /*-webkit-box-shadow: 0 0 6px rgba(0,0,0, .6);
   -moz-box-shadow: 0 0 6px rgba(0,0,0, .6);
   -ms-box-shadow: 0 0 6px rgba(0,0,0, .6);
   -o-box-shadow: 0 0 6px rgba(0,0,0, .6);
-  box-shadow: 0 0 6px rgba(0,0,0, .6);
+  box-shadow: 0 0 6px rgba(0,0,0, .6);*/
 }
 
 .img-holder {
