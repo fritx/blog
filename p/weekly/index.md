@@ -1,5 +1,14 @@
 # 亮爷Weekly
 
+## [亮爷Weekly 1009+1016](151016.md)
+
+> [1016] nw弹窗 show/hide 去动画 位置hack  
+[1016] nw截图 添加了 多屏幕支持  
+[1015] Passwordless登录  
+[1013] mac上screencapture被禁及hack解决  
+[1006] nightmare yield之谜  
+[1002] linux下 electron-prebuilt全局安装失败
+
 ## [亮爷Weekly 0918+0925+1002](151002.md)
 
 > [0930] 判断文字选中+主动选中文字  
