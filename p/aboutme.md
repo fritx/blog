@@ -11,22 +11,22 @@
 - Node.js / JavaScript Programming
 - Website Design (CSS / HTML)
 
-## Graduating From
+## Graduated From
 
 - Major of Software Engineering
-- College of Computer-Science, WYU, China
+- College of Computer-Science, WYU
 
 ## On Github
 
-[@fritx](https://github.com/fritx) (Followers: 30+, Stars: 90+, Forks: 60+)
+(Followers/Stars/Forks: 61/166/63) [@fritx](https://github.com/fritx)
 
 ## Friends
 
 - [Jayin Blog](http://Jayin.github.io)
 - [Jason's Blog](http://JacsonLee.github.io/Blog/)
-- [huang's Blog](http://huangruichang.github.io)
-- [简智峣的博客](http://ankerjam.sinaapp.com)
-- [NovemberEleven](http://skyhacker2.github.io/blog/)
+- [Huang's Blog](http://huangruichang.github.io)
+- [JZY's Blog](http://ankerjam.sinaapp.com)
+- [Eleven's Blog](http://skyhacker2.github.io/blog/)
 
 ## Blog Powered By
 

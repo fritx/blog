@@ -1,6 +1,6 @@
 # My Talks About Techniques
 
-## [node.js技术交流会](2015/08/nodejs-talk/index.html)
+## [node.js技术交流会](2015/08/nodejs-talk/)
 
 > 创新 开源 激进 全栈
 
