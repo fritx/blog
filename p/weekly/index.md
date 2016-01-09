@@ -1,5 +1,13 @@
 # 亮爷Weekly
 
+## [亮爷Weekly 0109](160109.md)
+
+> [0109] css文本截断 转省略号  
+[0108] react代码粘贴 字符串style dropin替换方案  
+[0104] nw中触发react-redux解绑  
+[1229] eslint custom rule/plugin  
+[1204] number类型input 不支持selection
+
 ## [亮爷Weekly 1106+1113+1120](151120.md)
 
 > [1121] 尝试做个象棋(2): 棋盘+棋子  
