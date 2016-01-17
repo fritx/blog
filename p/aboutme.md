@@ -18,7 +18,7 @@
 
 ## On Github
 
-(Followers/Stars/Forks: 61/166/63) [@fritx](https://github.com/fritx)
+(Followers/Stars/Forks: 77/194/69) [@fritx](https://github.com/fritx)
 
 ## Friends
 
