@@ -1,5 +1,9 @@
 # My Talks About Techniques
 
+## [nw.js代码保护术](2016/01/nwjs-code-protection/)
+
+> 兵来将挡，水来土掩。
+
 ## [node.js技术交流会](2015/08/nodejs-talk/)
 
 > 创新 开源 激进 全栈

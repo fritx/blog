@@ -1,5 +1,9 @@
 # 亮爷Weekly
 
+## [亮爷Weekly 0116](../2016/01/nwjs-code-protection.md)
+
+> nw.js代码保护术
+
 ## [亮爷Weekly 0109](160109.md)
 
 > [0109] css文本截断 转省略号  
