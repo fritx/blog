@@ -60,7 +60,7 @@ nw启动时，解析package.json，访问页面index.html，继而加载bundle.j
 
 
 
-<img src="nwjs-code-protect.png">
+<img src="flow.png">
 
 如上图所示，我们在发版构建过程完成以下任务即可：
 
