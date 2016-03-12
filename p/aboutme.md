@@ -18,11 +18,11 @@
 
 ## On Github
 
-(Followers/Stars/Forks: 89/231/83) [@fritx](https://github.com/fritx)
+(Followers/Stars/Forks: 91/254/90) [@fritx](https://github.com/fritx)
 
 ## Friends
 
-[Jayin][1], [Jason][2], [Huang][3], [JZY][4], [Eleven][5], etc.
+[Jayin][1], [Jason][2], [Huang][3], [JZY][4], [Eleven][5], etc
 
 ## Blog Powered By
 

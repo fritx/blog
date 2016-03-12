@@ -1,5 +1,13 @@
 # 亮爷Weekly
 
+## [亮爷Weekly 0312](160312.md)
+
+> [0312] electron报错 同名node_module依赖坑  
+[0310] terminal隐藏/修改前缀显示  
+[0308] 漫长的努力 不离不弃 最终似乎解决了  
+[0307] Why prompt is not supported? 好像很有学问的样子  
+[0304] 更正url正则匹配
+
 ## [亮爷Weekly 0227](160227.md)
 
 > [0227] 不知会不会被叼 但觉得自己帅呆了  
