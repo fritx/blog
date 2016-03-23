@@ -1,11 +1,13 @@
 # silent
 
+<a href="https://github.com/fritx/silent"><img src="../github-badge.svg" width="85" height="20"></a>
+&nbsp;&nbsp;<a href="https://gitter.im/fritx"><img src="../gitter-badge.svg" width="99" height="20"></a>
+
 <img src="pic/si1ent.png">
 
 > Be a silent, static blog
 
 Live Demo: <http://fritx.github.io/silent><br>
-Source Code: <https://github.com/fritx/silent><br>
 Also, a branch by @Jayin: [Meizhuo/silentor](https://github.com/Meizhuo/silentor)
 
 ## Silent One-Year Old

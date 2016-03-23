@@ -1,5 +1,8 @@
 # 微信唱吧 `wxchangba`
 
+<a href="https://github.com/fritx/wxchangba"><img src="../github-badge.svg" width="85" height="20"></a>
+&nbsp;&nbsp;<a href="https://gitter.im/fritx"><img src="../gitter-badge.svg" width="99" height="20"></a>
+
 基于node.js和微信jssdk的校园轻应用, 入口: <http://changba.wx.fritx.me>
 
 - 历史仓库: (邑大唱吧) <https://github.com/fritx/wyu-sing>

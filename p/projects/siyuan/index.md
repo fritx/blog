@@ -1,8 +1,8 @@
 # siyuan - 思源校友群App
 
-An SNS backend framework, with Node and MySQL
+<a href="https://github.com/node-fun/siyuan"><img src="../github-badge.svg" width="85" height="20"></a>
 
-**Source code: <https://github.com/node-fun/siyuan>**
+An SNS backend framework, with Node and MySQL
 
 ## Screenshots
 

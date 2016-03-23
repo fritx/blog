@@ -1,8 +1,9 @@
 # mshop - 邑大闺蜜GreatMe专卖
 
-> An online shop adapted to mobile
+<a href="https://github.com/fritx/mshop"><img src="../github-badge.svg" width="85" height="20"></a>
+&nbsp;&nbsp;<a href="https://gitter.im/fritx"><img src="../gitter-badge.svg" width="99" height="20"></a>
 
-**Source code: <https://github.com/fritx/mshop>**
+> An online shop adapted to mobile
 
 ## Features
 

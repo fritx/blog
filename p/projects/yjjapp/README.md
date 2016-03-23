@@ -1,5 +1,7 @@
 ﻿## 演讲家App
 
+<a href="https://github.com/3dobe/yjjapp"><img src="../github-badge.svg" width="85" height="20"></a>
+
 一个连接讲端和听端，催化各类互动环节的演讲应用
 
 - 3dobe, 2013软件设计大赛
