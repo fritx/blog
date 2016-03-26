@@ -1,5 +1,14 @@
 # 亮爷Weekly
 
+## [亮爷Weekly 0326](160326.md)
+
+> [0326] screencat远程协助 实现mouseup/down 而不仅是click  
+[0321] mac ctrl+cmd+空格 呼出自带emoji面板  
+[0320] 代码片段proxy 实现source代理target的部分属性/方法 简化使用  
+[0318] JS触发keyboard事件 stackoverflow上很多KeyboardEvent的 都用不了  
+[0317] 使用tiny-ipc实现通讯 nw不支持process/ipc  
+[0315] nw错误捕获 输送console 并记录日志
+
 ## [亮爷Weekly 0312](160312.md)
 
 > [0312] electron报错 同名node_module依赖坑  
