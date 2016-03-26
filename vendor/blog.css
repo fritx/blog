@@ -4,7 +4,8 @@ html, body {
   line-height: 1.5;
   font-size: 106%;
   /*font-family: "Microsoft YaHei", sans-serif;*/
-  font-family: "Helvetica neue",Helvetica,Tahoma,"lantinghei sc","Microsoft Yahei", sans-serif;
+  /*font-family: "Helvetica neue",Helvetica,Tahoma,"lantinghei sc","Microsoft Yahei", sans-serif;*/
+  font-family: "Helvetica neue", "Microsoft Yahei", sans-serif;
   word-break: break-word;
   /* word-break: break-all; */
   background-color: #fff;
