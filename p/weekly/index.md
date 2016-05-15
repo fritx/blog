@@ -1,5 +1,16 @@
 # 亮爷Weekly
 
+## [亮爷Weekly 0514](160514.md)
+
+> [0515] shebang换行必须不能出现'\r'  
+[0514] bash解析文本并批量操作  
+[0513] What is 'echo "text" >&2' in bash ?  
+[0513] nwjs mac上 fileDialog 选择保存路径 默认勾选"Hide extension"  
+[0512] contenteditable editor的一些细节修复记录  
+[0506] nw取消默认AppData/Local保存路径  
+[0506] tmp目录会系统自动清理吗？  
+[0505] 文本框光标移至尾部
+
 ## [亮爷Weekly 0430](160430.md)
 
 > [0427] cross-unzip抢注事件  
