@@ -1,5 +1,15 @@
 # 亮爷Weekly
 
+## [亮爷Weekly 0604](160604.md)
+
+> [0603] mongoose validation 报错 String(err) 完整信息 且容错性好  
+[0602] 可选但隐藏&显示但不可选 css技巧  
+[0601] 移动端结合weui 滚动相关bug解决  
+[0531] Vue动态调用filter  
+[0519] 不知如何保证图片无法被复制/粘贴  
+[0517] windows cmd piping like unix  
+[0516] circle ci test on multiple node versions
+
 ## [亮爷Weekly 0514](160514.md)
 
 > [0515] shebang换行必须不能出现'\r'  
