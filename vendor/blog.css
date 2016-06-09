@@ -23,6 +23,11 @@ a {
   color: rgb(0, 0, 238);
 }
 
+code, kbd, pre, samp { /* normalize.css */
+  font-family: monospace, monospace;
+  font-size: 1em;
+}
+
 /* 隐藏局部滚动条 样式兼容问题 */
 pre code::-webkit-scrollbar, table::-webkit-scrollbar{display:none;}
 
