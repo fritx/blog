@@ -1,5 +1,14 @@
 # 亮爷Weekly
 
+## [亮爷Weekly 0625](160625.md)
+
+> [0623] uglifyjs压缩 支持es6 解决方案  
+[0622] 有同学问到babel怎么配置async/await  
+[0620] 基于async/await的头像下载队列  
+[0614] Vue v-link未转es2015 存在浏览器兼容隐患  
+[0614] Vue label@click 受到子input"反弹"  
+[0608] react @catchable render等方法容错  
+
 ## [亮爷Weekly 0604](160604.md)
 
 > [0603] mongoose validation 报错 String(err) 完整信息 且容错性好  
