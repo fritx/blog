@@ -201,6 +201,11 @@
     var seg = location.search.slice(1)
       .replace(/&.*$/g, '')
 
+    // fucking wechat again
+    // like /?graduation-thanks=
+    // or /?graduation-thanks=/ (SublimeServer)
+    seg = seg.replace(/=[\/\\]*$/, '')
+
     // fucking wechat pending
     // like /?from=singlemessage&isappinstalled=0
     if (/=/.test(seg)) seg = null
