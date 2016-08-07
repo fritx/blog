@@ -1,4 +1,4 @@
-# Things Happen In My Life
+# Things Happening In My Life
 
 ## [2016 写在年初](2016/01/new-year-2016.md)
 

@@ -43,6 +43,7 @@ code {
   border-radius: 6px;
   padding: 4px 6px;
   margin: 0 2px;
+  font-size: 80%;
 }
 pre code, pre code.hljs {
   display: block;
