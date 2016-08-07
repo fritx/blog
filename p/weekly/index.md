@@ -1,5 +1,14 @@
 # 亮爷Weekly
 
+## [亮爷Weekly 0716](160716.md)
+
+> [0708] 自实现moment 日期格式化<br>
+[0708] 表单提取 jquery.serializeObject<br>
+[0708] url-search-params<br>
+[0707] ios滚动回弹 scrollfix改良 借用jquery<br>
+[0630] 简单的api/basic-auth, koa+vue<br>
+[0629] Vue中html标签内首尾空白符丢失
+
 ## [亮爷Weekly 0625](160625.md)
 
 > [0623] uglifyjs压缩 支持es6 解决方案  
