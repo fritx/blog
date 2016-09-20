@@ -1,5 +1,14 @@
 # 亮爷Weekly
 
+## [亮爷Weekly 0903](160903.md)
+
+> [0830] 文件消息 根据文件后缀 判断文件图标<br>
+[0830] await t2p callback转promise<br>
+[0825] sqlite3 js函数重写 传参pswd<br>
+[0817] 参照qq 拖拽文件发送 拖拽单图粘贴<br>
+[0815] 图片尺寸等比例缩放算法<br>
+[0720] nw drag事件相关优化
+
 ## [亮爷Weekly 0716](160716.md)
 
 > [0708] 自实现moment 日期格式化<br>
