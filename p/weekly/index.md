@@ -3,12 +3,12 @@
 ## [亮爷Weekly 1015](161015.md)
 
 > [1013] css webkit-line-clamp 文本截断支持多行<br>
-[1012] shell 批量重命名 user_* => base_*<br>
+[1012] shell 批量重命名 user\_\* => base\_\*<br>
 [1011] sqlite sql转义 + 单条insert迁移db<br>
 [1010] 运行时 拓展modulePaths hack<br>
 [1009] npm build-from-source target参数传递<br>
 [0927] 复制/粘贴/发送 图片/文件 交互<br>
-[0920] mac打包*.pkg相关命令<br>
+[0920] mac打包\*.pkg相关命令<br>
 [0929] 更正[0905]mac base64及finder粘贴<br>
 [0905] mac从finder粘贴文件到editor clipboardData识别
 
