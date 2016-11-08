@@ -1,5 +1,15 @@
 # 亮爷Weekly
 
+## [亮爷Weekly 1029](161029.md)
+
+> [1027] 如何在webpack/react环境中引入at.js<br>
+[1025] mac pkg script open应用 tmpdir竟不存在<br>
+[1022] react-native ios build通过+内测发布<br>
+[1021] df -lh 显示 /tmp overflow只有100M 解决方法<br>
+[1021] npm install from git url<br>
+[1020] 通配符过滤移除文件 小记<br>
+[1017] node应用 限制paths在项目目录内
+
 ## [亮爷Weekly 1015](161015.md)
 
 > [1013] css webkit-line-clamp 文本截断支持多行<br>
