@@ -1,5 +1,14 @@
 # 亮爷Weekly
 
+## [亮爷Weekly 1127](161127.md)
+
+> [1128] nw18 解决locale判断失效  
+[1125] 修复mac 目录或文件名带有反斜杠 裂图 需转义为%5C  
+[1122] git merge --ff 误操作  
+[1121] nw18升级日记  
+[1104] electron renderer进程出现 paths为空 修复  
+[1103] nw跨平台 编辑器粘贴 用例大全
+
 ## [亮爷Weekly 1029](161029.md)
 
 > [1027] 如何在webpack/react环境中引入at.js<br>
