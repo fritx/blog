@@ -64,6 +64,9 @@
           $el.find('[src]').each(function () {
             var $el = $(this);
             $el.attr('src', function (x, old) {
+              if ($el.attr('data-noop') != null) {
+                return old;
+              }
               if (isAbsolute(old)) {
                 return old;
               }
@@ -216,8 +219,38 @@
   }
 
   function config() {
+    var renderer = new marked.Renderer()
+
+    // 实现trello的 超链接效果 自动识别github issues
+    var _link = renderer.link
+    renderer.link = function(href, title, text) {
+      if (text === href) {
+        var mat = href.match(/github\.com\/(.+)\/(.+)\/issues\/(\d+)(#(.+))?/)
+        if (mat) {
+          // var tx = mat[1] +'/'+ mat[2] +': Issue #'+ mat[3] // trello
+          var tx = mat[1] +'/'+ mat[2] +'#'+ mat[3] // github
+          if (mat[5]) tx += ' (comment)'
+          var $a = $('<a>').text(tx)
+            .attr({
+              'class': 'known-service-link',
+              href: href,
+              title: title
+            })
+          var $icon = $('<img>')
+            .attr({
+              'data-noop': '',
+              'class': 'known-service-icon',
+              src: 'p/github.png'
+            })
+          $a.prepend($icon)
+          return $a.prop('outerHTML')
+        }
+      }
+      return _link.call(renderer, href, title, text)
+    }
+
     marked.setOptions({
-      renderer: new marked.Renderer(),
+      renderer: renderer,
       gfm: true,
       tables: true,
       breaks: false,

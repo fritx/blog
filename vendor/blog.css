@@ -20,7 +20,7 @@ ul, ol {
   padding-left: 30px;
 }
 a {
-  color: rgb(0, 0, 238);
+  color: rgb(16, 53, 196);
 }
 
 code, kbd, pre, samp { /* normalize.css */
@@ -131,6 +131,20 @@ blockquote {
   right: 2px;
   top: 200px;
   z-index: 9999;
+}
+
+/* 实现trello的 超链接效果 自动识别github issues */
+.known-service-link {
+  color: #444;
+  background: #D6DADC;
+  border-radius: 3px;
+  padding: 2px 4px;
+}
+.known-service-icon {
+  width: 14px;
+  height: 14px;
+  margin-right: 3px;
+  vertical-align: middle;
 }
 
 @media (min-width: 640px) {
