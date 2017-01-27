@@ -225,11 +225,22 @@
     var _link = renderer.link
     renderer.link = function(href, title, text) {
       if (text === href) {
+        var tx = ''
+
         var mat = href.match(/github\.com\/(.+)\/(.+)\/issues\/(\d+)(#(.+))?/)
         if (mat) {
-          // var tx = mat[1] +'/'+ mat[2] +': Issue #'+ mat[3] // trello
-          var tx = mat[1] +'/'+ mat[2] +'#'+ mat[3] // github
+          // tx = mat[1] +'/'+ mat[2] +': Issue #'+ mat[3] // trello
+          tx = mat[1] +'/'+ mat[2] +'#'+ mat[3] // github
           if (mat[5]) tx += ' (comment)'
+        }
+
+        mat = href.match(/github\.com\/(.+)\/(.+)\/commit\/([0-9a-f]+)/)
+        if (mat) {
+          // tx = mat[1] +'/'+ mat[2] +': '+ mat[3].slice(0, 7) // trello
+          tx = mat[1] +'/'+ mat[2] +'@'+ mat[3].slice(0, 7) // github
+        }
+
+        if (tx) {
           var $a = $('<a>').text(tx)
             .attr({
               'class': 'known-service-link',
