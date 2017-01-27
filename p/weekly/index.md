@@ -1,5 +1,16 @@
 # 亮爷Weekly
 
+## [亮爷Weekly 0127](170127.md)  
+
+> [0124] Vue表单控件自动生成 FieldGen组件  
+[0120] Vue CurrencyInput组件  
+[1226] ajax借用iframe处理文件下载  
+[1220] 当package中不包含npmignore文件  
+[1207] 自动构建 偶发npm-cache rename EPERM  
+[1202] 拓展marked 实现trello超链接效果 自动识别github-issues
+
+---
+
 ## [亮爷Weekly 1127](161127.md)
 
 > [1128] nw18 解决locale判断失效  
@@ -133,6 +144,8 @@
 [0104] nw中触发react-redux解绑  
 [1229] eslint custom rule/plugin  
 [1204] number类型input 不支持selection
+
+---
 
 ## [亮爷Weekly 1106+1113+1120](151120.md)
 
