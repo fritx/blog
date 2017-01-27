@@ -11,6 +11,11 @@ html, body {
   background-color: #fff;
 }
 
+hr {
+  border: none;
+  border-bottom: dashed 2px #D3DCE6; /* element-ui gray */
+}
+
 img {
   border: 0;
   max-width: 100%;
@@ -18,9 +23,6 @@ img {
 }
 ul, ol {
   padding-left: 30px;
-}
-a {
-  color: rgb(16, 53, 196);
 }
 
 code, kbd, pre, samp { /* normalize.css */
@@ -79,6 +81,9 @@ blockquote {
   border-left: 4px solid #DDD;
   padding: 0 15px;
   color: #777;
+}
+a {
+  color: #4078c0;
 }
 
 .sidebar {
@@ -145,6 +150,12 @@ blockquote {
   height: 14px;
   margin-right: 3px;
   vertical-align: middle;
+}
+
+/* 暂时感觉这类标签应该inline-block展示 */
+code,
+.known-service-link {
+  display: inline-block;
 }
 
 @media (min-width: 640px) {
