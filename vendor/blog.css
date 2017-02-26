@@ -40,12 +40,9 @@ code {
   /* .hljs zenburn */
   background: #3f3f3f;
   color: #dcdcdc;
-
+  font-size: 80%;
   -webkit-border-radius: 6px; /* 同scroller圆角 */
   border-radius: 6px;
-  padding: 4px 6px;
-  margin: 0 2px;
-  font-size: 80%;
 }
 pre code, pre code.hljs {
   display: block;
@@ -140,10 +137,11 @@ a {
 
 /* 实现trello的 超链接效果 自动识别github issues */
 .known-service-link {
+  font-size: 90%;
   color: #444;
   background: #D6DADC;
   border-radius: 3px;
-  padding: 2px 4px;
+  padding: 0 4px;
 }
 .known-service-icon {
   width: 14px;
@@ -156,6 +154,8 @@ a {
 code,
 .known-service-link {
   display: inline-block;
+  margin: 2px 0;
+  padding: 0 4px;
 }
 
 @media (min-width: 640px) {
