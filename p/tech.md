@@ -1,5 +1,9 @@
 # My Talks About Techniques
 
+## [绕过Google反爬虫技术，实现人声音频抓取](2017/03/hack-google-translate/)
+
+> 现在我开始破解Google了。这是我的又一黑客破解之旅。
+
 ## [nw.js代码保护术](2016/01/nwjs-code-protection/)
 
 > 兵来将挡，水来土掩。
