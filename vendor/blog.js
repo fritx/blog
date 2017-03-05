@@ -227,17 +227,21 @@
       if (text === href) {
         var tx = ''
 
-        var mat = href.match(/github\.com\/(.+)\/(.+)\/issues\/(\d+)(#(.+))?/)
+        var mat = href.match(/github\.com\/(.+)\/(.+)\/(issues|pull)\/(\d+)(#(.+))?/)
         if (mat) {
-          // tx = mat[1] +'/'+ mat[2] +': Issue #'+ mat[3] // trello
-          tx = mat[1] +'/'+ mat[2] +'#'+ mat[3] // github
-          if (mat[5]) tx += ' (comment)'
+          // tx = mat[1] +'/'+ mat[2] +': Issue #'+ mat[4] // trello
+          tx = mat[1] +'/'+ mat[2] +'#'+ mat[4] // github
+          if (mat[6]) tx += ' (comment)'
         }
-
-        mat = href.match(/github\.com\/(.+)\/(.+)\/commit\/([0-9a-f]+)/)
-        if (mat) {
+        else if (mat = href.match(/github\.com\/(.+)\/(.+)\/commit\/([0-9a-f]+)/)) {
           // tx = mat[1] +'/'+ mat[2] +': '+ mat[3].slice(0, 7) // trello
-          tx = mat[1] +'/'+ mat[2] +'@'+ mat[3].slice(0, 7) // github
+          tx = mat[1] +'/'+ mat[2] +'@'+ mat[4].slice(0, 7) // github
+        }
+        else if (mat = href.match(/github\.com\/(.+)\/(.+)\/blob\/([^/]+)\/(.+)/)) {
+          tx = mat[1] +'/'+ mat[2] +' - '+ mat[4]
+        }
+        else if (mat = href.match(/github\.com\/(.+)\/([^/]+)/)) {
+          tx = mat[1] +'/'+ mat[2]
         }
 
         if (tx) {
