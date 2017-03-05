@@ -1,3 +1,9 @@
+<style>
+audio {
+  vertical-align: middle;
+}
+</style>
+
 # 绕过Google反爬虫技术，实现人声音频抓取
 
 *2017-03-05*
@@ -8,6 +14,21 @@
 
 > Type text or a website address or translate a document.<br>
 > -- *https://translate.google.cn/*
+
+**“空间大战”游戏中人声播报**
+
+我13年的作品“spacewar”中，人声播报就是来自于Google翻译的朗读功能。我精心设计了奇怪的英文词组，使其朗读出来像是美国口音在说中文，形成有趣且高逼格的游戏效果。
+
+- <audio controls src="http://7xig6a.com1.z0.glb.clouddn.com/sounds/voices/welcome.mp3"></audio> “欢迎来到空间大战，碾碎他”
+
+- <audio controls src="http://7xig6a.com1.z0.glb.clouddn.com/sounds/voices/injure.mp3"></audio> “受到攻击”
+
+- <audio controls src="http://7xig6a.com1.z0.glb.clouddn.com/sounds/voices/kill.mp3"></audio> “击杀目标”
+
+<img width="500" src="spacewar.png">
+
+> 3d的飞船射击游戏，与npc混战，键盘W/S/A/D/R/F前后左右升降，鼠标控制视角，点左键射击。进入即玩，刷新再来。背景音乐，物理音效，语音播报。<br>
+> -- *[fritx/spacewar](https://github.com/fritx/spacewar) (May 2013)*
 
 **Node.js库：get-voice**
 
@@ -74,7 +95,7 @@ btn.click()
 
 在校园时，我曾分享过一个观点。如何反爬虫？
 
-> 那些什么`Referer`、`UserAgent`、`CSRF`，无一不是基于冰冷的数理逻辑，我不看好，Electron机器人可以轻松模拟。
+> 除了验证码，那些什么`Referer`、`UserAgent`、`CSRF`，无一不是基于冰冷的数理逻辑，我不看好，Electron机器人可以轻松模拟。
 
 > 机器人和人比最缺什么？缺的是活生生的肉体啊。
 
@@ -84,7 +105,7 @@ btn.click()
 
 Google的这种做法，印证了我的早前的猜想。
 
-<img width="1247" src="chat-history-0.png">
+<img width="500" src="chat-history-0.png">
 
 ## 不服输，尝试触发连贯事件
 
@@ -186,7 +207,7 @@ wc.executeJavaScript(`
 
 语音成功播放。至此，破解工作已经完成。
 
-<img width="1254" src="chat-history-1.png">
+<img width="500" src="chat-history-1.png">
 
 ## 保存音频到本地
 
@@ -200,6 +221,7 @@ if (!isDownloading && details.url.includes('/translate_tts?')) {
   isDownloading = true
   let voiceUrl = details.url
   let saveName = `${text}.mp3`
+  saveName = sanitize(saveName) // 过滤危害字符
 
   wc.executeJavaScript(`{
     let a = document.createElement('a')
@@ -230,16 +252,21 @@ sess.on('will-download', (e, item) => {
 })
 ```
 
+接下来，我们把Electron跑在服务器上，就搭建了获取人声的Node.js服务了。<br>
+配置参照 https://github.com/segmentio/nightmare/issues/224#issuecomment-141575361
+
+关于Google封恶意IP，我想请求量和频次不大的话，应该不会轻易触犯吧？起码我自己的需求量不会。
+
 ## 结束语
 
 昨天打了一天的篮球，晚上花了3小时，从发现到解决难题，一路走下来，使出了浑身解数。说明运动的确是有思考的。
 
-刚入学的时候我搞学校，爬取学生证件照、[爬取学生资料/课程表/学分](https://github.com/h5lium/xstu)、[发现XSS漏洞](?2014/06/eol-wyu-cn-xss)。
+~~刚入学的时候我搞学校，爬取学生证件照、[抓取学生资料/课程表/学分](https://github.com/h5lium/xstu)、[发现XSS漏洞](?2014/06/eol-wyu-cn-xss)。~~
 
-后来我搞腾讯，[爬取微信公众号语音](https://github.com/fritx/wxchangba)，搞[webQQ](https://github.com/fritx/wqq)/[web微信](https://github.com/fritx/wxbot)机器人。
+~~后来我搞腾讯，[抓取微信公众号语音](https://github.com/fritx/wxchangba)，搞[webQQ](https://github.com/fritx/wqq)/[web微信](https://github.com/fritx/wxbot)机器人。~~
 
-现在我开始破解Google了。这是我的又一黑客破解之旅。
+~~现在我开始破解Google了。这是我的又一黑客破解之旅。~~（略显浮夸）
 
-忙了这么久，我想我可以更新我的get-voice库了，不过在这之前，我可能要先加这个新功能加到我的小作品：[分享生成器](http://share.wx.fritx.me)。
+忙了这么久，我想我可以更新我的get-voice库了，不过在这之前，我可能要先把这个新功能加到我的小作品：[分享生成器](http://share.wx.fritx.me)。
 
-<img width="1253" src="chat-history-2.png">
+<img width="500" src="chat-history-2.png">
