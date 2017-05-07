@@ -58,6 +58,9 @@
       },
       success: function (data) {
         render(data, function (err, html) {
+          if (err) {
+            return console.error('render err', err);
+          }
           var $el = $(sel);
           $el.hide().html(html);
 
@@ -235,7 +238,7 @@
         }
         else if (mat = href.match(/github\.com\/(.+)\/(.+)\/commit\/([0-9a-f]+)/)) {
           // tx = mat[1] +'/'+ mat[2] +': '+ mat[3].slice(0, 7) // trello
-          tx = mat[1] +'/'+ mat[2] +'@'+ mat[4].slice(0, 7) // github
+          tx = mat[1] +'/'+ mat[2] +'@'+ mat[3].slice(0, 7) // github
         }
         else if (mat = href.match(/github\.com\/(.+)\/(.+)\/blob\/([^/]+)\/(.+)/)) {
           tx = mat[1] +'/'+ mat[2] +' - '+ mat[4]
