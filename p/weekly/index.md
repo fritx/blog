@@ -1,5 +1,17 @@
 # 亮爷Weekly
 
+## [亮爷Weekly 0430](170430.md)  
+
+> [0425] node-dev 报错 Error: watch xxx ENFILE  
+[0424] 一处神奇的typo + js引擎bug  
+[0420] nwjs prompt file dialog  
+[0413] nw跨窗口截图 paste为同步 干扰超时判断  
+[0413] mac上nw clipboard 粘贴到所有app兼容  
+[0407] clipboard写入图片 各格式应用总结  
+[0324] 修复node-notifier 图标始终为terminal
+
+---
+
 ## [亮爷Weekly 0315](170319.md)  
 
 > [0316] css-calc判断+降级  
