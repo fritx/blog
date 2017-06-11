@@ -1,5 +1,16 @@
 # 亮爷Weekly
 
+## [亮爷Weekly 0528](170528.md)  
+
+> [0528] 关于node主进程hot-reload的资料
+[0524] 参照QQ的消息气泡宽高自适应  
+[0520] 自实现 object-access  
+[0519] 修复ubuntu shell连接时总是提示"Setting locale failed"  
+[0515] vue recursive components 报错  
+[0514] koa-router+koa-cors options方法不灵解决  
+[0512] 递归实现中间件拼接 koaMerge  
+[0509] el-upload model/limit/model/fileList转换 及bug应对
+
 ## [亮爷Weekly 0430](170430.md)  
 
 > [0425] node-dev 报错 Error: watch xxx ENFILE  
@@ -8,11 +19,12 @@
 [0413] nw跨窗口截图 paste为同步 干扰超时判断  
 [0413] mac上nw clipboard 粘贴到所有app兼容  
 [0407] clipboard写入图片 各格式应用总结  
+[0405] 批量导出/导入mongodb各collection数据  
 [0324] 修复node-notifier 图标始终为terminal
 
 ---
 
-## [亮爷Weekly 0315](170319.md)  
+## [亮爷Weekly 0319](170319.md)  
 
 > [0316] css-calc判断+降级  
 [0315] 定时检查 满足条件则继续往下走  
