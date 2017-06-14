@@ -1,5 +1,9 @@
 # My Talks About Techniques
 
+## [移动端webapp适配笔记](2017/06/mobile-webapp-issues.md)
+
+> 满满的都是坑啊。
+
 ## [绕过Google反爬虫技术，实现人声音频抓取](2017/03/hack-google-translate/)
 
 > 现在我开始破解Google了。这是我的又一黑客破解之旅。

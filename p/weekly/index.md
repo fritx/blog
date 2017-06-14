@@ -1,8 +1,12 @@
 # 亮爷Weekly
 
+## [亮爷Weekly 0611](../2017/06/mobile-webapp-issues.md)
+
+> 移动端webapp适配笔记
+
 ## [亮爷Weekly 0528](170528.md)  
 
-> [0528] 关于node主进程hot-reload的资料
+> [0528] 关于node主进程hot-reload的资料  
 [0524] 参照QQ的消息气泡宽高自适应  
 [0520] 自实现 object-access  
 [0519] 修复ubuntu shell连接时总是提示"Setting locale failed"  
