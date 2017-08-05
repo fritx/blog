@@ -1,5 +1,9 @@
 # My Talks About Techniques
 
+## [Sentry支持SourceMap指引](2017/07/sentry-sourcemap-guide.md)
+
+> Sentry是一个错误上报服务，我们让它支持SourceMap，有一些坑要踩
+
 ## [移动端webapp适配笔记](2017/06/mobile-webapp-issues.md)
 
 > 满满的都是坑啊。

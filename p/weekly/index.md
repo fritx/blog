@@ -1,5 +1,9 @@
 # 亮爷Weekly
 
+## [亮爷Weekly 0712](../2017/07/sentry-sourcemap-guide.md)
+
+> Sentry支持SourceMap指引
+
 ## [亮爷Weekly 0625](170625.md)  
 
 > [0625] https缺少fullchain 偶尔报错 unable to verify the first certificate<br>
