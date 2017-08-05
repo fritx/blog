@@ -1,5 +1,18 @@
 # 亮爷Weekly
 
+## [亮爷Weekly 0625](170625.md)  
+
+> [0625] https缺少fullchain 偶尔报错 unable to verify the first certificate<br>
+[0625] npm5 install 报错 Cannot read property 'version' of null<br>
+[0618] acme.sh n0gx 支持https<br>
+[0617] 手机 开启微信运动计步 指令<br>
+[0616] 通过err.stack 获取代码位置信息<br>
+[0616] 手撸retry/attempt<br>
+[0615] js中获得某一行line的stack<br>
+[0614] 修复iOS 局部滚动 易触发页面整体滚动<br>
+[0614] 修复iOS “x月x日周x”被识别 并弹出面板影响点击<br>
+[0603] 表单验证 长度限制
+
 ## [亮爷Weekly 0611](../2017/06/mobile-webapp-issues.md)
 
 > 移动端webapp适配笔记
