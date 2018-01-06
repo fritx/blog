@@ -1,5 +1,20 @@
 # 亮爷Weekly
 
+## [亮爷Weekly 0916](170916.md)
+
+> [0914] mongodb多字段模糊搜索<br>
+[0912] 修复ios select框 误导性"默认选中第一个"<br>
+[0912] webpack-dev-server proxy 切https + set-cookie无效<br>
+[0912] webpack2 自带uglify es6报错 (新)<br>
+[0905] vue v-model misuse infinite loop<br>
+[0831] 通过ajax/blob方式 下载文件<br>
+[0829] sentry file协议 sourcemap上报<br>
+[0824] prettyJson高亮 10行代码<br>
+[0821] css print page-break-before:always not working<br>
+[0821] iframe src Chrome/Firefix cross-origin<br>
+[0819] vscode vue emmet失效<br>
+[0817] rsa 生成 key/crt
+
 ## [亮爷Weekly 0730](170730.md)  
 
 > [0730] node验证码 生成及核对 koa中间件<br>
