@@ -1,5 +1,18 @@
 # 亮爷Weekly
 
+## [亮爷Weekly 1028](171028.md)
+
+> [1027] currency/numberFormat方法<br>
+[1024] 程序员节解决一个bug ga被墙页面阻塞 async/defer差别<br>
+[0929] git删除敏感代码<br>
+[0928] insertHtml and insertText alternatives<br>
+[0927] 邮件html复制到邮箱 保持水平居中<br>
+[0926] 正则表达式 不允许包含单词<br>
+[0920] git reset --hard 恢复<br>
+[0918] webpack babel not compiled when npm-link<br>
+[0918] use font-awesome in vue/element-ui sass/less<br>
+[0917] several ways to vue extends remove prop
+
 ## [亮爷Weekly 0916](170916.md)
 
 > [0914] mongodb多字段模糊搜索<br>
