@@ -1,5 +1,23 @@
 # 亮爷Weekly
 
+## [亮爷Weekly 0210](180210.md)
+> [0209] parcel build hash不更新 坑 需以gitsha上传cdn<br>
+[0130] less中使用calc 需要注意改写<br>
+[0126] node-sass安装失败<br>
+[0111] 成功案例+1 补充scrollfix笔记 遗漏了refs检测的trick<br>
+[1228] webview内嵌页面 iphoneX适配<br>
+[1222] vue官方模板在build时 强制NODE_ENV=production<br>
+[1221] webpack dev-server 支持https 并自动生成key/cert<br>
+[1218] sentry "Script Error"
+
+## [亮爷Weekly 1216](171216.md)
+> [1129] location跳转为异步 防止后续多余的调用报错<br>
+[1126] node中 支持module-alias 改善require路径<br>
+[1122] blur逻辑常用代码 待封装成工具<br>
+[1120] getUploadFile 包含cancel监听 cleanup<br>
+[1108] git历史 author重写 最好是能做成自动化服务调用<br>
+[1101] axios缺陷 如何同时获取json/blob类型返回值<br>
+
 ## [亮爷Weekly 1028](171028.md)
 
 > [1027] currency/numberFormat方法<br>
