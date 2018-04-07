@@ -1,5 +1,17 @@
 # 亮爷Weekly
 
+## [亮爷Weekly 0403](180403.md)
+
+> [0328] 效率提升(1)<br>
+[0227] response headers missing<br>
+[0321] date命令 获取格式化时间<br>
+[0311] 中文正则 便于做i18n时搜索代码<br>
+[0310] chrome-automator 初体验<br>
+[0301] svg-sprite 的解决过程 和碰到的问题<br>
+[0227] ajax blob 下载大文件会导致崩溃 该走传统下载<br>
+[0227] response headers missing<br>
+[0131] popState 页面后退 添加监听处理
+
 ## [亮爷Weekly 0210](180210.md)
 > [0209] parcel build hash不更新 坑 需以gitsha上传cdn<br>
 [0130] less中使用calc 需要注意改写<br>
