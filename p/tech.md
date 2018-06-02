@@ -1,5 +1,9 @@
 # My Talks About Techniques
 
+## [ry/deno中文刷屏事件-透析](2018/06/02/ry-deno-scandal/)
+
+> 杜绝任何形式的“网络暴力”、“伪正义”
+
 ## [Sentry支持SourceMap指引](2017/07/sentry-sourcemap-guide.md)
 
 > Sentry是一个错误上报服务，我们让它支持SourceMap，有一些坑要踩
