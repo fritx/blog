@@ -1,6 +1,6 @@
 # My Talks About Techniques
 
-## [ry/deno中文刷屏事件-透析](2018/06/02/ry-deno-scandal/)
+## [ry/deno中文刷屏事件-透析](2018/06/ry-deno-scandal/)
 
 > 杜绝任何形式的“网络暴力”、“伪正义”
 
