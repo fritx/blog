@@ -1,5 +1,9 @@
 # My Talks About Techniques
 
+## [Macbook启动出错 提示找不到系统 恢复历程](2018/06/macbook-recovery/)
+
+> 开机按住'Cmd+Opt+P+R'，从Backup恢复系统
+
 ## [ry/deno中文刷屏事件-透析](2018/06/ry-deno-scandal/)
 
 > 杜绝任何形式的“网络暴力”、“伪正义”
