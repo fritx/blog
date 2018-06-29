@@ -4,6 +4,6 @@
 
 > 杜绝任何形式的“网络暴力”、“伪正义”
 
-<img src="ppt-light-table-2.png">
-
 [PDF下载](https://fritx.me/data/talk/ry-deno-scandal.pdf)
+
+<img src="ppt-light-table-2.png">
