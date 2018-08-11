@@ -1,5 +1,29 @@
 # 亮爷Weekly
 
+## [亮爷Weekly 0721](180721.md)
+
+> [0719] webpack require.context __esMdule .default 兼容判断  
+[0717] el-dialog不支持嵌套 需要补丁appendToBody  
+[0713] git提交 文件名大小写不敏感 导致vue mixin undefined坑  
+[0622] gitlab ci 探索 ci.yml http.sslverify  
+[0622] 如何清空chrome 301跳转 缓存  
+[0529] ant-design-pro 中 引入sin大神的dot-prop 导致ie报错  
+[0516] 精简代码 判断ie版本  
+[0511] 实时修正 number input 各种花样  
+[0509] dva effect中put另外一个effect 无法等待promise 必须借用call
+
+## [亮爷Weekly 0505](180505.md)
+
+> [0501] react中 关键词nodeName 导致报错<br>
+[0501] github raw mime报错 无法直接引用<br>
+[0416] 修改git commit 日期<br>
+[0415] git push 403 想要重新输入密码<br>
+[0411] git clone into existing directory<br>
+[0410] antd InputNumber 限制最大/最小值 小数位数 以及修复无法输入小数0.x<br>
+[0408] 真实textLen计算 以及 动态maxLength限制<br>
+[0404] 标签输入 指针定位在value末尾<br>
+[0403] 订餐 节假/开放日 控制
+
 ## [亮爷Weekly 0403](180403.md)
 
 > [0328] 效率提升(1)<br>
