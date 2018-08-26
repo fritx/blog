@@ -9,4 +9,4 @@
 
 [PDF下载](https://fritx.me/data/talk/service-platforms.pdf)
 
-<img src="overview.png">
+<img src="light-table.png">
