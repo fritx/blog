@@ -1,5 +1,40 @@
 # 亮爷Weekly
 
+## [亮爷Weekly 1230](181230.md)
+
+> [1226] ems vuecli3 迁移笔记<br>
+[1224] uigen适配element2 git提交总结<br>
+[1204] 一键快速替换 table td 文字 用以截图脱敏<br>
+[1204] el-table 既保证scrollbar时刻展示 又避免fixed-column错位<br>
+[1123] react实现一个 究极变态版 NumberInput组件<br>
+[1120] chrome必备插件<br>
+[1119] 关于 git 提交 压缩 reset<br>
+[1107] 油猴 github + npm auto-load-more<br>
+[1106] 浏览器兼容 静态页面提示
+
+## [亮爷Weekly 1028](181028.md)
+
+> [1025] whistle代理请求 delete方法 带body 会返回502<br>
+[1024] tree list 数据结构纠缠 之常用 util 方法<br>
+[1024] vue HOC slots / scoepdSlots 向下传递<br>
+[1019] 简单基于el-input 的小写转大写组件 UpperInput<br>
+[1018] TamperMonkey UserScript 实现Jenkins登录态保持<br>
+[1016] el-tree 树节点过滤 带上子节点<br>
+[1012] vue prop代理 mixin - vue 的 :prop.sync 传递 痛点<br>
+[1001] linux 添加 ftp user<br>
+[0915] extends null 问题暴露<br>
+[0904] food jenkins 发布脚本 新<br>
+
+## [亮爷Weekly 0826](180826.md)
+
+> [0823] vue ensureUser hack 替代显性watch<br>
+[0820] nodejs crypto.createCipheriv "Invalid IV length"<br>
+[0817] DELETE body={} 报错502 Bad Gateway<br>
+[0810] mongo-model 结合 fawn事务 ProbeBase思路<br>
+[0810] node 拉取 sentry 所有报错<br>
+[0720] deploy: 修改 eslint配置 提交时会报错debugger<br>
+[1101] food api fetch retry机制
+
 ## [亮爷Weekly 0721](180721.md)
 
 > [0719] webpack require.context __esMdule .default 兼容判断  
