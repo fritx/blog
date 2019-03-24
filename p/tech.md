@@ -1,5 +1,9 @@
 # My Talks About Techniques
 
+## [el-progress percentage 精度优化 hack](2019/03/el-progress-precision-fix.md)
+
+> 题图为优秀的 BA小哥 所做原型，仅作参考；实际样式还是遵循 Element-UI 规范，有所差异
+
 ## [开发工作涉及的服务平台](2018/08/service-platforms/)
 
 > Apollo、Gateway、GA、Sentry、ELK 等
