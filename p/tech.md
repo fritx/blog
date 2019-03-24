@@ -1,5 +1,9 @@
 # My Talks About Techniques
 
+## [记一次端口占用排查](2019/03/port-in-use-debug.md)
+
+> 吓人的玩意，这个问题我放很久了，最高的时候restart上万次。
+
 ## [el-progress percentage 精度优化 hack](2019/03/el-progress-precision-fix.md)
 
 > 题图为优秀的 BA小哥 所做原型，仅作参考；实际样式还是遵循 Element-UI 规范，有所差异
