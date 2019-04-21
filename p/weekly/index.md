@@ -1,5 +1,27 @@
 # 亮爷Weekly
 
+## [亮爷Weekly 0126](190126.md)
+
+> [0125] vue-threejs vue-cli-3 升级笔记<br>
+[0124] csrf-demo 深度模拟实验报告<br>
+[0122] csrf 与 json<br>
+[0120] vscode terminal 设置node版本 与nvm一致<br>
+[0116] vue-cli-3 uglifyjs drop_console 参数迁移<br>
+[0116] vue-cli-3 webpack-chain 补充define-plugin env参数迁移<br>
+[0114] mpwx抓取 小图标移除 增强识别 (判断style中width值)<br>
+
+## [亮爷Weekly 0112](190112.md)
+
+> [0111] shell语句中的 或 || 操作符 写法<br>
+[0107] 订餐系统 搭建指南 实践分享<br>
+[0107] koa-body 防范csrf 强制校验 content-type json<br>
+[0107] ~~脆弱的~~koa-body json csrf 研究<br>
+[0105] 服务器证书过期 更新 acme renew<br>
+[0105] share.wx nuxt 升级笔记<br>
+[0104] vue 中使用 tslint autofix
+
+---
+
 ## [亮爷Weekly 1230](181230.md)
 
 > [1226] ems vuecli3 迁移笔记<br>
