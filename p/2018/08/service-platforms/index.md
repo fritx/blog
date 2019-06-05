@@ -5,7 +5,7 @@
 > 协作类：Confluence、Jira、Gitlab<br>
 构建类：Jenkins、Apollo<br>
 枢纽类：Gateway、SSO<br>
-收集类：GA、Sentry、ELK
+收集类：GA、Sentry、ELK、NewRelic
 
 [PDF下载](https://fritx.me/data/talk/service-platforms.pdf)
 
