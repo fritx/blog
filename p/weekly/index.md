@@ -1,5 +1,33 @@
 # 亮爷Weekly
 
+## [亮爷Weekly 0420](190420.md)
+
+> [0418] package-lock.json 不应写进 .gitignore<br>
+[0412] ts中 动态扩充 外部module定义的 interface<br>
+[0404] 下拉选项 历史值兼容 策略<br>
+[0313] wx actionSheet 安卓交互小优化<br>
+[0312] 如果只依靠css 设置img src<br>
+[0312] editor 正则替换 批量加注释<br>
+[0228] 中文正则<br>
+[0226] axios 字符集 确保utf8 转换<br>
+[0226] 项目中模块要的 ts 声明拓展<br>
+[0221] table col标签 仅部分属性支持 坑<br>
+[0219] linux netstat 通过port 找进程id
+
+## [亮爷Weekly 0216](190216.md)
+
+> [0216] computed快速实现 前后端 控件model 数组/字符串 格式转换<br>
+[0215] ts 尝试限制/实现 类static方法声明 hack<br>
+[0215] 确保img等相对路径转为http绝对路径<br>
+[0213] element-ui 自定义组件 触发验证 hack<br>
+[0212] 应用层面自主拓展ts类型 补充遗漏的重载声明 Cheerio.attr(map)<br>
+[0211] vscode ts提示6133 函数参数未取值 noUnusedParameters<br>
+[0211] accessibility 网页可访问性 抓取时特殊元素过滤<br>
+[0204] [安全] npm包 macaddress exec注入漏洞<br>
+[0131] vue-i18n  新版v8.x i18n.t 补丁<br>
+[0130] ts+koa+jest 踩坑笔记<br>
+[0128] element el-input 输入限定 坑<br>
+
 ## [亮爷Weekly 0126](190126.md)
 
 > [0125] vue-threejs vue-cli-3 升级笔记<br>
