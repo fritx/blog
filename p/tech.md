@@ -1,5 +1,9 @@
 # My Talks About Techniques
 
+## [记一次 MongoDB 生产报错](2019/05/topology-was-destroyed.md)
+
+> 5 月 29 日早上，在公司忙着处理好几年没用的旧设备，接到个电话：“XX 系统挂了，报 500……”
+
 ## [记一次端口占用排查](2019/03/port-in-use-debug.md)
 
 > 吓人的玩意，这个问题我放很久了，最高的时候restart上万次。
