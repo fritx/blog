@@ -4,6 +4,10 @@
 
 > 5 月 29 日早上，在公司忙着处理好几年没用的旧设备，接到个电话：“XX 系统挂了，报 500……”
 
+## [基于 Element-UI 的 可手输下拉组件](2019/04/element-custom-select.md)
+
+> 在 Element-UI 中，下拉组件有至少两种选择，el-select、el-autucomplete
+
 ## [记一次端口占用排查](2019/03/port-in-use-debug.md)
 
 > 吓人的玩意，这个问题我放很久了，最高的时候restart上万次。
