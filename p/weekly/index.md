@@ -79,7 +79,7 @@
 
 ---
 
-## [亮爷Weekly 1230](181230.md)
+## [亮爷Weekly 1230 '18](181230.md)
 
 > [1226] ems vuecli3 迁移笔记<br>
 [1224] uigen适配element2 git提交总结<br>
@@ -91,7 +91,7 @@
 [1107] 油猴 github + npm auto-load-more<br>
 [1106] 浏览器兼容 静态页面提示
 
-## [亮爷Weekly 1028](181028.md)
+## [亮爷Weekly 1028 '18](181028.md)
 
 > [1025] whistle代理请求 delete方法 带body 会返回502<br>
 [1024] tree list 数据结构纠缠 之常用 util 方法<br>
@@ -104,7 +104,7 @@
 [0915] extends null 问题暴露<br>
 [0904] food jenkins 发布脚本 新<br>
 
-## [亮爷Weekly 0826](180826.md)
+## [亮爷Weekly 0826 '18](180826.md)
 
 > [0823] vue ensureUser hack 替代显性watch<br>
 [0820] nodejs crypto.createCipheriv "Invalid IV length"<br>
@@ -114,7 +114,7 @@
 [0720] deploy: 修改 eslint配置 提交时会报错debugger<br>
 [1101] food api fetch retry机制
 
-## [亮爷Weekly 0721](180721.md)
+## [亮爷Weekly 0721 '18](180721.md)
 
 > [0719] webpack require.context __esMdule .default 兼容判断  
 [0717] el-dialog不支持嵌套 需要补丁appendToBody  
@@ -126,7 +126,7 @@
 [0511] 实时修正 number input 各种花样  
 [0509] dva effect中put另外一个effect 无法等待promise 必须借用call
 
-## [亮爷Weekly 0505](180505.md)
+## [亮爷Weekly 0505 '18](180505.md)
 
 > [0501] react中 关键词nodeName 导致报错<br>
 [0501] github raw mime报错 无法直接引用<br>
@@ -138,7 +138,7 @@
 [0404] 标签输入 指针定位在value末尾<br>
 [0403] 订餐 节假/开放日 控制
 
-## [亮爷Weekly 0403](180403.md)
+## [亮爷Weekly 0403 '18](180403.md)
 
 > [0328] 效率提升(1)<br>
 [0227] response headers missing<br>
@@ -150,7 +150,8 @@
 [0227] response headers missing<br>
 [0131] popState 页面后退 添加监听处理
 
-## [亮爷Weekly 0210](180210.md)
+## [亮爷Weekly 0210 '18](180210.md)
+
 > [0209] parcel build hash不更新 坑 需以gitsha上传cdn<br>
 [0130] less中使用calc 需要注意改写<br>
 [0126] node-sass安装失败<br>
@@ -160,7 +161,10 @@
 [1221] webpack dev-server 支持https 并自动生成key/cert<br>
 [1218] sentry "Script Error"
 
-## [亮爷Weekly 1216](171216.md)
+---
+
+## [亮爷Weekly 1216 '17](171216.md)
+
 > [1129] location跳转为异步 防止后续多余的调用报错<br>
 [1126] node中 支持module-alias 改善require路径<br>
 [1122] blur逻辑常用代码 待封装成工具<br>
@@ -168,7 +172,7 @@
 [1108] git历史 author重写 最好是能做成自动化服务调用<br>
 [1101] axios缺陷 如何同时获取json/blob类型返回值<br>
 
-## [亮爷Weekly 1028](171028.md)
+## [亮爷Weekly 1028 '17](171028.md)
 
 > [1027] currency/numberFormat方法<br>
 [1024] 程序员节解决一个bug ga被墙页面阻塞 async/defer差别<br>
@@ -181,7 +185,7 @@
 [0918] use font-awesome in vue/element-ui sass/less<br>
 [0917] several ways to vue extends remove prop
 
-## [亮爷Weekly 0916](170916.md)
+## [亮爷Weekly 0916 '17](170916.md)
 
 > [0914] mongodb多字段模糊搜索<br>
 [0912] 修复ios select框 误导性"默认选中第一个"<br>
@@ -196,7 +200,7 @@
 [0819] vscode vue emmet失效<br>
 [0817] rsa 生成 key/crt
 
-## [亮爷Weekly 0730](170730.md)  
+## [亮爷Weekly 0730 '17](170730.md)  
 
 > [0730] node验证码 生成及核对 koa中间件<br>
 [0721] iOS/Android jsbridge封装<br>
@@ -206,11 +210,11 @@
 [0717] 如何强行给页面添加空白title<br>
 [0705] JS小数mod误差问题
 
-## [亮爷Weekly 0712](../2017/07/sentry-sourcemap-guide.md)
+## [亮爷Weekly 0712 '17](../2017/07/sentry-sourcemap-guide.md)
 
 > Sentry支持SourceMap指引
 
-## [亮爷Weekly 0625](170625.md)  
+## [亮爷Weekly 0625 '17](170625.md) 
 
 > [0625] https缺少fullchain 偶尔报错 unable to verify the first certificate<br>
 [0625] npm5 install 报错 Cannot read property 'version' of null<br>
@@ -223,11 +227,11 @@
 [0614] 修复iOS “x月x日周x”被识别 并弹出面板影响点击<br>
 [0603] 表单验证 长度限制
 
-## [亮爷Weekly 0611](../2017/06/mobile-webapp-issues.md)
+## [亮爷Weekly 0611 '17](../2017/06/mobile-webapp-issues.md)
 
 > 移动端webapp适配笔记
 
-## [亮爷Weekly 0528](170528.md)  
+## [亮爷Weekly 0528 '17](170528.md)  
 
 > [0528] 关于node主进程hot-reload的资料  
 [0524] 参照QQ的消息气泡宽高自适应  
@@ -238,7 +242,7 @@
 [0512] 递归实现中间件拼接 koaMerge  
 [0509] el-upload model/limit/model/fileList转换 及bug应对
 
-## [亮爷Weekly 0430](170430.md)  
+## [亮爷Weekly 0430 '17](170430.md)  
 
 > [0425] node-dev 报错 Error: watch xxx ENFILE  
 [0424] 一处神奇的typo + js引擎bug  
@@ -249,7 +253,7 @@
 [0405] 批量导出/导入mongodb各collection数据  
 [0324] 修复node-notifier 图标始终为terminal
 
-## [亮爷Weekly 0319](170319.md)  
+## [亮爷Weekly 0319 '17](170319.md)  
 
 > [0316] css-calc判断+降级  
 [0315] 定时检查 满足条件则继续往下走  
@@ -259,7 +263,7 @@
 [0112] route相同组件重用 确保form清空及data重置  
 [0109] vue-component中的style 并不会自动清理
 
-## [亮爷Weekly 0127](170127/)  
+## [亮爷Weekly 0127 '17](170127/)  
 
 > [0124] Vue表单控件自动生成 FieldGen组件  
 [0120] Vue CurrencyInput组件  
@@ -270,7 +274,7 @@
 
 ---
 
-## [亮爷Weekly 1127](161127.md)
+## [亮爷Weekly 161127 '16](161127.md)
 
 > [1128] nw18 解决locale判断失效  
 [1125] 修复mac 目录或文件名带有反斜杠 裂图 需转义为%5C  
@@ -279,7 +283,7 @@
 [1104] electron renderer进程出现 paths为空 修复  
 [1103] nw跨平台 编辑器粘贴 用例大全
 
-## [亮爷Weekly 1029](161029.md)
+## [亮爷Weekly 1029 '16](161029.md)
 
 > [1027] 如何在webpack/react环境中引入at.js<br>
 [1025] mac pkg script open应用 tmpdir竟不存在<br>
@@ -289,7 +293,7 @@
 [1020] 通配符过滤移除文件 小记<br>
 [1017] node应用 限制paths在项目目录内
 
-## [亮爷Weekly 1015](161015.md)
+## [亮爷Weekly 1015 '16](161015.md)
 
 > [1013] css webkit-line-clamp 文本截断支持多行<br>
 [1012] shell 批量重命名 user\_\* => base\_\*<br>
@@ -301,7 +305,7 @@
 [0929] 更正[0905]mac base64及finder粘贴<br>
 [0905] mac从finder粘贴文件到editor clipboardData识别
 
-## [亮爷Weekly 0903](160903.md)
+## [亮爷Weekly 0903 '16](160903.md)
 
 > [0830] 文件消息 根据文件后缀 判断文件图标<br>
 [0830] await t2p callback转promise<br>
@@ -310,7 +314,7 @@
 [0815] 图片尺寸等比例缩放算法<br>
 [0720] nw drag事件相关优化
 
-## [亮爷Weekly 0716](160716.md)
+## [亮爷Weekly 0716 '16](160716.md)
 
 > [0708] 自实现moment 日期格式化<br>
 [0708] 表单提取 jquery.serializeObject<br>
@@ -319,7 +323,7 @@
 [0630] 简单的api/basic-auth, koa+vue<br>
 [0629] Vue中html标签内首尾空白符丢失
 
-## [亮爷Weekly 0625](160625.md)
+## [亮爷Weekly 0625 '16](160625.md)
 
 > [0623] uglifyjs压缩 支持es6 解决方案  
 [0622] 有同学问到babel怎么配置async/await  
@@ -328,7 +332,7 @@
 [0614] Vue label@click 受到子input"反弹"  
 [0608] react @catchable render等方法容错  
 
-## [亮爷Weekly 0604](160604.md)
+## [亮爷Weekly 0604 '16](160604.md)
 
 > [0603] mongoose validation 报错 String(err) 完整信息 且容错性好  
 [0602] 可选但隐藏&显示但不可选 css技巧  
@@ -338,7 +342,7 @@
 [0517] windows cmd piping like unix  
 [0516] circle ci test on multiple node versions
 
-## [亮爷Weekly 0514](160514.md)
+## [亮爷Weekly 0514 '16](160514.md)
 
 > [0515] shebang换行必须不能出现'\r'  
 [0514] bash解析文本并批量操作  
@@ -349,7 +353,7 @@
 [0506] tmp目录会系统自动清理吗？  
 [0505] 文本框光标移至尾部
 
-## [亮爷Weekly 0430](160430.md)
+## [亮爷Weekly 0430 '16](160430.md)
 
 > [0427] cross-unzip抢注事件  
 [0427] 环境变量PATH的坑  
@@ -359,14 +363,14 @@
 [0422] 启蒙英董 解决编码乱码问题  
 [0412] 编辑器 选中图片+特定按键 选区操作
 
-## [亮爷Weekly 0409](160409.md)
+## [亮爷Weekly 0409 '16](160409.md)
 
 > [0409] nw-auto防打扰 禁止窗口show/focus  
 [0408] 优化弹窗位置体验 改善位置依赖算法  
 [0406] 修复windows上 粘贴base64图 导致发送内容过长 需转为本地  
 [0330] 针对nw/electron robotjs等c++依赖编译总结
 
-## [亮爷Weekly 0326](160326.md)
+## [亮爷Weekly 0326 '16](160326.md)
 
 > [0326] screencat远程协助 实现mouseup/down 而不仅是click  
 [0321] mac ctrl+cmd+空格 呼出自带emoji面板  
@@ -375,7 +379,7 @@
 [0317] 使用tiny-ipc实现通讯 nw不支持process/ipc  
 [0315] nw错误捕获 输送console 并记录日志
 
-## [亮爷Weekly 0312](160312.md)
+## [亮爷Weekly 0312 '16](160312.md)
 
 > [0312] electron报错 同名node_module依赖坑  
 [0310] terminal隐藏/修改前缀显示  
@@ -383,7 +387,7 @@
 [0307] Why prompt is not supported? 好像很有学问的样子  
 [0304] 更正url正则匹配
 
-## [亮爷Weekly 0227](160227.md)
+## [亮爷Weekly 0227 '16](160227.md)
 
 > [0227] 不知会不会被叼 但觉得自己帅呆了  
 [0225] mocha测试 断言async函数的误区  
@@ -392,11 +396,11 @@
 [0201] 保证文件名在os合法 (pc收到mac发的文件)  
 [0128] 编辑器 消息发送前 图片上传服务器 匹配逻辑
 
-## [亮爷Weekly 0116](../2016/01/nwjs-code-protection.md)
+## [亮爷Weekly 0116 '16](../2016/01/nwjs-code-protection.md)
 
 > nw.js代码保护术
 
-## [亮爷Weekly 0109](160109.md)
+## [亮爷Weekly 0109 '16](160109.md)
 
 > [0109] css文本截断 转省略号  
 [0108] react代码粘贴 字符串style dropin替换方案  
@@ -406,7 +410,7 @@
 
 ---
 
-## [亮爷Weekly 1106+1113+1120](151120.md)
+## [亮爷Weekly 1106+1113+1120 '15](151120.md)
 
 > [1121] 尝试做个象棋(2): 棋盘+棋子  
 [1120] 妙用arguments.callee解绑匿名函数  
@@ -416,7 +420,7 @@
 [1111] gulp pipeline 删除文件  
 [1108] 使用sqlcipher 为客户端sqlite3加密
 
-## [亮爷Weekly 1023+1030](151030.md)
+## [亮爷Weekly 1023+1030 '15](151030.md)
 
 > [1030] mac上触摸板/鼠标 mousewheel/scroll事件  
 [1029] 截图高清屏支持hack 现阶段蛋疼的做法(2333  
@@ -427,7 +431,7 @@
 [1022] nw透明模式 mac上窗口自带title无法抹去 解决  
 [1021] 一定要找出法子 做到桌面客户端 背景穿透模糊效果
 
-## [亮爷Weekly 1009+1016](151016.md)
+## [亮爷Weekly 1009+1016 '15](151016.md)
 
 > [1016] nw弹窗 show/hide 去动画 位置hack  
 [1016] nw截图 添加了 多屏幕支持  
@@ -436,26 +440,26 @@
 [1006] nightmare yield之谜  
 [1002] linux下 electron-prebuilt全局安装失败
 
-## [亮爷Weekly 0918+0925+1002](151002.md)
+## [亮爷Weekly 0918+0925+1002 '15](151002.md)
 
 > [0930] 判断文字选中+主动选中文字  
 [0928] 如何在electron中触发一个常规下载  
 [0922] url正则匹配  
 [0921] angular focus指令
 
-## [亮爷Weekly 0911](150911.md)
+## [亮爷Weekly 0911 '15](150911.md)
 
 > [0911] 服务端phantom渲染 提取网页元信息  
 [0909] 使用qqface 替换qq经典表情/文字  
 [0906] 使用node-screencapture 实现跨平台桌面截屏
 
-## [亮爷Weekly 0904](150904.md)
+## [亮爷Weekly 0904 '15](150904.md)
 
 > [0904] 如何正确地下载electron  
 [0903] node实现进程管理工具 如何在win上静默地spawn  
 [0831] electron之script标签与jquery加载
 
-## [亮爷Weekly 0828 首发](150828.md)
+## [亮爷Weekly 0828 '15 首发](150828.md)
 
 > [0828] electron打包之坑 node_modules查找顺序反转  
 [0827] node-sqlite3编译于electron(iojs)之解决历程  
