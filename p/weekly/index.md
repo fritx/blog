@@ -1,5 +1,34 @@
 # 亮爷Weekly
 
+## [亮爷Weekly 0622](190622.md)
+
+> [0622] yaml 不同的 多行模式<br>
+[0621] Placeholder for content-editble divs HTML & CSS<br>
+[0618] npm hook node version<br>
+[0617] gulp node_contextify.cc node10报错<br>
+[0529] 记一次 mongodb 报错 Topology was destroyed<br>
+[0523] How to convert Windows end of line in Unix end of line (CR/LF to LF)<br
+[0521] 使用 CA 后，某些网站 puppeteer 报 ERR_CERT_AUTHORITY_INVALID，如 douyin<br>
+[0522] Redirect stderr and stdout in Bash<br>
+[0520] myapp.sh docker-compose -p<br>
+[0520] shell 判断 变量$foo 是否存在<br>
+[0520] puppeteer alpine 坑解决 chromium预装
+
+## [亮爷Weekly 0518](190518.md)
+
+> [0517] linux docker 运行报错 OCI runtime create failed container_linux.go<br>
+[0517] React ts Component state初始化后 值推导为"never<br>
+[0516] port22 refused + ssh WARNING: REMOTE HOST IDENTIFICATION HAS CHANGED! + shell从文件删除某些行<br>
+[0516] curl follow-redirect<br>
+[0513] npm scritps 中判断文件存在 并执行逻辑<br>
+[0512] 记一次 git-reflog 救急<br>
+[0510] docker ootCA.crt 传递 解决本机代理ssl问题<br>
+[0430] github 语言识别 修改方式<br>
+[0429] docker-compose myapp & redis<br>
+[0429] vue-at vuetify 修复<br>
+[0429] Javascript/DOM: How to remove all events of a DOM object?<br>
+[0429] webpack loader exclude node_modules but one
+
 ## [亮爷Weekly 0420](190420.md)
 
 > [0418] package-lock.json 不应写进 .gitignore<br>
