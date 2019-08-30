@@ -1,5 +1,18 @@
 # 亮爷Weekly
 
+## [亮爷Weekly 0814](190814.md)
+
+> [0813] shell 目录下 筛选后缀名 替换字符串<br>
+[0808] bilibili视频提取 flv转mp4<br>
+[0806] highlightjs 选择语言 对应的下载链接 用于拓展markppt<br>
+[0801] env.TZ 直接在node里指定时区并生效<br>
+[0722] 终于开始尝试 zsh 了<br>
+[0711] 使用puppeteer-core 并借助chrome-finder查找path 避免chromium下载<br>
+[0704] 文本展示类型 换行 梳理 脑图<br>
+[0703] chrome 72+ flex 容器 scrollbar 层级受影响<br>
+[0703] 用户id输入框 全角英文转 半角字符<br>
+[0702] node 中 支持 ts 的 sourcemap
+
 ## [亮爷Weekly 0622](190622.md)
 
 > [0622] yaml 不同的 多行模式<br>
