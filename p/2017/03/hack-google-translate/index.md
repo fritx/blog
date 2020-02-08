@@ -19,11 +19,11 @@ audio {
 
 我13年的作品“spacewar”中，人声播报就是来自于Google翻译的朗读功能。我精心设计了奇怪的英文词组，使其朗读出来像是美国口音在说中文，形成有趣且高逼格的游戏效果。
 
-- <audio controls src="http://7xig6a.com1.z0.glb.clouddn.com/sounds/voices/welcome.mp3"></audio> “欢迎来到空间大战，碾碎他”
+- <audio controls src="welcome.mp3"></audio> “欢迎来到空间大战，碾碎他”
 
-- <audio controls src="http://7xig6a.com1.z0.glb.clouddn.com/sounds/voices/injure.mp3"></audio> “受到攻击”
+- <audio controls src="injure.mp3"></audio> “受到攻击”
 
-- <audio controls src="http://7xig6a.com1.z0.glb.clouddn.com/sounds/voices/kill.mp3"></audio> “击杀目标”
+- <audio controls src="kill.mp3"></audio> “击杀目标”
 
 <img width="500" src="spacewar.png">
 
