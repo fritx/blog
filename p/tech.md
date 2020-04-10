@@ -1,5 +1,9 @@
 # My Talks About Techniques
 
+## [React hooks 实现 “双列表格” 效果](2020/04/use-separated-column.md)
+
+> 只需将原有传参经过一层 hook 转换，并补充相应的分列参数，非常简单易用
+
 ## [记一次 MongoDB 生产报错](2019/05/topology-was-destroyed.md)
 
 > 5 月 29 日早上，在公司忙着处理好几年没用的旧设备，接到个电话：“XX 系统挂了，报 500……”
