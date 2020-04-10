@@ -1,6 +1,6 @@
 # My Talks About Techniques
 
-## [React hooks 实现 “双列表格” 效果](2020/04/use-separated-column.md)
+## [React hooks 实现 “双列表格” 效果](2020/04/use-split-table.md)
 
 > 只需将原有传参经过一层 hook 转换，并补充相应的分列参数，非常简单易用
 
