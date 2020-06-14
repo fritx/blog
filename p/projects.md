@@ -1,5 +1,9 @@
 # Projects That I Work In
 
+## [创意产品 (2019~2020)](projects/ideas-2019-2020/index.md)
+
+> Demo 集合「Coldemo」、桌面应用「Nofred」、微信小程序「内容分享」
+
 ## [wxbot: 微信机器人](projects/wxbot/README.md)
 
 > 普通个人号 微信机器人/外挂
