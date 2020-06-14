@@ -1,6 +1,6 @@
 # Projects That I Work In
 
-## [创意产品 (2019~2020)](projects/ideas-2019-2020/index.md)
+## [创意产品 (2019~2020)](projects/ideas-2019-2020/)
 
 > Demo 集合「Coldemo」、桌面应用「Nofred」、微信小程序「内容分享」
 
