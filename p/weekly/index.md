@@ -1,6 +1,23 @@
 # 亮爷Weekly
 
-## [亮爷Weekly 0814](190814.md)
+## [亮爷Weekly 0225](220225.md)
+
+> [0225] Conditional COPY/ADD in Dockerfile?<br>
+[0225] Continuous Deployment with Fly and GitHub Actions<br>
+[0220] Alpine 镜像使用帮助（清华大学镜像）<br>
+[0219] fly.io上部署 redis应用<br>
+[0217] Extending Enum in typescript<br>
+[0217] How to get a random enum in TypeScript?<br>
+[0210] 腾讯云linux挂载新磁盘,腾讯云服务器Ubuntu 16 挂载新数据盘  (ext4)<br>
+[0127] 已成功解决 docker 中运行 puppeteer，含依赖安装和环境配置<br>
+[0126] macOS 10.15 (老系统) 支持的 xcode版本<br>
+[0124] mac os 终端提示 you have new mail<br>
+[0121] 一些手写实现Promise/A+规范的例子 通过promises-aplus-tests测试<br>
+[0121] 使用VSCode调试Jest
+
+---
+
+## [亮爷Weekly 0814 '19](190814.md)
 
 > [0813] shell 目录下 筛选后缀名 替换字符串<br>
 [0808] bilibili视频提取 flv转mp4<br>
@@ -13,7 +30,7 @@
 [0703] 用户id输入框 全角英文转 半角字符<br>
 [0702] node 中 支持 ts 的 sourcemap
 
-## [亮爷Weekly 0622](190622.md)
+## [亮爷Weekly 0622 '19](190622.md)
 
 > [0622] yaml 不同的 多行模式<br>
 [0621] Placeholder for content-editble divs HTML & CSS<br>
@@ -27,7 +44,7 @@
 [0520] shell 判断 变量$foo 是否存在<br>
 [0520] puppeteer alpine 坑解决 chromium预装
 
-## [亮爷Weekly 0518](190518.md)
+## [亮爷Weekly 0518 '19](190518.md)
 
 > [0517] linux docker 运行报错 OCI runtime create failed container_linux.go<br>
 [0517] React ts Component state初始化后 值推导为"never<br>
@@ -42,7 +59,7 @@
 [0429] Javascript/DOM: How to remove all events of a DOM object?<br>
 [0429] webpack loader exclude node_modules but one
 
-## [亮爷Weekly 0420](190420.md)
+## [亮爷Weekly 0420 '19](190420.md)
 
 > [0418] package-lock.json 不应写进 .gitignore<br>
 [0412] ts中 动态扩充 外部module定义的 interface<br>
@@ -56,7 +73,7 @@
 [0221] table col标签 仅部分属性支持 坑<br>
 [0219] linux netstat 通过port 找进程id
 
-## [亮爷Weekly 0216](190216.md)
+## [亮爷Weekly 0216 '19](190216.md)
 
 > [0216] computed快速实现 前后端 控件model 数组/字符串 格式转换<br>
 [0215] ts 尝试限制/实现 类static方法声明 hack<br>
@@ -70,7 +87,7 @@
 [0130] ts+koa+jest 踩坑笔记<br>
 [0128] element el-input 输入限定 坑<br>
 
-## [亮爷Weekly 0126](190126.md)
+## [亮爷Weekly 0126 '19](190126.md)
 
 > [0125] vue-threejs vue-cli-3 升级笔记<br>
 [0124] csrf-demo 深度模拟实验报告<br>
@@ -80,7 +97,7 @@
 [0116] vue-cli-3 webpack-chain 补充define-plugin env参数迁移<br>
 [0114] mpwx抓取 小图标移除 增强识别 (判断style中width值)<br>
 
-## [亮爷Weekly 0112](190112.md)
+## [亮爷Weekly 0112 '19](190112.md)
 
 > [0111] shell语句中的 或 || 操作符 写法<br>
 [0107] 订餐系统 搭建指南 实践分享<br>
