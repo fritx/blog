@@ -284,7 +284,7 @@
 
     pageExt = '.md';
     pageBase = 'p/';
-    defaultPage = 'diary';
+    defaultPage = 'weekly';
   }
 
 })();
