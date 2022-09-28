@@ -1,4 +1,4 @@
-# silent项目一周年
+# 🎉 silent项目一周年
 
 *2015-05-09*
 
@@ -8,7 +8,7 @@
 
 （Designed by: **@huangruichang**）
 
-silent是什么？**silent是一款极简的轻量级静态博客框架**，拥有自己的一套载入机制和“哲学”。
+[silent](.././../../projects/silent/)是什么？**silent是一款极简的轻量级静态博客框架**，拥有自己的一套载入机制和“哲学”。
 
 silent开启了我的极简主义之路，从此一发不可收拾，我的大脑无法再接收复杂的东西。
 
@@ -64,11 +64,11 @@ silent开启了我的极简主义之路，从此一发不可收拾，我的大�
 
 [1]: https://github.com/fritx/silent
 [2]: https://github.com/Meizhuo/silentor
-[3]: http://fritx.github.io/blog/
-[4]: http://IamJayden.github.io
-[5]: http://jacsonLee.github.io/Blog/
-[6]: http://huangruichang.github.io
-[7]: http://Derekgame2013.github.io/blog/
-[8]: http://Jayin.github.io
-[9]: http://7c00.github.io/b14/
+[3]: https://fritx.github.io/blog/
+[4]: https://IamJayden.github.io
+[5]: https://jacsonLee.github.io/Blog/
+[6]: https://huangruichang.github.io
+[7]: https://Derekgame2013.github.io/blog/
+[8]: https://Jayin.github.io
+[9]: https://7c00.github.io/b14/
 [10]: https://github.com/fritx

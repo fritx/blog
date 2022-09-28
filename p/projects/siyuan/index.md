@@ -1,4 +1,4 @@
-# siyuan - 思源校友群App
+# siyuan 思源校友群App
 
 <a href="https://github.com/node-fun/siyuan"><img src="../github-badge.svg" width="85" height="20"></a>
 

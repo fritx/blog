@@ -1,4 +1,4 @@
-# jmsis - 江门社保管控系统
+# 💰 jmsis 江门社保管控系统
 
 <a href="https://github.com/phrief/jmsis"><img src="../github-badge.svg" width="85" height="20"></a>
 

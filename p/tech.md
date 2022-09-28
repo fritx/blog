@@ -1,5 +1,9 @@
 # My Talks About Techniques
 
+## [🚀 Blog Setup via Github Fork](2022/09/blog-setup-via-github-fork.md)
+
+> We chose silent, a static blog template, for example
+
 ## [React hooks 实现 “双列表格” 效果](2020/04/use-split-table.md)
 
 > 只需将原有传参经过一层 hook 转换，并补充相应的分列参数，非常简单易用
@@ -64,7 +68,7 @@
 
 > But I'd never figured out a way that is flat and straightforward
 
-## [Why I Don't Write Semicolons](2015/01/why-no-semicolon.md)
+## [Why I don't write a semi](2015/01/why-no-semicolon.md)
 
 > I've been asked for several times why I don't write down a semicolon
 

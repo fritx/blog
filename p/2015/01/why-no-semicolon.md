@@ -1,4 +1,4 @@
-# Why I Don't Write Semicolons
+# Why I don't write a semi
 
 *2015-01-07*
 
@@ -28,4 +28,4 @@ The below are the reasons why I finally switched to the no-semicolon style:
 
 No-semicolon style does not mean "no semicolon at all", instead, it means "write only when required". Do not forget to prepend a semicolon for those lines with leading `(`, `[`, `/`, `+`, `-`.
 
-Here is [another article](http://mislav.uniqpath.com/2010/05/semicolons/), by Mislav, stuff in Github.
+Here is [another article](https://mislav.net/2010/05/semicolons/), by Mislav, stuff in Github.

@@ -1,21 +1,16 @@
-# silent
+# silent 1.0-legacy
 
 <a href="https://github.com/fritx/silent"><img src="../github-badge.svg" width="85" height="20"></a>
-&nbsp;&nbsp;<a href="https://gitter.im/fritx"><img src="../gitter-badge.svg" width="99" height="20"></a>
+&nbsp;&nbsp;<a href="https://gitter.im/fritx"><img src="../gitter-badge.svg" width="99" height="20"></a>&nbsp;&nbsp;<a href="https://www.npmjs.com/package/silent"><img height="20" src="https://img.shields.io/npm/dm/silent.svg"></a>
 
 <img src="pic/si1ent.png">
 
 > Be a silent, static blog
 
-Live Demo: <http://fritx.github.io/silent><br>
+Live Demo: <https://fritx.github.io/silent><br>
 Also, a branch by @Jayin: [Meizhuo/silentor](https://github.com/Meizhuo/silentor)
 
-## Silent One-Year Old
-
-<img width="360" src="pic/tshirt-x360.png">
-
-- Buy it: [优定制UDZ silent-Tshirt](http://udz.com/silent)
-- Blog post: [silent项目一周年](http://fritx.github.io/blog/?2015/05/silent-one-year-old/)
+for silent 2.0, check [this](../silent_2.0/) out
 
 ## Features
 
@@ -25,17 +20,15 @@ Also, a branch by @Jayin: [Meizhuo/silentor](https://github.com/Meizhuo/silentor
 
 Or you can use any other renderer instead
 
-### Flexible: Special Page Mastering
+### Flexible: Special Page Management
 
-> Everything, is under **1** folder
+> With only **1** folder, do it yourself
 
 Everything is a **page**, and every page is a **file**
 
 ### Lightweight: You Can't Imagine
 
 > 1 html, 1 ico, 1 css and 1 js, totally **7K** (excluding jquery & marked)
-
-Look, here's a sample of the folders, and nothing else:
 
 ```plain
 - blog/
@@ -58,22 +51,9 @@ Look, here's a sample of the folders, and nothing else:
   - index.html
 ```
 
-## Usage
+### Responsive: All is Well
 
-> Fast and easy
-
-```shell
-$ git clone git@github.com:fritx/silent.git
-```
-
-Or via [fritx/prj](https://github.com/fritx/prj):
-
-```shell
-$ npm install --global prj
-$ prj silent
-```
-
-## Screenshots
+> Never mind the screens
 
 <img src="pic/Screenshot_from_2014-05-08_01-43-18.png" width="140">
 &nbsp;&nbsp;&nbsp;&nbsp;
@@ -83,13 +63,22 @@ $ prj silent
 
 <img src="pic/Screenshot_from_2014-05-08_01-50-42.png" width="360">
 
-## People Using Silent
+## Silent Fans
 
 > Thank you!
 
-- [Jayin Blog](http://jayin.github.io)
-- [Derek's Blog](http://derekgame2013.github.io/blog/)
-- [huang's Blog](http://huangruichang.github.io)
-- [Jason's Blog](http://jacsonlee.github.io/Blog/)
-- [Jayden's Blog](http://iamjayden.github.io)
-- [Fritx' Blog](http://fritx.github.io/blog/)
+- [Jayin's Blog](https://jayin.github.io)
+- [Derek's Blog](https://derekgame2013.github.io/blog/)
+- [Huang's Blog](https://huangruichang.github.io)
+- [Jason's Blog](https://jacsonlee.github.io/Blog/)
+- [Jayden's Blog](https://iamjayden.github.io)
+- [Fritx' Blog](https://fritx.github.io/blog/)
+
+## More..
+
+> Rather than a framework or library, silent is more like a spirit - a culture. (says Huang)
+
+- [Silent One Year Old](../../2015/05/silent-one-year-old/)
+- ~~[Silent T-Shirt](http://udz.com/silent)~~
+
+<img width="360" src="pic/tshirt-x360.png">

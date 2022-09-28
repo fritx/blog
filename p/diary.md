@@ -1,5 +1,13 @@
 # Things Happening In My Life
 
+## [😡 什么神仙功能！🍎iCloud 的“接力”功能：“在设备之间传送网页”](2022/09/wtf-is-that-mac-icloud-handoff.md)
+
+> 妈妈再也不用担心，我正在浏览的🔞网页被传送到iPad上了
+
+## [silent talk](2016/08/silent-talk.md)
+
+> silent不是我在github的第一个项目，但绝对是生命力最持久，收获眼球最多的一个
+
 ## [2016 写在年初](2016/01/new-year-2016.md)
 
 > 为了纪念过去一年所发生的一切，以及迎接新的一年。
@@ -8,7 +16,7 @@
 
 > 在我的毕业论文即将完成之际，我想要好好地感谢，感谢那些陪伴过我、支持过我的人
 
-## [silent项目一周年](2015/05/silent-one-year-old/)
+## [🎉 silent项目一周年](2015/05/silent-one-year-old/)
 
 > silent不是我在github的第一个项目，但绝对是生命力最持久，收获眼球最多的一个
 

@@ -28,6 +28,7 @@
       if (/\/$/.test(stack)) {
         stack = [
           stack + 'index',
+          stack + 'README',
           stack.replace(/\/$/, '')
         ];
       } else {
@@ -141,7 +142,7 @@
   function onNotFound() {
     if ($('#main-page').hasAttr('data-loaded')) {
       onMainRendered();
-    } else {
+    } else if (location.search) {
       location.href = '.';
     }
   }
@@ -284,7 +285,7 @@
 
     pageExt = '.md';
     pageBase = 'p/';
-    defaultPage = 'weekly';
+    defaultPage = 'weekly/';
   }
 
 })();
