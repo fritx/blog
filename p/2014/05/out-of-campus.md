@@ -24,4 +24,4 @@
 
 考虑到隐私，我对“误闯”也感到抱歉，因此我没有直接给出链接。
 
-[1]: https://github.com/fritx/silent
+[1]: ../../projects/silent/

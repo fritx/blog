@@ -12,7 +12,7 @@
 
 看到剑伯他们开始关注Gulp，我感到很高兴。演讲也使我得到了锻炼，感谢英爷给我这个机会。
 
-关于[本次开发者沙龙][2]，雄爷也写了一篇[精彩的博文][1]。
+关于[本次开发者沙龙][2]（WYU Dev Conf 2014 S1），雄爷也写了一篇[精彩的博文][1]。
 
 > 天啊！亮爷又坑了！两次演示都失败！我都替他晕菜了！
 但是他还是讲的不错的.起码知道了coffcescript还有一些gulp跟xxx的对比！
@@ -60,7 +60,7 @@
 [1]: http://jacsonlee.github.io/Blog/?Diary/wyu-dev-conf
 [2]: https://github.com/WuyiUniversity/forum/issues/8
 [3]: http://pan.baidu.com/s/1hqeK4ra#dir/path=%2FDEV_Conf_2014
-[4]: https://github.com/fritx/silent
+[4]: ../../projects/silent/
 [5]: http://huangruichang.github.io
 [6]: http://jacsonlee.github.io
 [7]: http://iamjayden.github.io

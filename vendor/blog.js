@@ -34,7 +34,8 @@
       } else {
         stack = [
           stack,
-          stack + '/index'
+          stack + '/index',
+          stack + '/README'
         ];
       }
     }

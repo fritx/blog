@@ -8,7 +8,7 @@
 
 那是两年前了，当时刚学HTML5，创作欲十足，母亲节和父亲节，随手就能设计一个单页主题网页，向爸妈炫耀一下。去年母亲节，正值迷恋3D引擎-THREE.js，把做了个“游戏”，匆匆换上皮肤，说是母亲节的礼物（第一人称射击-简单修复后的[演示地址](./mom)）；同年父亲节，做了什么，忘了。
 
-总之是越来越糟糕，今年母亲节，和三八节一样，一篇短文打发；父亲节，也就是前两天，我cao起旧刀，对着问老爸要的资料，忙了大半天，出炉了一个练手作品-[BEC公司简介页](http://fritx.github.io/sites/bec/)。创作欲流失，总体来说是套模板，主要模板：[Carousel Template for Bootstrap](http://v3.bootcss.com/examples/carousel/)，部分图标：[Worktile](https://worktile.com/)。
+总之是越来越糟糕，今年母亲节，和三八节一样，一篇短文打发；父亲节，也就是前两天，我cao起旧刀，对着问老爸要的资料，忙了大半天，出炉了一个练手作品-[BEC公司简介页](https://bec.today/)。创作欲流失，总体来说是套模板，主要模板：[Carousel Template for Bootstrap](http://v3.bootcss.com/examples/carousel/)，部分图标：[Worktile](https://worktile.com/)。
 
 爸爸满意，当然，我自己也满意，这更加重要。这是难得的。值得一提的是，我开设了一个[网站集](http://github.com/fritx/sites/)，就以此作开头，以后多套模板增加熟练度，多向现实看齐。
 

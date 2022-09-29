@@ -1,6 +1,8 @@
-# Test on JavaScript
+# 🔧 Test on JavaScript
 
 *2014/12/27*
+
+> My talk at WYU Dev Conf 2014 S2 🎤
 
 
 ## Assertion Libraries
@@ -188,19 +190,25 @@ describe('AsyncProcess', function() {
 
 ## References
 
-- 五个值得尝试的前端开发工具 http://www.leiphone.com/news/201406/5-great-front-end-dev-tools.html
+- 五个值得尝试的前端开发工具 https://www.leiphone.com/news/201406/5-great-front-end-dev-tools.html
 
-- 使用Karma来驱动mocha测试 http://www.shenyanchao.cn/blog/2013/03/27/use-karma-to-run-mocha-test/
+- 使用Karma来驱动mocha测试 https://www.shenyanchao.cn/blog/2013/03/27/use-karma-to-run-mocha-test/
 
-- 单元测试之Stub和Mock http://www.cnblogs.com/TankXiao/archive/2012/03/06/2366073.html
+- 单元测试之Stub和Mock https://www.cnblogs.com/TankXiao/archive/2012/03/06/2366073.html
 
 
 ## Thanks
 
-- WYU Dev Conf & 互诺科技
-- Jayin Ton & Jason Lee
+- [WYU Dev Conf 2014 S2][1] & [互诺科技][2]
+- [Jayin Ton][3] & [Jason Lee][4]
 
 
 ## Author
 
-@fritx; Powered by the Silent Blog
+@fritx; Powered by the [Silent][5] Blog
+
+[1]: https://wuyiuniversity.github.io/
+[2]: https://baike.baidu.com/item/互诺科技/7246160
+[3]: https://github.com/Jayin
+[4]: https://github.com/jacsonLee
+[5]: ../../projects/silent_2.0/

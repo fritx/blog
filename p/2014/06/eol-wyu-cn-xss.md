@@ -1,6 +1,6 @@
 # eol.wyu.cn上的XSS漏洞
 
-*原发表于: https://github.com/WuyiUniversity/wyuforum/issues/13*
+*原发表于: https://github.com/WuyiUniversity/forum/issues/13*
 
 *2014-06-01*
 

@@ -8,7 +8,7 @@
 
 （Designed by: **@huangruichang**）
 
-[silent](.././../../projects/silent/)是什么？**silent是一款极简的轻量级静态博客框架**，拥有自己的一套载入机制和“哲学”。
+[silent][1]是什么？**silent是一款极简的轻量级静态博客框架**，拥有自己的一套载入机制和“哲学”。
 
 silent开启了我的极简主义之路，从此一发不可收拾，我的大脑无法再接收复杂的东西。
 
@@ -62,7 +62,7 @@ silent开启了我的极简主义之路，从此一发不可收拾，我的大�
 
 然而眼下，有那么一些事情正等着我去做，我知道，有些机会我必须把握。如果一些事情对你来说非常重要，那么也请你低调地把它做好！我是林亮，我为silent代言。
 
-[1]: https://github.com/fritx/silent
+[1]: ../../../projects/silent/
 [2]: https://github.com/Meizhuo/silentor
 [3]: https://fritx.github.io/blog/
 [4]: https://IamJayden.github.io

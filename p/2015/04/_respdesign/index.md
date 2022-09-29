@@ -59,7 +59,7 @@
 
 <img height="480" src="silent-screenshots.png">
 
-（摘自：[silent博客框架](https://github.com/fritx/silent)，演示：[Fritx' Blog](http://fritx.github.io/blog/)，源码：[fritx/blog](https://github.com/fritx/blog)）
+（摘自：[silent博客框架](../../../projects/silent/)，演示：[Fritx' Blog](http://fritx.github.io/blog/)，源码：[fritx/blog](https://github.com/fritx/blog)）
 
 ### 列数增减
 
@@ -69,7 +69,7 @@
 
 <img height="280" src="bec-caselist-md.png">
 
-（演示：[深圳商擎顾问](http://fritx.github.io/sites/bec/)，源码：[fritx/sites](https://github.com/fritx/sites)）
+（演示：[深圳商擎顾问](https://bec.today/)，源码：[fritx/sites](https://github.com/fritx/sites)）
 
 ### 部件改编（1）
 

@@ -211,7 +211,7 @@
 </li>
 <li class="noborder">
 <div class="workList c7">
-<div class="f16"><a href="http://fritx.github.io/sites/bec" target="_blank">http://fritx.github.io/sites/bec</a></div>
+<div class="f16"><a href="https://bec.today/" target="_blank">https://bec.today/</a></div>
 <p>BEC：深圳商擎顾问有限公司主页（模板） </p>
 </div>
 </li>

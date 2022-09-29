@@ -55,3 +55,7 @@
 ## [💰 jmsis: 江门社保管控系统](projects/jmsis/)
 
 > Front-end static files(html, css, js, etc) come with the JMSIS Project
+
+## [xstu: 学生系统桌面客户端](projects/xstu/)
+
+> A client version of WYU Student System, based on NW.js (node-webkit)
