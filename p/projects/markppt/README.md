@@ -1,14 +1,10 @@
 # markppt
 
-<a href="https://github.com/fritx/markppt"><img src="../github-badge.svg" width="85" height="20"></a>
-&nbsp;&nbsp;<a href="https://gitter.im/fritx/markppt"><img src="../gitter-badge.svg" width="99" height="20"></a>
+<a href="https://codepen.io/fritx/pen/VgeLeO"><img width="76" height="20" src="../website-badge.svg"></a>&nbsp;&nbsp;<a href="https://github.com/fritx/react-drag-sizing"><img src="../github-badge.svg" width="85" height="20"></a>&nbsp;&nbsp;<a href="https://gitter.im/fritx/markppt?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge"><img src="https://badges.gitter.im/Join%20Chat.svg" alt="Join the chat at https://gitter.im/fritx/markppt" height="20"></a>&nbsp;&nbsp;<a href="http://badge.fury.io/js/markppt"><img src="https://badge.fury.io/js/markppt.svg" alt="npm version" height="20"></a>
 
-<img width="161" src="screenshots/20150901234930.png">
-&nbsp;&nbsp;<img width="320" src="screenshots/20150901235103.png">
-&nbsp;&nbsp;<img width="140" src="artwork/icon_400x400.png">
+<img width="161" src="https://raw.githubusercontent.com/fritx/markppt/dev/screenshots/20150901234930.png">&nbsp;&nbsp;<img width="320" src="https://raw.githubusercontent.com/fritx/markppt/dev/screenshots/20150901235103.png">&nbsp;&nbsp;<img width="140" src="https://raw.githubusercontent.com/fritx/markppt/dev/artwork/icon_400x400.png">
 
-<img width="320" src="screenshots/20150901233430.png">
-&nbsp;&nbsp;<img width="320" src="screenshots/20150901233453.png">
+<img width="320" src="https://raw.githubusercontent.com/fritx/markppt/dev/screenshots/20150901233430.png">&nbsp;&nbsp;<img width="320" src="https://raw.githubusercontent.com/fritx/markppt/dev/screenshots/20150901233453.png">
 
 ## 一篇markdown，一份ppt。
 
@@ -51,3 +47,7 @@ $ markppt mytalk/talk.md --color=green   # 指定主色调
   - talk.md
   - talk.html (√)
 ```
+
+常见问题解答
+
+- [运行无报错输出，但是打开html空白 #8](https://github.com/fritx/markppt/issues/8)

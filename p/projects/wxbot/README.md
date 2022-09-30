@@ -1,4 +1,4 @@
-# wxbot 微信机器人
+# wxbot 微信机器人&nbsp;&nbsp;[![](https://img.shields.io/github/stars/fritx/wxbot?style=social)](https://github.com/fritx/wxbot)
 
 <a href="https://github.com/fritx/wxbot"><img src="../github-badge.svg" width="85" height="20"></a>
 &nbsp;&nbsp;<a href="https://gitter.im/fritx"><img src="../gitter-badge.svg" width="99" height="20"></a>

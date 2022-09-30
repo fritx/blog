@@ -1,9 +1,9 @@
 # 🎵 微信唱吧 wxchangba
 
-<a href="https://github.com/fritx/wxchangba"><img src="../github-badge.svg" width="85" height="20"></a>
+<a href="https://changba.wx.fritx.me"><img width="76" height="20" src="../website-badge.svg"></a>&nbsp;&nbsp;<a href="https://github.com/fritx/wxchangba"><img src="../github-badge.svg" width="85" height="20"></a>
 &nbsp;&nbsp;<a href="https://gitter.im/fritx"><img src="../gitter-badge.svg" width="99" height="20"></a>
 
-基于node.js和微信jssdk的校园轻应用, 入口: <http://changba.wx.fritx.me>
+基于node.js和微信jssdk的校园轻应用, 入口: <https://changba.wx.fritx.me>
 
 - 历史仓库: (邑大唱吧) <https://github.com/fritx/wyu-sing>
 - 0.1.x版本: (一分钟歌声) <https://github.com/fritx/wxchangba/tree/0.1.x>
