@@ -277,10 +277,13 @@
     window.disqus_identifier = id;
     window.disqus_url = url;
 
-    var dsq = document.createElement('script');
-    dsq.async = true;
-    dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-    document.getElementsByTagName('body')[0].appendChild(dsq);
+    // adding setTimeout to prevent favicon from keeping loading instead of showing
+    // (disqus.com gets blocked when it's in GFW)
+    setTimeout(function () {
+      $('<script>').attr({
+        src: 'https://' + disqus_shortname + '.disqus.com/embed.js'
+      }).appendTo('body');
+    }, 1000);
   }
 
   config();
