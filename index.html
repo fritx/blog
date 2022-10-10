@@ -6,7 +6,7 @@
   <!-- responsive -->
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
 
-  <title>&nbsp;</title>
+  <title>&lrm;</title>
 
   <!-- favicon -->
   <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
@@ -41,8 +41,8 @@
     <div class="main-inner">
       <div class="main-page" id="main-page"></div>
 
-      <!-- disqus container -->
-      <div id="disqus_thread"></div>
+      <!-- comment system -->
+      <div id="comment-system"> </div>
     </div>
   </div>
 </div>
@@ -51,12 +51,16 @@
 <img class="img-holder" id="img-holder" src="p/avatar.jpg">
 
 <!-- import vendor scripts -->
+<script src="vendor/pace-1.2.4.min.js"></script>
+<script src="vendor/lodash-4.17.21.min.js"></script>
 <script src="vendor/jquery-1.11.1.min.js"></script>
 <script src="vendor/marked-0.3.2.min.js"></script>
 <script src="vendor/highlight.pack.js"></script>
 <script src="vendor/blog.js"></script>
 
 <!-- import baidu stats -->
+<!-- 注意“启用单页应用数据统计” 管理后台 > 使用设置 > 规则设置 > 选中某个站点 -> 单页设置 -->
+<!-- https://tongji.baidu.com/web/help/article?id=324&type=0 -->
 <script>
 var _hmt = _hmt || [];
 (function() {

@@ -16,12 +16,31 @@
   var pageBase;
   var pageExt;
   var defaultPage;
+  var mainSearch;
   var mainPage;
+  var mainPageId;
   var mainTitle;
   var entryUrl;
   var onlineUrl;
   var shortName;
 
+  function loadSidebar() {
+    load('#sidebar-page', 'sidebar')
+  }
+
+  function loadMain(search, callback) {
+    mainSearch = search
+    var seg = search.slice(1).replace(/&.*$/g, '')
+    // fucking wechat again
+    // like /?graduation-thanks=
+    // or /?graduation-thanks=/ (SublimeServer)
+    seg = seg.replace(/=[\/\\]*$/, '')
+    // fucking wechat pending
+    // like /?from=singlemessage&isappinstalled=0
+    if (/=/.test(seg)) seg = null
+    mainPage = resolve(seg || defaultPage)
+    load('#main-page', mainPage, true, callback)
+  }
 
   function load(sel, stack, isMain, callback) {
     if (typeof stack === 'string') {
@@ -40,31 +59,38 @@
       }
     }
 
-    var page = stack.shift();
+    var pageId = stack.shift();
     isMain = isMain || false;
     if (isMain) {
-      onlineUrl = entryUrl + '?' + page;
+      mainPageId = pageId;
+      onlineUrl = entryUrl + '?' + pageId;
     }
 
-    var url = pageBase + page + pageExt;
+    var url = pageBase + pageId + pageExt;
     var dir = url.replace(
       new RegExp('[^\\/]*$', 'g'), ''
     );
     $.ajax({
       url: url,
       error: function(err) {
+        if (isMain && pageId !== mainPageId) return
+
         if (stack.length) {
           return load(sel, stack, isMain, callback);
         }
         onNotFound(err);
       },
       success: function (data) {
+        if (isMain && pageId !== mainPageId) return
+
         render(data, function (err, html) {
+          if (isMain && pageId !== mainPageId) return
+
           if (err) {
             return console.error('render err', err);
           }
           var $el = $(sel);
-          $el.hide().html(html);
+          $el.addClass('contents-preparing').html(html);
 
           $el.find('[src]').each(function () {
             var $el = $(this);
@@ -122,7 +148,7 @@
             hljs.highlightBlock(el)
           })
 
-          $el.show().addAttr('data-loaded');
+          $el.removeClass('contents-preparing').addAttr('data-loaded');
           if (isMain) onMainRendered();
           if (callback) callback();
         });
@@ -137,7 +163,6 @@
     var navTitle = autoTitleFavicon(mainTitle);
     document.title = navTitle;
 
-    $('#disqus_thread').empty();
     comments();
     shares();
   }
@@ -154,8 +179,11 @@
     return str.replace(/([.?*+^$!:\[\]\\(){}|-])/g, '\\$1');
   }
 
+  // How to test if a URL string is absolute or relative?
+  // https://stackoverflow.com/questions/10687099/how-to-test-if-a-url-string-is-absolute-or-relative
+  // https://en.wikipedia.org/wiki/Uniform_Resource_Identifier#Syntax
   function isAbsolute(url) {
-    return !url.indexOf('//') || !!~url.indexOf('://');
+    return /^(ftp:|https?:)?\/\//i.test(url) || /^(mailto|tel):/i.test(url)
   }
 
   function resolve(path) {
@@ -271,12 +299,21 @@
     return navTitle
   }
 
+  // https://disqus.com/admin/install/platforms/universalcode/
+  var disqusInitiated = false
   function disqus(name, title, id, url) {
     window.disqus_shortname = name;
     window.disqus_title = title;
     window.disqus_identifier = id;
     window.disqus_url = url;
-
+    // Using Disqus on AJAX sites
+    // https://help.disqus.com/en/articles/1717163-using-disqus-on-ajax-sites
+    if (disqusInitiated) {
+      if (window.DISQUS) DISQUS.reset({ reload: true })
+      return
+    }
+    disqusInitiated = true
+    $('<div>').attr({ id: 'disqus_thread' }).appendTo('#comment-system')
     // adding setTimeout to prevent favicon from keeping loading instead of showing
     // (disqus.com gets blocked when it's in GFW)
     setTimeout(function () {
@@ -284,6 +321,65 @@
         src: 'https://' + disqus_shortname + '.disqus.com/embed.js'
       }).appendTo('body');
     }, 1000);
+  }
+
+  // body.scrollTop vs documentElement.scrollTop vs window.pageYOffset vs window.scrollY
+  // https://stackoverflow.com/questions/19618545/body-scrolltop-vs-documentelement-scrolltop-vs-window-pageyoffset-vs-window-scro
+  function getScrollTop() {
+    return window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop || 0
+  }
+
+  function usePJAX() {
+    if ('scrollRestoration' in history) {
+      history.scrollRestoration = 'manual'
+    }
+    window.addEventListener('scroll', _.throttle(function () {
+      var newState = _.assign(history.state || {}, { scrollTop: getScrollTop() })
+      // temporally disable Pace
+      // https://github.com/CodeByZach/pace/blob/5ba323c/pace.js#L14-L40
+      Pace.options.restartOnPushState = false
+      history.replaceState(newState, '', document.URL)
+      Pace.options.restartOnPushState = true
+    }, 500))
+    window.addEventListener('popstate', function (e) {
+      var savedState = e.state || {}
+      var savedScrollTop = savedState.scrollTop || 0
+      loadMain(location.search, function () {
+        window.scrollTo(0, savedScrollTop)
+      })
+      adaptForTripleBackBehavior()
+    })
+    // trying to fix: continuous popstate events may not be fired properly
+    // seems to be a fucking weird feature by some browsers:
+    // back btn being pressed too frequently (triple-click)
+    var popstateDelayTimer
+    function adaptForTripleBackBehavior() {
+      clearTimeout(popstateDelayTimer)
+      popstateDelayTimer = setTimeout(function () {
+        if (location.search !== mainSearch) {
+          console.log('popstate got lost detected location.search=', location.search, 'mainSearch=', mainSearch)
+          loadMain(location.search)
+        }
+      }, 500)
+    }
+    $('body').delegate('[href]', 'click', function (e) {
+      var $a = $(e.target)
+      var url = $a.attr('href') || ''
+      var target = $a.attr('target')
+      var isTargetSelf = [undefined, '_self'].includes(target)
+      var isSilentInternal = url === '.' || url.startsWith('?')
+      var isSameUrl = url === location.search || url === '' || url === '.' && !location.search
+      if (isTargetSelf && isSilentInternal) {
+        e.preventDefault()
+        // explicit call Pace in case of no pushState
+        // Pace.restart: Called automatically whenever pushState or replaceState is called by default.
+        Pace.restart()
+        loadMain(url, function() {
+          window.scrollTo(0, 0)
+          if (!isSameUrl) history.pushState({}, '', url)
+        })
+      }
+    })
   }
 
   config();
@@ -308,24 +404,15 @@
   }
 
   function start() {
-    var seg = location.search.slice(1)
-      .replace(/&.*$/g, '')
-
-    // fucking wechat again
-    // like /?graduation-thanks=
-    // or /?graduation-thanks=/ (SublimeServer)
-    seg = seg.replace(/=[\/\\]*$/, '')
-
-    // fucking wechat pending
-    // like /?from=singlemessage&isappinstalled=0
-    if (/=/.test(seg)) seg = null
-    mainPage = resolve(seg || defaultPage);
-
-    load('#sidebar-page', 'sidebar');
-    load('#main-page', mainPage, true);
+    loadSidebar()
+    loadMain(location.search)
   }
 
   function config() {
+
+    //// Optional: history.pushState API (PJAX) for silent internal page navigation
+    usePJAX()
+
     var renderer = new marked.Renderer()
 
     // 实现trello的 超链接效果 自动识别github issues

@@ -46,9 +46,11 @@ for silent 1.0, check [this](../silent/) out
 
 <img width="500" src="../../projects/silent_2.0/WX20220927-173925.png">
 
-### Security & Stability
+### Security & Stability & Performance
 
 - [x] responsive design
+- [x] prefer history.pushState api
+- [ ] fallback on browser compatibility break
 - [ ] IE 6+ support (needs polyfill, etc)
 
 <img width="160" src="../../2016/08/屏幕快照 2016-08-02 下午6.35.12.png">
@@ -93,6 +95,8 @@ Status: no IE
 - [ ] no IE https://caniuse.com/?search=arr%20includes
 - [ ] no IE https://caniuse.com/?search=str%20includes
 - [ ] IE10+ https://caniuse.com/?search=console
+- [ ] IE10+ https://caniuse.com/?search=pushstate
+- [ ] IE9+ https://caniuse.com/?search=object.keys
 - [ ] IE9+ https://caniuse.com/?search=arr%20foreach
 - [ ] IE9+ https://caniuse.com/?search=querySelector
 - [ ] IE9+ https://caniuse.com/?search=css3%20selectors
@@ -105,12 +109,15 @@ auto title favicon:
 
 if using giscus:
 
+- [ ] no IE https://caniuse.com/?search=ResizeObserver
+- [ ] IE8+ https://caniuse.com/?search=postmessage
 - [ ] IE8+ https://caniuse.com/?search=localstorage
 
 ## Silent Fans
 
 > Thank you!
 
+- [ZhanZengyu's Blog](https://zhanzengyu.github.io/blog/)
 - [Meizhuo's Blog](https://meizhuo.github.io/blog/)
 - [Amen's Blog](https://linzx89757.github.io/blog/)
 - [Jayin's Blog](https://v1.jayinton.com/blog/)
