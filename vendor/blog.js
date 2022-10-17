@@ -2,60 +2,39 @@
  * Created by fritx on 5/7/14.
  */
 
-;(function(){
-  $.fn.addAttr = function(key){
-    return $(this).attr(key, '')
-  }
-  $.fn.hasAttr = function(key){
-    return $(this).attr(key) != null
-  }
-})();
-
 ;(function () {
+  'use strict'
 
-  var pageBase;
-  var pageExt;
-  var defaultPage;
-  var mainSearch;
-  var mainPage;
-  var mainPageId;
-  var mainTitle;
-  var entryUrl;
-  var onlineUrl;
-  var shortName;
+  var pageExt, pageBase
+  var sidebarPage, defaultPage
+  var mainPage, mainTitle
+  var mainPageId, mainSearch
+  var entryUrl, onlineUrl, shortName
 
   function loadSidebar() {
-    load('#sidebar-page', 'sidebar')
+    load('#sidebar-page', sidebarPage)
   }
 
-  function loadMain(search, callback) {
+  function loadMain(search, callback, isPopState) {
     mainSearch = search
-    var seg = search.slice(1).replace(/&.*$/g, '')
+    var seg = search.slice(1).replace(/[&#].*$/g, '')
     // fucking wechat again
     // like /?graduation-thanks=
     // or /?graduation-thanks=/ (SublimeServer)
-    seg = seg.replace(/=[\/\\]*$/, '')
+    seg = seg.replace(/=[/\\]*$/, '')
     // fucking wechat pending
     // like /?from=singlemessage&isappinstalled=0
     if (/=/.test(seg)) seg = null
     mainPage = resolve(seg || defaultPage)
-    load('#main-page', mainPage, true, callback)
+    load('#main-page', mainPage, true, callback, isPopState)
   }
 
-  function load(sel, stack, isMain, callback) {
+  function load(sel, stack, isMain, callback, isPopState) {
     if (typeof stack === 'string') {
       if (/\/$/.test(stack)) {
-        stack = [
-          stack + 'index',
-          stack + 'README',
-          stack.replace(/\/$/, '')
-        ];
+        stack = [stack + 'index', stack + 'README', stack.replace(/\/$/, '')]
       } else {
-        stack = [
-          stack,
-          stack + '/index',
-          stack + '/README'
-        ];
+        stack = [stack, stack + '/index', stack + '/README']
       }
     }
 
@@ -72,13 +51,13 @@
     );
     $.ajax({
       url: url,
-      error: function(err) {
+      error: function (err) {
         if (isMain && pageId !== mainPageId) return
 
         if (stack.length) {
-          return load(sel, stack, isMain, callback);
+          return load(sel, stack, isMain, callback, isPopState)
         }
-        onNotFound(err);
+        if (isMain) onNotFound(err)
       },
       success: function (data) {
         if (isMain && pageId !== mainPageId) return
@@ -126,8 +105,8 @@
               var extRegex = new RegExp(slashes(pageExt) + '$');
               if (extRegex.test(dehashed) || /\/$/.test(dehashed)) {
                 return '?' + dehashed.replace(
-                    new RegExp('^' + slashes(pageBase)), ''
-                  ).replace(extRegex, '') + hash;
+                  new RegExp('^' + slashes(pageBase)), ''
+                ).replace(extRegex, '') + hash;
               }
               if (new RegExp('^\\.\\/').test(old)) {
                 // ./ heading for new tag
@@ -144,39 +123,60 @@
             });
           });
 
-          $el.find('pre code').each(function(i, el){
+          $el.find('pre code').each(function (i, el) {
             hljs.highlightBlock(el)
           })
 
-          $el.removeClass('contents-preparing').addAttr('data-loaded');
-          if (isMain) onMainRendered();
+          $el.removeClass('contents-preparing').attr('data-loaded', '')
+          if (isMain) onMainRendered(isPopState);
           if (callback) callback();
         });
       }
     });
   }
 
-  function onMainRendered() {
-    mainTitle = $('#main-page')
-      .find('h1, h2, h3, h4, h5, h6')
-      .first().text();
-    var navTitle = autoTitleFavicon(mainTitle);
-    document.title = navTitle;
+  function onMainRendered(isPopState) {
+    mainTitle = $('#main-page').find('h1, h2, h3, h4, h5, h6').first().text().trim()
+    var navTitle = autoTitleFavicon(mainTitle)
+    document.title = navTitle
 
+    if (!isPopState) {
+      setTimeout(scrollToAnchorIfExists, 500)
+    }
     comments();
     shares();
   }
 
   function onNotFound() {
-    if ($('#main-page').hasAttr('data-loaded')) {
-      onMainRendered();
+    if ($('#main-page').attr('data-loaded') != null) {
+      // noop
     } else if (location.search) {
       location.href = '.';
     }
   }
 
+  function scrollToAnchorIfExists() {
+    // location.hash is either empty or leading with `#`
+    // so the selector here is safe
+    var $anchor = $(location.hash)
+    if ($anchor.length) scrollIntoView($anchor[0])
+  }
+
+  // https://developer.mozilla.org/en-US/docs/Web/API/Element/scrollIntoViewIfNeeded
+  function scrollIntoView(el, scrollParent) {
+    if (el.scrollIntoView) {
+      el.scrollIntoView(true) // alignToTop=true
+    } else {
+      scrollParent = scrollParent || el.parentElement
+      var diff = el.offsetTop - scrollParent.scrollTop
+      if (diff < 0 || diff > scrollParent.offsetHeight - el.offsetHeight) {
+        scrollParent.scrollTop = el.offsetTop
+      }
+    }
+  }
+
   function slashes(str) {
-    return str.replace(/([.?*+^$!:\[\]\\(){}|-])/g, '\\$1');
+    return str.replace(/([.?*+^$!:[\]\\(){}|-])/g, '\\$1')
   }
 
   // How to test if a URL string is absolute or relative?
@@ -223,9 +223,9 @@
   // TODO library extraction: title-favicon & text-favicon & emoji-detect
   // How to detect emoji using javascript
   // https://stackoverflow.com/questions/18862256/how-to-detect-emoji-using-javascript
-  // +modification title-favicon bugfix: recognize emoji `✋🏻` `💁‍♀️` `👨‍👩‍👧‍👦`
+  // +modification title-favicon bugfix: recognize emoji `✋🏻` `💁‍♀️` `👨‍👩‍👧‍👦` `🏳️‍🌈`
   var emojiCellRegex = /(?:[\u2700-\u27bf]|(?:\ud83c[\udde6-\uddff]){2}|[\ud800-\udbff][\udc00-\udfff]|[\u0023-\u0039]\ufe0f?\u20e3|\u3299|\u3297|\u303d|\u3030|\u24c2|\ud83c[\udd70-\udd71]|\ud83c[\udd7e-\udd7f]|\ud83c\udd8e|\ud83c[\udd91-\udd9a]|\ud83c[\udde6-\uddff]|\ud83c[\ude01-\ude02]|\ud83c\ude1a|\ud83c\ude2f|\ud83c[\ude32-\ude3a]|\ud83c[\ude50-\ude51]|\u203c|\u2049|[\u25aa-\u25ab]|\u25b6|\u25c0|[\u25fb-\u25fe]|\u00a9|\u00ae|\u2122|\u2139|\ud83c\udc04|[\u2600-\u26FF]|\u2b05|\u2b06|\u2b07|\u2b1b|\u2b1c|\u2b50|\u2b55|\u231a|\u231b|\u2328|\u23cf|[\u23e9-\u23f3]|[\u23f8-\u23fa]|\ud83c\udccf|\u2934|\u2935|[\u2190-\u21ff])+/
-  var emojiRegex = new RegExp(emojiCellRegex.toString().replace(/^\/(.+)\/$/, '(?:[\\u200d]*$1)+[\\ufe0f]*'))
+  var emojiRegex = new RegExp(emojiCellRegex.toString().replace(/^\/(.+)\/$/, '(?:[\\u200d\\ufe0f]*$1)+[\\ufe0f]*'))
   var emojiPrefixRegex = new RegExp(emojiRegex.toString().replace(/^\/(.+)\/$/, '^$1'))
   var anyPrefixRegex = new RegExp(emojiPrefixRegex.toString().replace(/^\/\^(.+)\/$/, '^(?:$1|.)'))
 
@@ -247,7 +247,7 @@
 
       var parent = document.querySelector('head') || document.documentElement
       var rels = ['icon']
-      rels.forEach(key => {
+      rels.forEach(function (key) {
         var link = document.querySelector('link[rel=' + key + ']')
         if (link) {
           link.setAttribute('href', dataUrl)
@@ -273,7 +273,7 @@
 
   function detectShouldApplyFavicon() {
     var ua = navigator.userAgent
-    var isMobile = /Mobile[\/ ]|Android|iPad/.test(ua) // confidence: high
+    var isMobile = /Mobile[/ ]|Android|iPad/.test(ua) // confidence: high
     var isHuaweiBr = /HuaweiBrowser/.test(ua) // confidence: high
     var isWechat = /MicroMessenger|Wechat|Weixin/.test(ua) // confidence: high
     var isQQ = /M?QQBrowser/.test(ua) // confidence: high
@@ -290,7 +290,6 @@
     var matched = mainTitle.match(regex)
     if (matched) {
       var prefix = matched[0]
-
       var success = setFavicon(prefix)
       if (success && emojiPrefixRegex.test(mainTitle)) {
         navTitle = mainTitle.replace(regex, '').trim() // replace only if emoji
@@ -329,7 +328,8 @@
     return window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop || 0
   }
 
-  function usePJAX() {
+  function preferPJAX() {
+    if (!('pushState' in history)) return
     if ('scrollRestoration' in history) {
       history.scrollRestoration = 'manual'
     }
@@ -346,7 +346,7 @@
       var savedScrollTop = savedState.scrollTop || 0
       loadMain(location.search, function () {
         window.scrollTo(0, savedScrollTop)
-      })
+      }, true)
       adaptForTripleBackBehavior()
     })
     // trying to fix: continuous popstate events may not be fired properly
@@ -366,15 +366,16 @@
       var $a = $(e.target)
       var url = $a.attr('href') || ''
       var target = $a.attr('target')
-      var isTargetSelf = [undefined, '_self'].includes(target)
-      var isSilentInternal = url === '.' || url.startsWith('?')
+      if (e.metaKey || e.ctrlKey) target = '_blank'
+      var isTargetSelf = [undefined, '_self'].indexOf(target) > -1
+      var isSilentInternal = url === '.' || /^\?/.test(url)
       var isSameUrl = url === location.search || url === '' || url === '.' && !location.search
       if (isTargetSelf && isSilentInternal) {
         e.preventDefault()
         // explicit call Pace in case of no pushState
         // Pace.restart: Called automatically whenever pushState or replaceState is called by default.
         Pace.restart()
-        loadMain(url, function() {
+        loadMain(url, function () {
           window.scrollTo(0, 0)
           if (!isSameUrl) history.pushState({}, '', url)
         })
@@ -411,31 +412,31 @@
   function config() {
 
     //// Optional: history.pushState API (PJAX) for silent internal page navigation
-    usePJAX()
+    preferPJAX()
 
     var renderer = new marked.Renderer()
 
     // 实现trello的 超链接效果 自动识别github issues
     var _link = renderer.link
-    renderer.link = function(href, title, text) {
+    renderer.link = function (href, title, text) {
       if (text === href) {
         var tx = ''
 
         var mat = href.match(/github\.com\/(.+)\/(.+)\/(issues|pull)\/(\d+)(#(.+))?/)
         if (mat) {
           // tx = mat[1] +'/'+ mat[2] +': Issue #'+ mat[4] // trello
-          tx = mat[1] +'/'+ mat[2] +'#'+ mat[4] // github
+          tx = mat[1] + '/' + mat[2] + '#' + mat[4] // github
           if (mat[6]) tx += ' (comment)'
         }
         else if (mat = href.match(/github\.com\/(.+)\/(.+)\/commit\/([0-9a-f]+)/)) {
           // tx = mat[1] +'/'+ mat[2] +': '+ mat[3].slice(0, 7) // trello
-          tx = mat[1] +'/'+ mat[2] +'@'+ mat[3].slice(0, 7) // github
+          tx = mat[1] + '/' + mat[2] + '@' + mat[3].slice(0, 7) // github
         }
         else if (mat = href.match(/github\.com\/(.+)\/(.+)\/blob\/([^/]+)\/(.+)/)) {
-          tx = mat[1] +'/'+ mat[2] +' - '+ mat[4]
+          tx = mat[1] + '/' + mat[2] + ' - ' + mat[4]
         }
         else if (mat = href.match(/github\.com\/(.+)\/([^/]+)/)) {
-          tx = mat[1] +'/'+ mat[2]
+          tx = mat[1] + '/' + mat[2]
         }
 
         if (tx) {
@@ -475,13 +476,15 @@
 
     pageExt = '.md';
     pageBase = 'p/';
+    // add a trailing slash if it is an index.md of a directory
+    sidebarPage = 'sidebar'
     defaultPage = 'projects';
   }
 
 })();
 
 
-;(function(){
+;(function () {
 
   $('body > .duck').remove()
   var names = [
@@ -497,7 +500,7 @@
     .appendTo('body')
 
 
-  function sample(arr){
+  function sample(arr) {
     var idx = parseInt(Math.random() * arr.length)
     return arr[idx] || null
   }
