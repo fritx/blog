@@ -1,13 +1,13 @@
 ﻿## 🎤 演讲家App
 
-<a href="https://github.com/3dobe/yjjapp"><img src="../github-badge.svg" width="85" height="20"></a>
+<a href="https://yjjapp.3dobe.fritx.me"><img width="76" height="20" src="../website-badge.svg"></a>&nbsp;&nbsp;<a href="https://github.com/3dobe/yjjapp"><img src="../github-badge.svg" width="85" height="20"></a>
 
 一个连接讲端和听端，催化各类互动环节的演讲应用
 
 - 3dobe, 2013软件设计大赛
 - 16-308 @ WYU
 
-在线演示: <http://yjjapp.3dobe.fritx.me>  
+在线演示: <https://yjjapp.3dobe.fritx.me>  
 代码托管: <https://github.com/3dobe/yjjapp>
 
 ## 参赛资料
