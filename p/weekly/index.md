@@ -1,5 +1,42 @@
 # 亮爷Weekly
 
+## [亮爷Weekly 0821 '22](220821.md)
+
+> [0821] 微信小程序客服消息云函数接收到QQ表情"特殊占位符" 如/:xx /:B-)<br>
+> [0820] How do I clone a subdirectory only of a Git repository?<br>
+> [0818] brew update 更新时 shallow clone 卡住<br>
+> [0818] env: node\r: No such file or directory 解决方法<br>
+> [0818] FAQ like "运行无报错输出，但是打开html空白"<br>
+> [0817] 卸载brew  /bin/bash ./homebrew_uninstall.sh 总是提示<br>
+> [0817] Force HTTPS Redirection With NGINX<br>
+> [0817] scp到远端服务器 user无写入权限 Permission denied 解决方法<br>
+> [0815] How to Force Use Yarn or NPM<br>
+> [0812] How to import JSON files in ES modules (Node.js)<br>
+> [0812] How to fix "__dirname is not defined in ES module scope"<br>
+> [0811] vite 怎么mock node_modules都无效<br>
+> [0811] Difference between textContent vs innerText<br>
+> [0810] Adding dist-tags to packages<br>
+> [0810] 跨平台shell script (比如用在npm scripts)<br>
+> [0809] Scrolling The Selection Into View (including text nodes & everything)<br>
+> [0805] How can I add lyrics to an iTunes mp3 on a Mac?<br>
+> [0802] 老项目考古mysql_connect报错 及正则批量替换<br>
+> [0802] Change the date of a git commit (given a SHA)<br>
+> [0802] Change the date of a git commit (new commit)<br>
+> [0801] ssh免登录方法<br>
+> [0726] bug：vue-at <Demo> 第1个editor中 头像宽度异常<br>
+> [0720] vue-at PR：webpack 3 to 4 #141<br>
+> [0719] 油猴脚本：微信小程序发布 移除敏感信息多余自动补全<br>
+> [0713] ffmpeg 将视频 旋转90度<br>
+> [0713] 使用ffmpeg 合并多个mp4视频<br>
+> [0708] 发送文本消息时，支持添加可跳转小程序的文字连接<br>
+> [0706] 微信小程序号迁移 个人->企业 注意步骤：<br>
+> [0703] 小程序mac输入框 输入法change bug问题<br>
+> [0629] 小程序setData数据过大导致卡死<br>
+> [0620] css反色：filter: invert(100) hue-rotate(180deg)<br>
+> [0614] 问：cherry-pick 到本地，但是还没有推送，怎么知道我是哪天 cherry-pick 过来的<br>
+> [0612] Robomaster 机甲大师赛 赛程表<br>
+> [0608] wxml防注入 两种方式
+
 ## [亮爷Weekly 0530 '22](220530.md)
 
 > [0530] 半屏弹窗中的view切换内容时 滚动回到顶部hack<br>
@@ -14,7 +51,7 @@
 > [0428] 开放能力 /分享到朋友圈Beta - 单页模式下的限制<br>
 > [0428] 云开发，数据库自定义安全规则下，无法删除自己写的数据，请问怎么办？<br>
 > [0427] 微信小程序中引入lodash 报错 Cannot ready property 'prototype' of undefined<br>
-> [0420] TenPayV3 支付出现签名错误，会是什么问题造成的。<br>
+> [0420] TenPayV3 支付出现签名错误，会是什么问题造成的<br>
 > [0420] mac 系统升级后 进入目录时 命令行报错 env: python: No such file or directory<br>
 > [0420] 解决Parallels Desktop中文乱码问题<br>
 > [0419] 微信小程序 内容安全旧接口 openapi.security.imgSecCheck 返回<br>
