@@ -1,6 +1,31 @@
 # 亮爷Weekly
 
-## [亮爷Weekly 0225](220225.md)
+## [亮爷Weekly 0530 '22](220530.md)
+
+> [0530] 半屏弹窗中的view切换内容时 滚动回到顶部hack<br>
+> [0530] 微信regionpicker x 中国气象局 复杂兼容处理逻辑<br>
+> [0524] 修复低版本iOS 日期详情弹窗中swiper高度无法撑开<br>
+> [0510] 配置 使用sshkey取代password登录ssh<br>
+> [0509] iphone css gradient bug<br>
+> [0501] 使用Docker安装Oracle步骤<br>
+> [0501] 小程序坑 wx:for列表中第1个slideview按钮无法滑出<br>
+> [0429] 中国农历 转换 solarlunar<br>
+> [0428] 正确理解云开发定时触发器以及开发常见问题<br>
+> [0428] 开放能力 /分享到朋友圈Beta - 单页模式下的限制<br>
+> [0428] 云开发，数据库自定义安全规则下，无法删除自己写的数据，请问怎么办？<br>
+> [0427] 微信小程序中引入lodash 报错 Cannot ready property 'prototype' of undefined<br>
+> [0420] TenPayV3 支付出现签名错误，会是什么问题造成的。<br>
+> [0420] mac 系统升级后 进入目录时 命令行报错 env: python: No such file or directory<br>
+> [0420] 解决Parallels Desktop中文乱码问题<br>
+> [0419] 微信小程序 内容安全旧接口 openapi.security.imgSecCheck 返回<br>
+> [0419] mac系统升级后 命令行报错 ModuleNotFoundError: No module named 'thefuck'<br>
+> [0419] 新版的微信开发者工具 一保存就弹出错误码 -10007<br>
+> [0407] 腾讯云 成功通过acme.sh 在sudo下实现免费ssl<br>
+> [0303] scp doesn't work but ssh does (6 Solutions!!)<br>
+> [0303] BASH Prepend A Text / Lines To a File<br>
+> [0301] How to create a type for complex JSON object in TypeScript?
+
+## [亮爷Weekly 0225 '22](220225.md)
 
 > [0225] Conditional COPY/ADD in Dockerfile?<br>
 [0225] Continuous Deployment with Fly and GitHub Actions<br>
