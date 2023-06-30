@@ -1,5 +1,35 @@
 # 亮爷Weekly
 
+## [亮爷Weekly 1019 '22](221019.md)
+
+> [1019] #fuck-a-repo-every-day, eslint requires the name es6 instead of es2015<br>
+> [1018] pnpm link --global 持续报错<br>
+> [1017] blog：老项目引入eslint，检查es5兼容性<br>
+> [1012] How to ignore parent's width limit in CSS<br>
+> [1012] Disable Autocomplete on . (dot) in VSCode<br>
+> [1012] debugging in mobile devices with vConsole<br>
+> [1011] body.scrollTop vs documentElement.scrollTop vs window.pageYOffset vs window.scrollY<br>
+> [1011] #开骂系列 #fuckyou github org默认规则不合理 需要设置这两处才行！<br>
+> [1010] 油猴：github retro 复古样式<br>
+> [1008] MacOS禁用默认的双空格触发输入逗号<br>
+> [0924] 老项目nodemailer报错 SSL routines:ssl3_get_record:wrong version number<br>
+> [0924] 老项目gulp报错 "ReferenceError: primordials is not defined"<br>
+> [0923] 继续 bash [[ -v ]] 仅支持bash4.2以上 那alternative是什么<br>
+> [0923] bash [[ -v ]] macOS报错不支持 line 222: conditional binary operator expected<br>
+> [0922] 解决 acme.sh issue standalone 无权限绑定80端口<br>
+> [0918] 补充[220530] 微信regionpicker x 中国气象局 复杂兼容处理逻辑<br>
+> [0916] how to redirect output to multiple log files<br>
+> [0916] How to copy a single file to multiple directories in Linux or Unix<br>
+> [0915] 踩坑：github远端gh-pages分支被删后<br>
+> [0914] git rebase SHA相对表达<br>
+> [0914] 补充[220802] git rebase 但不修改commit日期<br>
+> [0911] 平行日志 图片迁移笔记 命令行 diff两个目录+筛选+替换+循环调用<br>
+> [0909] freeblog工程系列  添加评论  Error [MongoError]: Unknown modifier: $pushAll<br>
+> [0909] 补充[190219] macOS命令行 通过port查看进程名和pid<br>
+> [0901] 微信小程序 基础概念 /未登录模式<br>
+> [0831] 微信小程序获取设备IP&云开发支付报错spbill_create_ip empty<br>
+> [0825] 旧网站 favicon.ico 非透明图片，不美观
+
 ## [亮爷Weekly 0821 '22](220821.md)
 
 > [0821] 微信小程序客服消息云函数接收到QQ表情"特殊占位符" 如/:xx /:B-)<br>
@@ -25,11 +55,11 @@
 > [0801] ssh免登录方法<br>
 > [0726] bug：vue-at <Demo> 第1个editor中 头像宽度异常<br>
 > [0720] vue-at PR：webpack 3 to 4 #141<br>
-> [0719] 油猴脚本：微信小程序发布 移除敏感信息多余自动补全<br>
+> [0719] 油猴：微信小程序发布 移除敏感信息多余自动补全<br>
 > [0713] ffmpeg 将视频 旋转90度<br>
 > [0713] 使用ffmpeg 合并多个mp4视频<br>
 > [0708] 发送文本消息时，支持添加可跳转小程序的文字连接<br>
-> [0706] 微信小程序号迁移 个人->企业 注意步骤：<br>
+> [0706] 微信小程序号迁移 个人->企业 注意步骤<br>
 > [0703] 小程序mac输入框 输入法change bug问题<br>
 > [0629] 小程序setData数据过大导致卡死<br>
 > [0620] css反色：filter: invert(100) hue-rotate(180deg)<br>
@@ -44,6 +74,7 @@
 > [0524] 修复低版本iOS 日期详情弹窗中swiper高度无法撑开<br>
 > [0510] 配置 使用sshkey取代password登录ssh<br>
 > [0509] iphone css gradient bug<br>
+> [0507] 修复时区问题 前后端统一为北京时间<br>
 > [0501] 使用Docker安装Oracle步骤<br>
 > [0501] 小程序坑 wx:for列表中第1个slideview按钮无法滑出<br>
 > [0429] 中国农历 转换 solarlunar<br>
