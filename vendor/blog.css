@@ -137,6 +137,7 @@ a {
 
 /* 实现trello的 超链接效果 自动识别github issues */
 .known-service-link {
+  word-break: break-all;
   font-size: 90%;
   color: #444;
   background: #D6DADC;

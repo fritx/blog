@@ -1,6 +1,6 @@
 # 亮爷Weekly
 
-## [亮爷Weekly 1019 '22](221019.md)
+## [亮爷Weekly 221019](221019.md)
 
 > [1019] #fuck-a-repo-every-day, eslint requires the name es6 instead of es2015<br>
 > [1018] pnpm link --global 持续报错<br>
@@ -14,8 +14,12 @@
 > [1008] MacOS禁用默认的双空格触发输入逗号<br>
 > [0924] 老项目nodemailer报错 SSL routines:ssl3_get_record:wrong version number<br>
 > [0924] 老项目gulp报错 "ReferenceError: primordials is not defined"<br>
+> [0923] sed用法 在macOS以及linux的区别 关于s/\t/<br>
 > [0923] 继续 bash [[ -v ]] 仅支持bash4.2以上 那alternative是什么<br>
-> [0923] bash [[ -v ]] macOS报错不支持 line 222: conditional binary operator expected<br>
+> [0923] bash [[ -v ]] macOS报错不支持 line 222: conditional binary operator expected
+
+## [亮爷Weekly 220922](220922.md)
+
 > [0922] 解决 acme.sh issue standalone 无权限绑定80端口<br>
 > [0918] 补充[220530] 微信regionpicker x 中国气象局 复杂兼容处理逻辑<br>
 > [0916] how to redirect output to multiple log files<br>
@@ -30,7 +34,7 @@
 > [0831] 微信小程序获取设备IP&云开发支付报错spbill_create_ip empty<br>
 > [0825] 旧网站 favicon.ico 非透明图片，不美观
 
-## [亮爷Weekly 0821 '22](220821.md)
+## [亮爷Weekly 220821](220821.md)
 
 > [0821] 微信小程序客服消息云函数接收到QQ表情"特殊占位符" 如/:xx /:B-)<br>
 > [0820] How do I clone a subdirectory only of a Git repository?<br>
@@ -48,7 +52,10 @@
 > [0810] Adding dist-tags to packages<br>
 > [0810] 跨平台shell script (比如用在npm scripts)<br>
 > [0809] Scrolling The Selection Into View (including text nodes & everything)<br>
-> [0805] How can I add lyrics to an iTunes mp3 on a Mac?<br>
+> [0805] How can I add lyrics to an iTunes mp3 on a Mac?
+
+## [亮爷Weekly 220802](220802.md)
+
 > [0802] 老项目考古mysql_connect报错 及正则批量替换<br>
 > [0802] Change the date of a git commit (given a SHA)<br>
 > [0802] Change the date of a git commit (new commit)<br>
@@ -67,7 +74,7 @@
 > [0612] Robomaster 机甲大师赛 赛程表<br>
 > [0608] wxml防注入 两种方式
 
-## [亮爷Weekly 0530 '22](220530.md)
+## [亮爷Weekly 220530](220530.md)
 
 > [0530] 半屏弹窗中的view切换内容时 滚动回到顶部hack<br>
 > [0530] 微信regionpicker x 中国气象局 复杂兼容处理逻辑<br>
@@ -81,7 +88,10 @@
 > [0428] 正确理解云开发定时触发器以及开发常见问题<br>
 > [0428] 开放能力 /分享到朋友圈Beta - 单页模式下的限制<br>
 > [0428] 云开发，数据库自定义安全规则下，无法删除自己写的数据，请问怎么办？<br>
-> [0427] 微信小程序中引入lodash 报错 Cannot ready property 'prototype' of undefined<br>
+> [0427] 微信小程序中引入lodash 报错 Cannot ready property 'prototype' of undefined
+
+## [亮爷Weekly 220420](220420.md)
+
 > [0420] TenPayV3 支付出现签名错误，会是什么问题造成的<br>
 > [0420] mac 系统升级后 进入目录时 命令行报错 env: python: No such file or directory<br>
 > [0420] 解决Parallels Desktop中文乱码问题<br>
@@ -89,11 +99,17 @@
 > [0419] mac系统升级后 命令行报错 ModuleNotFoundError: No module named 'thefuck'<br>
 > [0419] 新版的微信开发者工具 一保存就弹出错误码 -10007<br>
 > [0407] 腾讯云 成功通过acme.sh 在sudo下实现免费ssl<br>
+> [0327] fly.io主推的static站点部署 docker镜像<br>
+> [0327] 支持多种 DB 的 webGUI：Adminer 可基于docker运行<br>
+> [0327] docker run 的 --link 作用，关联其他容器<br>
+> [0326] 查看操作系统信息 命令行<br>
+> [0313] 静态服务器 几种命令行方法<br>
 > [0303] scp doesn't work but ssh does (6 Solutions!!)<br>
 > [0303] BASH Prepend A Text / Lines To a File<br>
+> [0301] 成功在fly.io部署了一个简易聊天室<br>
 > [0301] How to create a type for complex JSON object in TypeScript?
 
-## [亮爷Weekly 0225 '22](220225.md)
+## [亮爷Weekly 220225](220225.md)
 
 > [0225] Conditional COPY/ADD in Dockerfile?<br>
 [0225] Continuous Deployment with Fly and GitHub Actions<br>
