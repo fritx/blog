@@ -20,24 +20,63 @@ var loaded = []
 var ppt = window.ppt = {}
 ppt.setup = setup
 
+function onerror(err) {
+  console.error('ppt onerror', err)
+  let searchParams = new URLSearchParams()
+  searchParams.set('url', 'ppt_/oops.md')
+  location.search = searchParams.toString()
+}
+
 function setup(options) {
   opt = options
+  var url = opt.url
+  if (opt.arbitrary) {
+    url = new URL(location.href).searchParams.get('url') || url
+  }
   $.ajax({
     type: 'GET',
-    url: opt.url,
+    url: url,
     error: function(err){
-      // todo: 404
-      console.error('load:', err)
+      onerror(err)
     },
     success: function(text){
       text = text.trim() // 移除前后的空白/异常字符
+      var worker
+      if (opt.arbitrary) {
+        // xxx: hacking `<base>` sequence
+        worker = new Worker('ppt_/censorship.worker.js')
+        $('img').each(function (i, el) {
+          $(el).attr('src', el.src)
+        })
+        var iconHref
+        $('link[rel*=icon]').each(function (i, el) {
+          $(el).attr('href', el.href)
+          iconHref = el.href
+        })
+        $('meta[name*=Image]').each(function (i, el) {
+          $(el).attr('content', iconHref)
+        })
+        $('<base>').attr('href', url).appendTo('head')
+      }
       load(transfer(text))
+      if (opt.arbitrary) {
+        console.log(new Date(), 'cencorship start')
+        worker.onmessage = function (e) {
+          var legal = e.data
+          console.log(new Date(), 'cencorship result:', legal)
+          if (!legal) onerror(new Error('Illegal content.'))
+        }
+        worker.postMessage(text)
+      }
     }
   })
 }
 
 function transfer(text) {
   var out = marked(text)
+  if (opt.arbitrary) {
+    out = DOMPurify.sanitize(out)
+  }
   var $root = $('<root>').append(out)
   var $children = $root.children()
   var $tmp = $('<tmp>')

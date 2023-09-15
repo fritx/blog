@@ -1,8 +1,10 @@
 # My Talks About Techniques
 
+<!--
 ## [📎 Symlinks vs Hard Links](2023/09/symlinks-vs-hard-links.md)
 
 > Hard link points to the file content while Soft link points to the file name.
+-->
 
 ## [🚀 Blog Setup via Github Fork](2022/09/blog-setup-via-github-fork.md)
 

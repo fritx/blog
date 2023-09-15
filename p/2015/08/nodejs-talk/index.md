@@ -4,7 +4,7 @@
 
 @林亮(fritz.lin)
 
-[MarkPPT在线演示](index.html) | [原文地址](../../../../?2015/08/nodejs-talk/)
+[MarkPPT在线演示](/markppt/?url=/p/2015/08/nodejs-talk/index.md)
 
 ---
 
@@ -340,7 +340,7 @@ var bufferEqual = require('buffer-equal')
 var fa = require('../')
 
 describe('fs-auth', function(){
-  var originalStr = 'hello啊 world 你是大傻逼123 ahah'
+  var originalStr = 'hello啊 world 你是大傻x123 ahah'
   var originalBuf = new Buffer(originalStr)
   var pwd = 'n0gx'
   var encryptedBuf

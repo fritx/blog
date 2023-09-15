@@ -91,6 +91,10 @@
                 $el.attr('target', '_blank');
                 return old;
               }
+              if (/^\//.test(old)) {
+                // supports in-site /-pathname
+                return old;
+              }
               if (/^\?/.test(old)) {
                 // supports in-site ?-search
                 return old;
@@ -362,7 +366,7 @@
         }
       }, 500)
     }
-    $('body').delegate('[href]', 'click', function (e) {
+    $('body').delegate('a[href]', 'click', function (e) {
       var $a = $(e.target)
       var url = $a.attr('href') || ''
       var target = $a.attr('target')
@@ -498,7 +502,6 @@
   $('<img>').addClass('duck')
     .attr('src', src)
     .appendTo('body')
-
 
   function sample(arr) {
     var idx = parseInt(Math.random() * arr.length)
