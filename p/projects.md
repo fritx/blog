@@ -1,5 +1,9 @@
 # Projects That I Worked In
 
+## [✈️ auto-favicon: Your Title-to-Favicon Solution!](projects/auto-favicon.md)
+
+> Tired of manually crafting favicons? auto-favicon is a lightweight JavaScript library that leverages HTML5 Canvas to generate a unique favicon from any text title...
+
 ## [silent 2.0: 静态博客模板工具](projects/silent_2.0/)
 
 > Be a silent, static blog
