@@ -1,7 +1,7 @@
 # emshop 江门邮政微商城
 
 <a href="https://github.com/fritx/emshop"><img src="../github-badge.svg" width="85" height="20"></a>
-&nbsp;&nbsp;<a href="https://gitter.im/fritx"><img src="../gitter-badge.svg" width="99" height="20"></a>
+&nbsp;<a href="https://gitter.im/fritx"><img src="../gitter-badge.svg" width="99" height="20"></a>
 
 > A fork of [mshop](../mshop/)
 

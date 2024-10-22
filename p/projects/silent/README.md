@@ -1,7 +1,7 @@
 # silent 1.0-legacy
 
-<a href="https://fritx.github.io/silent/"><img width="76" height="20" src="../website-badge.svg"></a>&nbsp;&nbsp;<a href="https://github.com/fritx/silent"><img src="../github-badge.svg" width="85" height="20"></a>
-&nbsp;&nbsp;<a href="https://gitter.im/fritx"><img src="../gitter-badge.svg" width="99" height="20"></a>&nbsp;&nbsp;<a href="https://www.npmjs.com/package/silent"><img height="20" src="https://img.shields.io/npm/dm/silent.svg"></a>
+<a href="https://fritx.github.io/silent/"><img width="76" height="20" src="../website-badge.svg"></a>&nbsp;<a href="https://github.com/fritx/silent"><img src="../github-badge.svg" width="85" height="20"></a>
+&nbsp;<a href="https://gitter.im/fritx"><img src="../gitter-badge.svg" width="99" height="20"></a>&nbsp;<a href="https://www.npmjs.com/package/silent"><img height="20" src="https://img.shields.io/npm/dm/silent.svg"></a>
 
 <img src="pic/si1ent.png">
 
